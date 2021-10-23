@@ -1,0 +1,23 @@
+sx126x.pbi: \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\LoRaMac-node\src\radio\sx126x\sx126x.c \
+  D:\IAR_STM8\stm8\inc\c\string.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
+  D:\IAR_STM8\stm8\inc\c\yvals.h D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h \
+  D:\IAR_STM8\stm8\LIB\dlstm8mmn.h D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
+  D:\IAR_STM8\stm8\inc\c\xencoding_limits.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Threads.h D:\IAR_STM8\stm8\inc\c\ysizet.h \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\utilities.h \
+  D:\IAR_STM8\stm8\inc\c\stdint.h \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\timer.h \
+  D:\IAR_STM8\stm8\inc\c\stddef.h D:\IAR_STM8\stm8\inc\c\stdbool.h \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio\radio.h \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\delay.h \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\LoRaMac-node\src\radio\sx126x/sx126x.h \
+  D:\IAR_STM8\stm8\inc\c\math.h D:\IAR_STM8\stm8\inc\c\ymath.h \
+  D:\IAR_STM8\stm8\inc\c\xtgmath.h \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\gpio.h \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-board.h \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-ioe.h \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\spi.h \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system/gpio.h \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\sx126x-board.h \
+  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x/sx126x.h

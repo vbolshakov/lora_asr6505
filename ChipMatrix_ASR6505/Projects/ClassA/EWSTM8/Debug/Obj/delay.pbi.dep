@@ -1,0 +1,8 @@
+delay.pbi: D:\lora_demos\ASR6505-EVB\ Demo\LoRaMac-node\src\system\delay.c \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\delay-board.h \
+  D:\IAR_STM8\stm8\inc\c\stdint.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
+  D:\IAR_STM8\stm8\inc\c\yvals.h D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h \
+  D:\IAR_STM8\stm8\LIB\dlstm8mmn.h D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
+  D:\IAR_STM8\stm8\inc\c\xencoding_limits.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Threads.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\LoRaMac-node\src\system/delay.h

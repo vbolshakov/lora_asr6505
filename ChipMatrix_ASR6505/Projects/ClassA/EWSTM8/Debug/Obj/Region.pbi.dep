@@ -1,0 +1,13 @@
+Region.pbi: \
+  D:\lora_demos\ASR6505-EVB\ Demo\LoRaMac-node\src\mac\region\Region.c \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\mac\LoRaMac.h \
+  D:\IAR_STM8\stm8\inc\c\stdint.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
+  D:\IAR_STM8\stm8\inc\c\yvals.h D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h \
+  D:\IAR_STM8\stm8\LIB\dlstm8mmn.h D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
+  D:\IAR_STM8\stm8\inc\c\xencoding_limits.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Threads.h D:\IAR_STM8\stm8\inc\c\stdbool.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\timer.h \
+  D:\IAR_STM8\stm8\inc\c\stddef.h D:\IAR_STM8\stm8\inc\c\ysizet.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio\radio.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\mac/region/Region.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\LoRaMac-node\src\mac\region/RegionCN470.h

@@ -1,0 +1,26 @@
+linkwan.pbi: \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LinkWan\at_command.h \
+  D:\IAR_STM8\stm8\inc\c\stdint.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\LoRaATCmd\EWSTM8\..\..\..\LoRaMac-node\src\system\delay.h \
+  D:\IAR_STM8\stm8\inc\c\stdio.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LinkWan\lwan_config.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\LoRaATCmd\EWSTM8\..\..\..\LoRaMac-node\src\mac\region\Region.h \
+  D:\IAR_STM8\stm8\inc\c\ysizet.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
+  D:\IAR_STM8\stm8\inc\c\string.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\LoRaATCmd\EWSTM8\..\inc\debug.h \
+  D:\IAR_STM8\stm8\inc\c\ystdio.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LinkWan\linkwan.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\LoRaATCmd\EWSTM8\..\..\..\LoRaMac-node\src\radio\radio.h \
+  D:\IAR_STM8\stm8\inc\c\stddef.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\LoRaATCmd\EWSTM8\..\..\..\LoRaMac-node\src\system\timer.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\LoRaATCmd\EWSTM8\..\..\..\LoRaMac-node\src\mac\LoRaMac.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\LoRaATCmd\EWSTM8\..\..\..\LoRaMac-node\src\mac\LoRaMacCrypto.h \
+  D:\IAR_STM8\stm8\inc\c\stdbool.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\LoRaATCmd\EWSTM8\..\..\..\LoRaMac-node\src\boards\board.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Threads.h D:\IAR_STM8\stm8\inc\c\yvals.h \
+  D:\IAR_STM8\stm8\inc\c\xencoding_limits.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\LoRaATCmd\EWSTM8\..\..\..\LoRaMac-node\src\boards\utilities.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\LoRaATCmd\EWSTM8\..\inc\commissioning.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LinkWan\linkwan.c

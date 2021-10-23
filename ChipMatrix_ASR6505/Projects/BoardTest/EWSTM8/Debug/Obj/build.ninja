@@ -1,0 +1,68 @@
+#Generating source browse information for project project
+
+
+#Abbreviations
+cc = D$:\IAR_STM8\common\bin\SourceIndexer.exe
+ll = D$:\IAR_STM8\common\bin\PbdLink.exe
+bd = D$:\IAR_STM8\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build board.pbi : index board.xcl
+build delay-board.pbi : index delay-board.xcl
+build gpio-board.pbi : index gpio-board.xcl
+build spi-board.pbi : index spi-board.xcl
+build sx1262-board.pbi : index sx1262-board.xcl
+build radio.pbi : index radio.xcl
+build sx126x.pbi : index sx126x.xcl
+build aes.pbi : index aes.xcl
+build cmac.pbi : index cmac.xcl
+build delay.pbi : index delay.xcl
+build gpio.pbi : index gpio.xcl
+build timer.pbi : index timer.xcl
+build utilities.pbi : index utilities.xcl
+build stm8l15x_aes.pbi : index stm8l15x_aes.xcl
+build stm8l15x_clk.pbi : index stm8l15x_clk.xcl
+build stm8l15x_dma.pbi : index stm8l15x_dma.xcl
+build stm8l15x_exti.pbi : index stm8l15x_exti.xcl
+build stm8l15x_flash.pbi : index stm8l15x_flash.xcl
+build stm8l15x_gpio.pbi : index stm8l15x_gpio.xcl
+build stm8l15x_i2c.pbi : index stm8l15x_i2c.xcl
+build stm8l15x_iwdg.pbi : index stm8l15x_iwdg.xcl
+build stm8l15x_pwr.pbi : index stm8l15x_pwr.xcl
+build stm8l15x_rtc.pbi : index stm8l15x_rtc.xcl
+build stm8l15x_spi.pbi : index stm8l15x_spi.xcl
+build stm8l15x_syscfg.pbi : index stm8l15x_syscfg.xcl
+build stm8l15x_tim1.pbi : index stm8l15x_tim1.xcl
+build stm8l15x_tim2.pbi : index stm8l15x_tim2.xcl
+build stm8l15x_tim3.pbi : index stm8l15x_tim3.xcl
+build stm8l15x_tim4.pbi : index stm8l15x_tim4.xcl
+build stm8l15x_tim5.pbi : index stm8l15x_tim5.xcl
+build stm8l15x_usart.pbi : index stm8l15x_usart.xcl
+build stm8l15x_wwdg.pbi : index stm8l15x_wwdg.xcl
+build main.pbi : index main.xcl
+build stm8_interrupt_vector.pbi : index stm8_interrupt_vector.xcl
+build stm8l15x_it.pbi : index stm8l15x_it.xcl
+build test_cases.pbi : index test_cases.xcl
+build project_part0.pbi : link board.pbi delay-board.pbi gpio-board.pbi spi-board.pbi sx1262-board.pbi radio.pbi
+build project_part1.pbi : link sx126x.pbi aes.pbi cmac.pbi delay.pbi gpio.pbi timer.pbi
+build project_part2.pbi : link utilities.pbi stm8l15x_aes.pbi stm8l15x_clk.pbi stm8l15x_dma.pbi stm8l15x_exti.pbi stm8l15x_flash.pbi
+build project_part3.pbi : link stm8l15x_gpio.pbi stm8l15x_i2c.pbi stm8l15x_iwdg.pbi stm8l15x_pwr.pbi stm8l15x_rtc.pbi stm8l15x_spi.pbi
+build project_part4.pbi : link stm8l15x_syscfg.pbi stm8l15x_tim1.pbi stm8l15x_tim2.pbi stm8l15x_tim3.pbi stm8l15x_tim4.pbi stm8l15x_tim5.pbi
+build project_part5.pbi : link stm8l15x_usart.pbi stm8l15x_wwdg.pbi main.pbi stm8_interrupt_vector.pbi stm8l15x_it.pbi test_cases.pbi
+build project.pbd : link project_part0.pbi project_part1.pbi project_part2.pbi project_part3.pbi project_part4.pbi project_part5.pbi
+build project.pbw : browsedata project.pbd
+
+

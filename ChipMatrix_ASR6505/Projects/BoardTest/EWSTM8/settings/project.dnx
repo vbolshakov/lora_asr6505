@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<settings>
+    <DebugChecksum>
+        <Checksum>131467243</Checksum>
+    </DebugChecksum>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <DataSample>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+    </DataSample>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <Breakpoints>
+        <Count>0</Count>
+    </Breakpoints>
+    <Aliases>
+        <A0>_ "C:\Users\jiangxiao\Desktop\ASR6505\Software_Release_V10\SDK\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""</A0>
+        <A1>_ "D:\msys32\home\ruilinhao\new_git\6505\test_new\ASR6505\LoRaMac-node\src\boards\ASR6505\rtc-board.c" ""</A1>
+        <Count>2</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+    <DebuggerSettings>
+        <DisableInterruptsWhenStepping>0</DisableInterruptsWhenStepping>
+        <LeaveTargetRunning>0</LeaveTargetRunning>
+    </DebuggerSettings>
+</settings>

@@ -1,0 +1,30 @@
+gpio-board.pbi: \
+  D:\lora_demos\ASR6505-EVB\ Demo\LoRaMac-node\src\boards\ASR6505\gpio-board.c \
+  D:\IAR_STM8\stm8\inc\c\stdio.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
+  D:\IAR_STM8\stm8\inc\c\yvals.h D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h \
+  D:\IAR_STM8\stm8\LIB\dlstm8mmn.h D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
+  D:\IAR_STM8\stm8\inc\c\xencoding_limits.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Threads.h D:\IAR_STM8\stm8\inc\c\ysizet.h \
+  D:\IAR_STM8\stm8\inc\c\ystdio.h D:\IAR_STM8\stm8\inc\c\stddef.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
+  D:\IAR_STM8\stm8\inc\c\stdint.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\inc\stm8l15x_conf.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
+  D:\IAR_STM8\stm8\inc\c\intrinsics.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\boards\utilities.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\LoRaMac-node\src\boards\ASR6505/board-config.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\system\timer.h \
+  D:\IAR_STM8\stm8\inc\c\stdbool.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\boards\rtc-board.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\boards\gpio-board.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\system\gpio.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-board.h \
+  D:\lora_demos\ASR6505-EVB\ Demo\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-ioe.h

@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>474764080</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\LinkWan\linkwan.c</file>
+            <file>$PROJ_DIR$\..\..\..\LinkWan\linkwan.h</file>
+            <file>$PROJ_DIR$\..\..\..\LinkWan\lwan_config.c</file>
+            <file>$PROJ_DIR$\..\..\..\LinkWan\lwan_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\LinkWan\region\RegionCN470A.c</file>
+            <file>$PROJ_DIR$\..\..\..\LinkWan\region\RegionCN470A.h</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\delay-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\gpio-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\rtc-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\spi-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\sx1262-board.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMac.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacCrypto.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\Region.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCommon.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\radio.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\sx126x.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\aes.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_iwdg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_pwr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rtc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_syscfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim2.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim3.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim4.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim5.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wwdg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\linkwan.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\lwan_config.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCN470A.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\board.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay-board.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio-board.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtc-board.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi-board.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx1262-board.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMac.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\Region.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCommon.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\radio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx126x.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\aes.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmac.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\utilities.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_aes.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dma.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_flash.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_i2c.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_iwdg.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_pwr.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_rtc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_spi.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_syscfg.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim1.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim2.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim3.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim4.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_tim5.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_usart.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_wwdg.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.xcl</file>
+            <file>$PROJ_DIR$\Debug\Exe\project.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\project.pbd</file>
+            <file>$PROJ_DIR$\Debug\Exe\project.hex</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\cmac.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\delay.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\mcu\utilities.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_aes.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_iwdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_pwr.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_syscfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim1.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim2.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim3.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim5.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_wwdg.c</file>
+            <file>$PROJ_DIR$\..\inc\Commissioning.h</file>
+            <file>$PROJ_DIR$\..\inc\debug.h</file>
+            <file>$PROJ_DIR$\..\inc\stm8l15x_conf.h</file>
+            <file>$PROJ_DIR$\..\inc\stm8l15x_it.h</file>
+            <file>$PROJ_DIR$\..\src\main.c</file>
+            <file>$PROJ_DIR$\..\src\stm8_interrupt_vector.c</file>
+            <file>$PROJ_DIR$\..\src\stm8l15x_it.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\linkwan.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lwan_config.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCN470A.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtc-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx1262-board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMac.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Region.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RegionCommon.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\radio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sx126x.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\aes.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmac.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\utilities.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_aes.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_dma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_flash.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_i2c.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LinkWan\linkwan.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LinkWan\lwan_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LinkWan\region\RegionCN470A.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\delay-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\gpio-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\rtc-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\spi-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ASR6505\sx1262-board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMacCrypto.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\Region.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\region\RegionCommon.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\radio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x\sx126x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\aes.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\project.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto\cmac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\delay.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\mcu\utilities.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_aes.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_syscfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim2.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim3.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim5.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_wwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\stm8_interrupt_vector.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\stm8l15x_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

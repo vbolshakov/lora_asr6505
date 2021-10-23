@@ -1,0 +1,27 @@
+main.pbi: D:\IAR_STM8\stm8\inc\c\stdint.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio\radio.h \
+  D:\IAR_STM8\stm8\inc\c\ysizet.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
+  D:\IAR_STM8\stm8\inc\c\stddef.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\timer.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\delay.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-ioe.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-board.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\gpio.h \
+  D:\IAR_STM8\stm8\inc\c\stdbool.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\board.h \
+  D:\IAR_STM8\stm8\inc\c\intrinsics.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\..\inc\stm8l15x_conf.h \
+  D:\IAR_STM8\stm8\inc\c\string.h D:\IAR_STM8\stm8\inc\c\ystdio.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Threads.h D:\IAR_STM8\stm8\inc\c\yvals.h \
+  D:\IAR_STM8\stm8\inc\c\xencoding_limits.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h D:\IAR_STM8\stm8\inc\c\stdio.h \
+  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LoRaMac-node\src\apps\ping-pong\ASR6505\main.c
