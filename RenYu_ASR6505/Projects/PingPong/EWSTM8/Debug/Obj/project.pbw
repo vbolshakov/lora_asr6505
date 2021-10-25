@@ -109716,7 +109716,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2880@macro@LORA_SYMBOL_TIMEOUT",
+    "ID": "c:main.c@2882@macro@LORA_SYMBOL_TIMEOUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LORA_SYMBOL_TIMEOUT",
@@ -109730,7 +109730,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2954@macro@LORA_FIX_LENGTH_PAYLOAD_ON",
+    "ID": "c:main.c@2956@macro@LORA_FIX_LENGTH_PAYLOAD_ON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LORA_FIX_LENGTH_PAYLOAD_ON",
@@ -109744,7 +109744,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3013@macro@LORA_IQ_INVERSION_ON",
+    "ID": "c:main.c@3015@macro@LORA_IQ_INVERSION_ON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LORA_IQ_INVERSION_ON",
@@ -109858,7 +109858,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3738@macro@RX_TIMEOUT_VALUE",
+    "ID": "c:main.c@3740@macro@RX_TIMEOUT_VALUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RX_TIMEOUT_VALUE",
@@ -109872,7 +109872,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3796@macro@BUFFER_SIZE",
+    "ID": "c:main.c@3798@macro@BUFFER_SIZE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BUFFER_SIZE",
@@ -110082,7 +110082,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4796@F@main@i",
+    "ID": "c:main.c@4798@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -110092,6 +110092,20 @@
       "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@6900@F@main@tx_count",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tx_count",
+    "location": {
+      "column": "14",
+      "line": "224",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
+    },
+    "name": "tx_count",
     "origin": "project_file",
     "scope": null
   },
@@ -116702,216 +116716,6 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_wwdg.h@1310@macro@__STM8L15x_WWDG_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8L15x_WWDG_H",
-    "location": {
-      "column": "9",
-      "line": "31",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "__STM8L15x_WWDG_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_wwdg.h@1902@macro@IS_WWDG_WINDOW_LIMIT_VALUE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_WWDG_WINDOW_LIMIT_VALUE",
-    "location": {
-      "column": "9",
-      "line": "55",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "IS_WWDG_WINDOW_LIMIT_VALUE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_wwdg.h@2056@macro@IS_WWDG_COUNTER_VALUE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_WWDG_COUNTER_VALUE",
-    "location": {
-      "column": "9",
-      "line": "64",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "IS_WWDG_COUNTER_VALUE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_Init(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "75",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_Init(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "75",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetWindowValue",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SetWindowValue(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "76",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SetWindowValue",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetWindowValue",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SetWindowValue(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "76",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SetWindowValue",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SetCounter(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "77",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SetCounter(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "77",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Enable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_Enable(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "80",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_Enable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Enable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_Enable(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "80",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_Enable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_GetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t WWDG_GetCounter(void)",
-    "location": {
-      "column": "9",
-      "line": "83",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_GetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_GetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t WWDG_GetCounter(void)",
-    "location": {
-      "column": "9",
-      "line": "83",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_GetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SWReset",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SWReset(void)",
-    "location": {
-      "column": "6",
-      "line": "84",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SWReset",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SWReset",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SWReset(void)",
-    "location": {
-      "column": "6",
-      "line": "84",
-      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SWReset",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:stm8l15x_beep.h@1310@macro@__STM8L15x_BEEP_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -117120,6 +116924,216 @@
       "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
     "name": "BEEP_LSICalibrationConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_wwdg.h@1310@macro@__STM8L15x_WWDG_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8L15x_WWDG_H",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "__STM8L15x_WWDG_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_wwdg.h@1902@macro@IS_WWDG_WINDOW_LIMIT_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_WWDG_WINDOW_LIMIT_VALUE",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "IS_WWDG_WINDOW_LIMIT_VALUE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_wwdg.h@2056@macro@IS_WWDG_COUNTER_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_WWDG_COUNTER_VALUE",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "IS_WWDG_COUNTER_VALUE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_Init(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "75",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_Init(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "75",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetWindowValue",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SetWindowValue(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "76",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_SetWindowValue",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetWindowValue",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SetWindowValue(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "76",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_SetWindowValue",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SetCounter(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "77",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_SetCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SetCounter(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "77",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_SetCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Enable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_Enable(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "80",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_Enable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Enable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_Enable(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "80",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_Enable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_GetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t WWDG_GetCounter(void)",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_GetCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_GetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t WWDG_GetCounter(void)",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_GetCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SWReset",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SWReset(void)",
+    "location": {
+      "column": "6",
+      "line": "84",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_SWReset",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SWReset",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SWReset(void)",
+    "location": {
+      "column": "6",
+      "line": "84",
+      "path": "D:\\lora_asr6505_pingpong\\RenYu_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_SWReset",
     "origin": "user_include",
     "scope": null
   },

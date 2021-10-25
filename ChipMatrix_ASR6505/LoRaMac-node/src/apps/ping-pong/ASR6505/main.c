@@ -91,6 +91,8 @@
 #define LORA_SYMBOL_TIMEOUT                         0         // Symbols
 #define LORA_FIX_LENGTH_PAYLOAD_ON                  false
 #define LORA_IQ_INVERSION_ON                        false
+#define RX_TIME					    640
+#define SLEEP_TIME				    6400
 
 #elif defined( USE_MODEM_FSK )
 
@@ -201,7 +203,7 @@ int main( void )
     Radio.SetRxConfig( MODEM_LORA, LORA_BANDWIDTH, LORA_SPREADING_FACTOR,
                                    LORA_CODINGRATE, 0, LORA_PREAMBLE_LENGTH,
                                    LORA_SYMBOL_TIMEOUT, LORA_FIX_LENGTH_PAYLOAD_ON,
-                                   0, true, 0, 0, LORA_IQ_INVERSION_ON, true );
+                                   0, true, 0, 0, LORA_IQ_INVERSION_ON, false );
 
 #elif defined( USE_MODEM_FSK )
 
@@ -219,8 +221,8 @@ int main( void )
     #error "Please define a frequency band in the compiler options."
 #endif
 
-    Radio.Rx( RX_TIMEOUT_VALUE );
-
+    Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
+    uint16_t rx_count = 0;
     while( 1 )
     {
       
@@ -230,8 +232,8 @@ int main( void )
         {
         case RX:
 	    GPIO_ResetBits(LED_TX_PORT, LED_TX_PIN);
-	    printf("received:%s, rssi=%d, snr=%d\n", Buffer, RssiValue, SnrValue);
-            Radio.Rx(RX_TIMEOUT_VALUE);
+	    printf("received:%s, rssi=%d, snr=%d, rx_count=%d\n", Buffer, RssiValue, SnrValue, ++rx_count);
+            Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
 	    GPIO_SetBits(LED_TX_PORT, LED_TX_PIN);
             State = LOWPOWER;
             break;
@@ -240,7 +242,7 @@ int main( void )
             break;
         case RX_TIMEOUT:
         case RX_ERROR:
-            Radio.Rx(RX_TIMEOUT_VALUE);
+            Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
             State = LOWPOWER;
             break;
         case TX_TIMEOUT:         

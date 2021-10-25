@@ -87,7 +87,7 @@
                                                               //  2: 4/6,
                                                               //  3: 4/7,
                                                               //  4: 4/8]
-#define LORA_PREAMBLE_LENGTH                        8         // Same for Tx and Rx
+#define LORA_PREAMBLE_LENGTH                        110         // Same for Tx and Rx
 #define LORA_SYMBOL_TIMEOUT                         0         // Symbols
 #define LORA_FIX_LENGTH_PAYLOAD_ON                  false
 #define LORA_IQ_INVERSION_ON                        false
@@ -221,7 +221,7 @@ int main( void )
     for( i = 4; i < BufferSize; i++ )
       Buffer[i] = i - 4;
     Radio.Send( Buffer, BufferSize);
-
+    uint16_t tx_count = 0;
     while( 1 )
     {
         switch( State )
@@ -230,10 +230,10 @@ int main( void )
             State = LOWPOWER;
             break;
         case TX:
-            DelayMs( 2000 );
+            DelayMs( 1000 );
 	    GPIO_SetBits(LED_TX_PORT, LED_TX_PIN);
             Radio.Send( Buffer, BufferSize );
-	    printf("Sent: PING\r\n");
+	    printf("Sent: PING, tx_count=%d\r\n", ++tx_count);
 	    GPIO_ResetBits(LED_TX_PORT, LED_TX_PIN);
             State = LOWPOWER;
             break;

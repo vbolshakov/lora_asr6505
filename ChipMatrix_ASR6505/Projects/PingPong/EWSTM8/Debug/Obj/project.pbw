@@ -93774,7 +93774,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_tim3.h@18569@macro@IS_TIM3_IC_SELECTION",
+    "ID": "c:stm8l15x_TIM3.h@18569@macro@IS_TIM3_IC_SELECTION",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM3_IC_SELECTION",
@@ -93788,7 +93788,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_TIM3.h@18569@macro@IS_TIM3_IC_SELECTION",
+    "ID": "c:stm8l15x_tim3.h@18569@macro@IS_TIM3_IC_SELECTION",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM3_IC_SELECTION",
@@ -109576,6 +109576,34 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@3126@macro@RX_TIME",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RX_TIME",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
+    },
+    "name": "RX_TIME",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@3155@macro@SLEEP_TIME",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SLEEP_TIME",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
+    },
+    "name": "SLEEP_TIME",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@EA@States_t",
     "What": "Enum",
     "defdec": "Def",
@@ -109588,7 +109616,7 @@
         "display": "LOWPOWER",
         "location": {
           "column": "5",
-          "line": "110",
+          "line": "112",
           "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
         },
         "name": "LOWPOWER",
@@ -109602,7 +109630,7 @@
         "display": "RX",
         "location": {
           "column": "5",
-          "line": "111",
+          "line": "113",
           "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
         },
         "name": "RX",
@@ -109616,7 +109644,7 @@
         "display": "RX_TIMEOUT",
         "location": {
           "column": "5",
-          "line": "112",
+          "line": "114",
           "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
         },
         "name": "RX_TIMEOUT",
@@ -109630,7 +109658,7 @@
         "display": "RX_ERROR",
         "location": {
           "column": "5",
-          "line": "113",
+          "line": "115",
           "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
         },
         "name": "RX_ERROR",
@@ -109644,7 +109672,7 @@
         "display": "TX",
         "location": {
           "column": "5",
-          "line": "114",
+          "line": "116",
           "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
         },
         "name": "TX",
@@ -109658,7 +109686,7 @@
         "display": "TX_TIMEOUT",
         "location": {
           "column": "5",
-          "line": "115",
+          "line": "117",
           "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
         },
         "name": "TX_TIMEOUT",
@@ -109668,7 +109696,7 @@
     ],
     "location": {
       "column": "9",
-      "line": "108",
+      "line": "110",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "",
@@ -109676,13 +109704,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3792@macro@RX_TIMEOUT_VALUE",
+    "ID": "c:main.c@3853@macro@RX_TIMEOUT_VALUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RX_TIMEOUT_VALUE",
     "location": {
       "column": "9",
-      "line": "118",
+      "line": "120",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "RX_TIMEOUT_VALUE",
@@ -109690,13 +109718,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3850@macro@BUFFER_SIZE",
+    "ID": "c:main.c@3911@macro@BUFFER_SIZE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BUFFER_SIZE",
     "location": {
       "column": "9",
-      "line": "119",
+      "line": "121",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "BUFFER_SIZE",
@@ -109710,7 +109738,7 @@
     "display": "PingMsg",
     "location": {
       "column": "15",
-      "line": "121",
+      "line": "123",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "PingMsg",
@@ -109724,7 +109752,7 @@
     "display": "PongMsg",
     "location": {
       "column": "15",
-      "line": "122",
+      "line": "124",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "PongMsg",
@@ -109738,7 +109766,7 @@
     "display": "BufferSize",
     "location": {
       "column": "10",
-      "line": "124",
+      "line": "126",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "BufferSize",
@@ -109752,7 +109780,7 @@
     "display": "Buffer",
     "location": {
       "column": "9",
-      "line": "125",
+      "line": "127",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "Buffer",
@@ -109766,7 +109794,7 @@
     "display": "State",
     "location": {
       "column": "19",
-      "line": "127",
+      "line": "129",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "State",
@@ -109780,7 +109808,7 @@
     "display": "RssiValue",
     "location": {
       "column": "8",
-      "line": "129",
+      "line": "131",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "RssiValue",
@@ -109794,7 +109822,7 @@
     "display": "SnrValue",
     "location": {
       "column": "8",
-      "line": "130",
+      "line": "132",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "SnrValue",
@@ -109808,7 +109836,7 @@
     "display": "RadioEvents",
     "location": {
       "column": "22",
-      "line": "135",
+      "line": "137",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "RadioEvents",
@@ -109822,7 +109850,7 @@
     "display": "void OnTxDone(void)",
     "location": {
       "column": "6",
-      "line": "140",
+      "line": "142",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnTxDone",
@@ -109836,7 +109864,7 @@
     "display": "void OnRxDone(uint8_t *, uint16_t, int16_t, int8_t)",
     "location": {
       "column": "6",
-      "line": "145",
+      "line": "147",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnRxDone",
@@ -109850,7 +109878,7 @@
     "display": "void OnTxTimeout(void)",
     "location": {
       "column": "6",
-      "line": "150",
+      "line": "152",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnTxTimeout",
@@ -109864,7 +109892,7 @@
     "display": "void OnRxTimeout(void)",
     "location": {
       "column": "6",
-      "line": "155",
+      "line": "157",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnRxTimeout",
@@ -109878,7 +109906,7 @@
     "display": "void OnRxError(void)",
     "location": {
       "column": "6",
-      "line": "160",
+      "line": "162",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnRxError",
@@ -109892,10 +109920,24 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "165",
+      "line": "167",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@7034@F@main@rx_count",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "rx_count",
+    "location": {
+      "column": "14",
+      "line": "225",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
+    },
+    "name": "rx_count",
     "origin": "project_file",
     "scope": null
   },
@@ -109906,7 +109948,7 @@
     "display": "void OnTxDone(void)",
     "location": {
       "column": "6",
-      "line": "263",
+      "line": "265",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnTxDone",
@@ -109920,7 +109962,7 @@
     "display": "void OnRxDone(uint8_t *, uint16_t, int16_t, int8_t)",
     "location": {
       "column": "6",
-      "line": "270",
+      "line": "272",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnRxDone",
@@ -109934,7 +109976,7 @@
     "display": "void OnTxTimeout(void)",
     "location": {
       "column": "6",
-      "line": "281",
+      "line": "283",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnTxTimeout",
@@ -109948,7 +109990,7 @@
     "display": "void OnRxTimeout(void)",
     "location": {
       "column": "6",
-      "line": "288",
+      "line": "290",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnRxTimeout",
@@ -109962,7 +110004,7 @@
     "display": "void OnRxError(void)",
     "location": {
       "column": "6",
-      "line": "295",
+      "line": "297",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnRxError",
