@@ -164,7 +164,7 @@ void OnRxError( void );
  */
 int main( void )
 {
-    bool isMaster = true;
+//    bool isMaster = true;
     uint8_t i;
 
     printf("PingPong test Start!\r\n");
@@ -214,111 +214,38 @@ int main( void )
     #error "Please define a frequency band in the compiler options."
 #endif
 
-    Radio.Rx( RX_TIMEOUT_VALUE );
+    Buffer[0] = 'P';
+    Buffer[1] = 'I';
+    Buffer[2] = 'N';
+    Buffer[3] = 'G';
+    for( i = 4; i < BufferSize; i++ )
+      Buffer[i] = i - 4;
+    Radio.Send( Buffer, BufferSize);
 
     while( 1 )
     {
         switch( State )
         {
         case RX:
-            if( isMaster == true )
-            {
-                if( BufferSize > 0 )
-                {
-                    if( strncmp( ( const char* )Buffer, ( const char* )PongMsg, 4 ) == 0 )
-                    {
-                        printf("Received: PONG, rssi=%d, snr=%d\r\n", RssiValue, SnrValue);
-
-			GPIO_SetBits(LED_TX_PORT, LED_TX_PIN);
-                        // Send the next PING frame
-                        Buffer[0] = 'P';
-                        Buffer[1] = 'I';
-                        Buffer[2] = 'N';
-                        Buffer[3] = 'G';
-                        // We fill the buffer with numbers for the payload
-                        for( i = 4; i < BufferSize; i++ )
-                        {
-                            Buffer[i] = i - 4;
-                        }
-                        DelayMs( 1 );
-                        printf("Sent: PING\r\n");
-                        Radio.Send( Buffer, BufferSize );
-			GPIO_ResetBits(LED_TX_PORT, LED_TX_PIN);
-                    }
-                    else if( strncmp( ( const char* )Buffer, ( const char* )PingMsg, 4 ) == 0 )
-                    { // A master already exists then become a slave
-                        isMaster = false;
-                        Radio.Rx( RX_TIMEOUT_VALUE );
-                    }
-                    else // valid reception but neither a PING or a PONG message
-                    {    // Set device as master ans start again
-                        isMaster = true;
-                        Radio.Rx( RX_TIMEOUT_VALUE );
-                    }
-                }
-            }
-            else
-            {
-                if( BufferSize > 0 )
-                {
-                    if( strncmp( ( const char* )Buffer, ( const char* )PingMsg, 4 ) == 0 )
-                    {
-                        printf("Received: PING, rssi=%d, snr=%d\r\n", RssiValue, SnrValue);
-
-			GPIO_SetBits(LED_TX_PORT, LED_TX_PIN);
-                        // Send the reply to the PONG string
-                        Buffer[0] = 'P';
-                        Buffer[1] = 'O';
-                        Buffer[2] = 'N';
-                        Buffer[3] = 'G';
-                        // We fill the buffer with numbers for the payload
-                        for( i = 4; i < BufferSize; i++ )
-                        {
-                            Buffer[i] = i - 4;
-                        }
-                        DelayMs( 1 );
-                        Radio.Send( Buffer, BufferSize );
-                        printf("Sent: PONG\r\n");
-			GPIO_ResetBits(LED_TX_PORT, LED_TX_PIN);
-                    }
-                    else // valid reception but not a PING as expected
-                    {    // Set device as master and start again
-                        isMaster = true;
-                        Radio.Rx( RX_TIMEOUT_VALUE );
-                    }
-                }
-            }
             State = LOWPOWER;
             break;
         case TX:
-            Radio.Rx( RX_TIMEOUT_VALUE );
+            DelayMs( 2000 );
+	    GPIO_SetBits(LED_TX_PORT, LED_TX_PIN);
+            Radio.Send( Buffer, BufferSize );
+	    printf("Sent: PING\r\n");
+	    GPIO_ResetBits(LED_TX_PORT, LED_TX_PIN);
             State = LOWPOWER;
             break;
         case RX_TIMEOUT:
-        case RX_ERROR:
-            if( isMaster == true )
-            {
-                // Send the next PING frame
-                Buffer[0] = 'P';
-                Buffer[1] = 'I';
-                Buffer[2] = 'N';
-                Buffer[3] = 'G';
-                for( i = 4; i < BufferSize; i++ )
-                {
-                    Buffer[i] = i - 4;
-                }
-                DelayMs( 1 );
-                Radio.Send( Buffer, BufferSize );
-                printf("Sent: PING\r\n");
-            }
-            else
-            {
-                Radio.Rx( RX_TIMEOUT_VALUE );
-            }
+        case RX_ERROR:                     
             State = LOWPOWER;
             break;
         case TX_TIMEOUT:
-            Radio.Rx( RX_TIMEOUT_VALUE );
+	    GPIO_SetBits(LED_TX_PORT, LED_TX_PIN);
+            Radio.Send( Buffer, BufferSize );
+            printf("Sent: PING\r\n");
+	    GPIO_ResetBits(LED_TX_PORT, LED_TX_PIN);
             State = LOWPOWER;
             break;
         case LOWPOWER:

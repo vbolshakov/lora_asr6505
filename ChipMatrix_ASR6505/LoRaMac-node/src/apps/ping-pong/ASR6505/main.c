@@ -22,7 +22,7 @@
  */
 #include <stdio.h>
 #include <string.h>
-#include "stm8l15x_gpio.h"              //必须置顶，否则提示错误？？？？？？
+#include "stm8l15x.h"              //必须置顶，否则提示错误？？？？？？
 #include "board.h"
 #include "gpio.h"
 #include "delay.h"
@@ -164,8 +164,8 @@ void OnRxError( void );
  */
 int main( void )
 {
-    bool isMaster = false;
-    uint8_t i;
+ //   bool isMaster = false;
+ //   uint8_t i;
     
  //   printf("test1!");                                       //test1
 
@@ -229,120 +229,21 @@ int main( void )
         switch( State )
         {
         case RX:
-            if( isMaster == true )
-            {
-                if( BufferSize > 0 )
-                {
-                    if( strncmp( ( const char* )Buffer, ( const char* )PongMsg, 4 ) == 0 )
-                    {
-                        GPIO_TOGGLE(LED_RX_PORT,LED_RX_PIN);
-                        
-                        printf("Received: PONG, rssi=%d, snr=%d\r\n", RssiValue, SnrValue);
-
-                        // Send the next PING frame
-                        /* LED TX ON */
-                        GPIO_LOW(LED_TX_PORT,LED_TX_PIN);
-                        Buffer[0] = 'P';
-                        Buffer[1] = 'I';
-                        Buffer[2] = 'N';
-                        Buffer[3] = 'G';
-                        // We fill the buffer with numbers for the payload
-                        for( i = 4; i < BufferSize; i++ )
-                        {
-                            Buffer[i] = i - 4;
-                        }
-                        DelayMs( 1 );
-                        
-  //                      printf("test3");                      //test3
-                        
-			printf("Received:Pong, Sent: PING\r\n");
-                        Radio.Send( Buffer, BufferSize );
-                        /* LED TX OFF */
-                        GPIO_HIGH(LED_TX_PORT,LED_TX_PIN);
-                    }
-                    else if( strncmp( ( const char* )Buffer, ( const char* )PingMsg, 4 ) == 0 )
-                    { // A master already exists then become a slave
-                        isMaster = false;
-                        Radio.Rx( RX_TIMEOUT_VALUE );
-                    }
-                    else // valid reception but neither a PING or a PONG message
-                    {    // Set device as master ans start again
-                        isMaster = true;
-                        Radio.Rx( RX_TIMEOUT_VALUE );
-                    }
-                }
-            }
-            else
-            {
-                if( BufferSize > 0 )
-                {
-                    if( strncmp( ( const char* )Buffer, ( const char* )PingMsg, 4 ) == 0 )
-                    {
-                        GPIO_TOGGLE(LED_RX_PORT,LED_RX_PIN);
-                        printf("Received: PING, rssi=%d, snr=%d\r\n", RssiValue, SnrValue);
-                        // Send the reply to the PONG string
-                        /* LED TX ON */
-                        GPIO_LOW(LED_TX_PORT,LED_TX_PIN);
-                        Buffer[0] = 'P';
-                        Buffer[1] = 'O';
-                        Buffer[2] = 'N';
-                        Buffer[3] = 'G';
-                        // We fill the buffer with numbers for the payload
-                        for( i = 4; i < BufferSize; i++ )
-                        {
-                            Buffer[i] = i - 4;
-                        }
-                        DelayMs( 1 );
-                        Radio.Send( Buffer, BufferSize );
-                        
-  //                      printf("test4");              //test4
-                        
-			printf("Received: PING, Sent: PONG\r\n");
-                        /* LED TX OFF */
-                        GPIO_HIGH(LED_TX_PORT,LED_TX_PIN);
-                    }
-                    else // valid reception but not a PING as expected
-                    {    // Set device as master and start again
-                        isMaster = true;
-                        Radio.Rx( RX_TIMEOUT_VALUE );
-                    }
-                }
-            }
+	    GPIO_ResetBits(LED_TX_PORT, LED_TX_PIN);
+	    printf("received:%s, rssi=%d, snr=%d\n", Buffer, RssiValue, SnrValue);
+            Radio.Rx(RX_TIMEOUT_VALUE);
+	    GPIO_SetBits(LED_TX_PORT, LED_TX_PIN);
             State = LOWPOWER;
             break;
         case TX:
-            Radio.Rx( RX_TIMEOUT_VALUE );
             State = LOWPOWER;
             break;
         case RX_TIMEOUT:
         case RX_ERROR:
-            if( isMaster == true )
-            {
-                // Send the next PING frame
-                Buffer[0] = 'P';
-                Buffer[1] = 'I';
-                Buffer[2] = 'N';
-                Buffer[3] = 'G';
-                for( i = 4; i < BufferSize; i++ )
-                {
-                    Buffer[i] = i - 4;
-                }
-                DelayMs( 1 );
-                Radio.Send( Buffer, BufferSize );
-                
- //               printf("test5\r\n");                          //test5   
-                
-                printf("Sent: PING\r\n");
-            }
-            else
-            {
-                Radio.Rx( RX_TIMEOUT_VALUE );
-            }
+            Radio.Rx(RX_TIMEOUT_VALUE);
             State = LOWPOWER;
             break;
-        case TX_TIMEOUT:
-          
-            Radio.Rx( RX_TIMEOUT_VALUE );
+        case TX_TIMEOUT:         
             State = LOWPOWER;
             break;
         case LOWPOWER:
