@@ -1,10 +1,10 @@
 utilities.pbi: \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\LoRaMac-node\src\boards\mcu\utilities.c \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\LoRaMac-node\src\boards\mcu\utilities.c \
   D:\IAR_STM8\stm8\inc\c\stdlib.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
   D:\IAR_STM8\stm8\inc\c\yvals.h D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h \
   D:\IAR_STM8\stm8\LIB\dlstm8mmn.h D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
   D:\IAR_STM8\stm8\inc\c\xencoding_limits.h \
   D:\IAR_STM8\stm8\inc\c\DLib_Threads.h D:\IAR_STM8\stm8\inc\c\ysizet.h \
   D:\IAR_STM8\stm8\inc\c\stdio.h D:\IAR_STM8\stm8\inc\c\ystdio.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\utilities.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\utilities.h \
   D:\IAR_STM8\stm8\inc\c\stdint.h

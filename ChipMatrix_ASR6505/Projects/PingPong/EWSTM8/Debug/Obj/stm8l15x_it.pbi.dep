@@ -1,42 +1,39 @@
-stm8l15x_it.pbi: \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\src\stm8l15x_it.c \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\inc\stm8l15x_it.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
-  D:\IAR_STM8\stm8\inc\c\stdint.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
-  D:\IAR_STM8\stm8\inc\c\yvals.h D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h \
-  D:\IAR_STM8\stm8\LIB\dlstm8mmn.h D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
+stm8l15x_it.pbi: D:\IAR_STM8\stm8\inc\c\ystdio.h \
+  D:\IAR_STM8\stm8\inc\c\ycheck.h D:\IAR_STM8\stm8\inc\c\ysizet.h \
+  D:\IAR_STM8\stm8\inc\c\stdio.h D:\IAR_STM8\stm8\inc\c\intrinsics.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rst.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_irtim.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_beep.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\src\stm8l15x_conf.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Threads.h D:\IAR_STM8\stm8\inc\c\yvals.h \
   D:\IAR_STM8\stm8\inc\c\xencoding_limits.h \
-  D:\IAR_STM8\stm8\inc\c\DLib_Threads.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\src\stm8l15x_conf.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_beep.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_irtim.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rst.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h \
-  C:\Users\Administrator\Desktop\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h \
-  D:\IAR_STM8\stm8\inc\c\intrinsics.h D:\IAR_STM8\stm8\inc\c\stdio.h \
-  D:\IAR_STM8\stm8\inc\c\ysizet.h D:\IAR_STM8\stm8\inc\c\ystdio.h
+  D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h D:\IAR_STM8\stm8\inc\c\stdint.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\inc\stm8l15x_it.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\src\stm8l15x_it.c

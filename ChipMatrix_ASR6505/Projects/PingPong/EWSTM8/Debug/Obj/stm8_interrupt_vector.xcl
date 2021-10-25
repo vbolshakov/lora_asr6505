@@ -1,50 +1,50 @@
-"C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Projects\PingPong\src\stm8_interrupt_vector.c"
+"D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\src\stm8_interrupt_vector.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\Debug\Obj\stm8_interrupt_vector.pbi.dep
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\Debug\Obj\stm8_interrupt_vector.pbi.dep
 -o
 stm8_interrupt_vector.pbi
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Projects\PingPong\src
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\src
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\inc
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\inc
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\ASR6505
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\ASR6505
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\crypto
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\crypto
 -I
 D:\IAR_STM8\stm8\inc
 -I
 D:\IAR_STM8\stm8\inc\c
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Projects\PingPong\inc
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\PingPong\inc
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\Libraries\STM8L15x_StdPeriph_Driver\inc
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\LoRaMac-node\src\boards
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\LoRaMac-node\src\boards
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\LoRaMac-node\src\boards\ASR6505
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\LoRaMac-node\src\boards\ASR6505
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\LoRaMac-node\src\radio
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\LoRaMac-node\src\radio
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\LoRaMac-node\src\radio\sx126x
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\LoRaMac-node\src\radio\sx126x
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\LoRaMac-node\src\system
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\LoRaMac-node\src\system
 -I
-C:\Users\Administrator\Desktop\ASR6505-EVB Demo\LoRaMac-node\src\system\crypto
+D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\LoRaMac-node\src\system\crypto
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

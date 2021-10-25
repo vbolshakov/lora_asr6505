@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <settings>
     <DebugChecksum>
-        <Checksum>1063667897</Checksum>
+        <Checksum>1720622294</Checksum>
     </DebugChecksum>
     <Stack>
         <FillEnabled>0</FillEnabled>
@@ -38,8 +38,23 @@
         <Category>_ 0</Category>
     </LogFile>
     <Aliases>
-        <A0>_ "D:\msys32\home\ruilinhao\new_git\6505\test_new\ASR6505\LoRaMac-node\src\boards\ASR6505\rtc-board.c" ""</A0>
-        <Count>1</Count>
+        <A0>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c" ""</A0>
+        <A1>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c" ""</A1>
+        <A2>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c" ""</A2>
+        <A3>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_pwr.c" ""</A3>
+        <A4>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""</A4>
+        <A5>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c" ""</A5>
+        <A6>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LoRaMac-node\src\apps\ping-pong\ASR6505\main.c" ""</A6>
+        <A7>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LoRaMac-node\src\boards\ASR6505\board.c" ""</A7>
+        <A8>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LoRaMac-node\src\boards\ASR6505\sx1262-board.c" ""</A8>
+        <A9>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LoRaMac-node\src\radio\sx126x\radio.c" ""</A9>
+        <A10>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LoRaMac-node\src\radio\sx126x\sx126x.c" ""</A10>
+        <A11>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LoRaMac-node\src\system\delay.c" ""</A11>
+        <A12>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LoRaMac-node\src\system\gpio.c" ""</A12>
+        <A13>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LoRaMac-node\src\system\timer.c" ""</A13>
+        <A14>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\src\stm8l15x_it.c" ""</A14>
+        <A15>_ "D:\msys32\home\ruilinhao\new_git\6505\test_new\ASR6505\LoRaMac-node\src\boards\ASR6505\rtc-board.c" ""</A15>
+        <Count>16</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
     <DebuggerSettings>

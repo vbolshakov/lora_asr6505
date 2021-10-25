@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\IAR_STM8\common\bin\cspybat" -f "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\settings\project.Debug.general.xcl" --backend -f "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\settings\project.Debug.driver.xcl" 
+& "D:\IAR_STM8\common\bin\cspybat" -f "D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\PingPong\EWSTM8\settings\project.Debug.general.xcl" --backend -f "D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\PingPong\EWSTM8\settings\project.Debug.driver.xcl" 
 }
 else
 {
-& "D:\IAR_STM8\common\bin\cspybat" -f "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\settings\project.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Projects\PingPong\EWSTM8\settings\project.Debug.driver.xcl" 
+& "D:\IAR_STM8\common\bin\cspybat" -f "D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\PingPong\EWSTM8\settings\project.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\PingPong\EWSTM8\settings\project.Debug.driver.xcl" 
 }

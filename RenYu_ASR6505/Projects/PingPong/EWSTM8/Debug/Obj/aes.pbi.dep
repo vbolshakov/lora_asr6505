@@ -1,9 +1,9 @@
 aes.pbi: \
-  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LoRaMac-node\src\system\crypto\aes.c \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\system\crypto\aes.c \
   D:\IAR_STM8\stm8\inc\c\stdlib.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
   D:\IAR_STM8\stm8\inc\c\yvals.h D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h \
   D:\IAR_STM8\stm8\LIB\dlstm8mmn.h D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
   D:\IAR_STM8\stm8\inc\c\xencoding_limits.h \
   D:\IAR_STM8\stm8\inc\c\DLib_Threads.h D:\IAR_STM8\stm8\inc\c\ysizet.h \
   D:\IAR_STM8\stm8\inc\c\stdint.h \
-  C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\LoRaMac-node\src\system\crypto/aes.h
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\system\crypto/aes.h
