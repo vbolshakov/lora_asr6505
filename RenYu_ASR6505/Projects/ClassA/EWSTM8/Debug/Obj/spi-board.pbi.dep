@@ -1,0 +1,35 @@
+spi-board.pbi: \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\boards\ASR6505\spi-board.c \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
+  D:\IAR_STM8\stm8\inc\c\stdint.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
+  D:\IAR_STM8\stm8\inc\c\yvals.h D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h \
+  D:\IAR_STM8\stm8\LIB\dlstm8mmn.h D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
+  D:\IAR_STM8\stm8\inc\c\xencoding_limits.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Threads.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\inc\stm8l15x_conf.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
+  D:\IAR_STM8\stm8\inc\c\intrinsics.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\utilities.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\board.h \
+  D:\IAR_STM8\stm8\inc\c\stdbool.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\gpio.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-board.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-ioe.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\sx126x-board.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x/sx126x.h \
+  D:\IAR_STM8\stm8\inc\c\math.h D:\IAR_STM8\stm8\inc\c\ymath.h \
+  D:\IAR_STM8\stm8\inc\c\xtgmath.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\spi.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system/gpio.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio\radio.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\boards\ASR6505/board-config.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\spi-board.h

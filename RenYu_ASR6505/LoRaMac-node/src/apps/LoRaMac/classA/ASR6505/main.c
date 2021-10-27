@@ -28,6 +28,8 @@
 #include "gpio.h"
 #include "LoRaMac.h"
 #include "Commissioning.h"
+#include "rym6505-board.h"
+//#include "stm8l15x.h"
 
 #ifndef ACTIVE_REGION
 
@@ -40,7 +42,7 @@
 /*!
  * Defines the application data transmission duty cycle. 5s, value in [ms].
  */
-#define APP_TX_DUTYCYCLE                            5000
+#define APP_TX_DUTYCYCLE                            10000
 
 /*!
  * Defines a random delay for application data transmission duty cycle. 1s,
@@ -63,7 +65,7 @@
  *
  * \remark Please note that when ADR is enabled the end-device should be static
  */
-#define LORAWAN_ADR_ON                              1
+#define LORAWAN_ADR_ON                              0
 
 /*!
  * LoRaWAN application port
@@ -138,11 +140,12 @@ static enum eDeviceState
  */
 static void PrepareTxFrame( uint8_t port )
 {
-    AppDataSize = 4;
-    AppData[0] = 0x00;
-    AppData[1] = 0x01;
-    AppData[2] = 0x02;
-    AppData[3] = 0x03;
+    AppDataSize = 5;
+    AppData[0] = 0x3d;
+    AppData[1] = 0x2e;
+    AppData[2] = 0x7a;
+    AppData[3] = 0x8d;
+    AppData[4] = 0xb6;
 }
 
 /*!
@@ -442,6 +445,7 @@ int main( void )
         {
             case DEVICE_STATE_INIT:
             {
+	        printf("in init\n");
                 LoRaMacPrimitives.MacMcpsConfirm = McpsConfirm;
                 LoRaMacPrimitives.MacMcpsIndication = McpsIndication;
                 LoRaMacPrimitives.MacMlmeConfirm = MlmeConfirm;
@@ -466,6 +470,7 @@ int main( void )
             }
             case DEVICE_STATE_JOIN:
             {
+	        printf("in join\n");
 #if( OVER_THE_AIR_ACTIVATION != 0 )
                 MlmeReq_t mlmeReq;
 
@@ -516,11 +521,15 @@ int main( void )
             }
             case DEVICE_STATE_SEND:
             {
+	        printf("in send\n");
                 if( NextTx == true )
                 {
+//		    GPIO_LOW(LED_TX_PORT, LED_TX_PIN);
                     PrepareTxFrame( AppPort );
 
                     NextTx = SendFrame( );
+		    printf("frame has been sent.\n");
+//		    GPIO_HIGH(LED_TX_PORT, LED_TX_PIN);
                 }
                 
                 // Schedule next packet transmission
@@ -530,6 +539,7 @@ int main( void )
             }
             case DEVICE_STATE_CYCLE:
             {
+	        printf("in cycle\n");
                 DeviceState = DEVICE_STATE_SLEEP;
 
                 // Schedule next packet transmission

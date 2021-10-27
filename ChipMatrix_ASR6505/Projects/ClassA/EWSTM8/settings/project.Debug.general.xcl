@@ -2,7 +2,7 @@
 
 "D:\IAR_STM8\stm8\bin\stm8stlink.dll" 
 
-"D:\lora_demos\ASR6505-EVB Demo\Projects\ClassA\EWSTM8\Debug\Exe\project.out" 
+"D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\Debug\Exe\project.out" 
 
 --plugin="D:\IAR_STM8\stm8\bin\stm8bat.dll" 
 

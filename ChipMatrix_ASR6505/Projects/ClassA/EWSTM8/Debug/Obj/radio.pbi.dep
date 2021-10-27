@@ -1,5 +1,5 @@
 radio.pbi: \
-  D:\lora_demos\ASR6505-EVB\ Demo\LoRaMac-node\src\radio\sx126x\radio.c \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\LoRaMac-node\src\radio\sx126x\radio.c \
   D:\IAR_STM8\stm8\inc\c\stdio.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
   D:\IAR_STM8\stm8\inc\c\yvals.h D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h \
   D:\IAR_STM8\stm8\LIB\dlstm8mmn.h D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
@@ -8,17 +8,17 @@ radio.pbi: \
   D:\IAR_STM8\stm8\inc\c\ystdio.h D:\IAR_STM8\stm8\inc\c\math.h \
   D:\IAR_STM8\stm8\inc\c\ymath.h D:\IAR_STM8\stm8\inc\c\xtgmath.h \
   D:\IAR_STM8\stm8\inc\c\string.h \
-  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\timer.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\timer.h \
   D:\IAR_STM8\stm8\inc\c\stddef.h D:\IAR_STM8\stm8\inc\c\stdbool.h \
   D:\IAR_STM8\stm8\inc\c\stdint.h \
-  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\delay.h \
-  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio\radio.h \
-  D:\lora_demos\ASR6505-EVB\ Demo\LoRaMac-node\src\radio\sx126x/sx126x.h \
-  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\gpio.h \
-  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-board.h \
-  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-ioe.h \
-  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\spi.h \
-  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system/gpio.h \
-  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\sx126x-board.h \
-  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x/sx126x.h \
-  D:\lora_demos\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\board.h
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\delay.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio\radio.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\LoRaMac-node\src\radio\sx126x/sx126x.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\gpio.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-board.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-ioe.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\spi.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system/gpio.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\sx126x-board.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x/sx126x.h \
+  D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\board.h

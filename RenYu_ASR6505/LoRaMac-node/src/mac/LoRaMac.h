@@ -1446,10 +1446,10 @@ typedef enum eMib
      * radioTxPower = ( int8_t )floor( maxEirp - antennaGain )
      */
 
-#ifdef defined(CONFIG_LINKWAN) || defined(LORA_AT_COMMAND)
-    MIB_RX1_DATARATE_OFFSET,
-    MIB_MAC_STATE,
-#endif
+//#ifdef defined(CONFIG_LINKWAN) || defined(LORA_AT_COMMAND)
+//    MIB_RX1_DATARATE_OFFSET,
+//    MIB_MAC_STATE,
+//#endif
 
 #ifdef CONFIG_LINKWAN
     MIB_FREQ_BAND,
@@ -1648,10 +1648,10 @@ typedef union uMibParam
      * Related MIB type: \ref MIB_DEFAULT_ANTENNA_GAIN
      */
     float DefaultAntennaGain;
-#ifdef defined(CONFIG_LINKWAN) || defined(LORA_AT_COMMAND)
-    uint8_t Rx1DrOffset;
-    uint32_t LoRaMacState;
-#endif
+//#ifdef defined(CONFIG_LINKWAN) || defined(LORA_AT_COMMAND)
+//    uint8_t Rx1DrOffset;
+//    uint32_t LoRaMacState;
+//#endif
 
 #ifdef CONFIG_LINKWAN
     uint32_t freqband;

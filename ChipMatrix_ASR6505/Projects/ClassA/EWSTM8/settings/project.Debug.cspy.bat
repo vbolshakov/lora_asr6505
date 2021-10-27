@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\IAR_STM8\common\bin\cspybat" -f "D:\lora_demos\ASR6505-EVB Demo\Projects\ClassA\EWSTM8\settings\project.Debug.general.xcl" --backend -f "D:\lora_demos\ASR6505-EVB Demo\Projects\ClassA\EWSTM8\settings\project.Debug.driver.xcl" 
+"D:\IAR_STM8\common\bin\cspybat" -f "D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\settings\project.Debug.general.xcl" --backend -f "D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\settings\project.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\IAR_STM8\common\bin\cspybat" -f "D:\lora_demos\ASR6505-EVB Demo\Projects\ClassA\EWSTM8\settings\project.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\lora_demos\ASR6505-EVB Demo\Projects\ClassA\EWSTM8\settings\project.Debug.driver.xcl" 
+"D:\IAR_STM8\common\bin\cspybat" -f "D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\settings\project.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\lora_asr6505_pingpong\ChipMatrix_ASR6505\Projects\ClassA\EWSTM8\settings\project.Debug.driver.xcl" 
 
 @echo off 
 :end

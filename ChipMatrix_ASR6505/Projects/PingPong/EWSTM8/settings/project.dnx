@@ -25,9 +25,6 @@
         <GraphEnabled>0</GraphEnabled>
         <ShowTimeLog>1</ShowTimeLog>
     </DataSample>
-    <Breakpoints>
-        <Count>0</Count>
-    </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -37,6 +34,9 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
+    <Breakpoints>
+        <Count>0</Count>
+    </Breakpoints>
     <Aliases>
         <A0>_ "C:\Users\jiangxiao\Desktop\ASR6505\Software_Release_V10\SDK\LoRaMac-node\src\apps\ping-pong\ASR6505\main.c" ""</A0>
         <A1>_ "C:\Users\jiangxiao\Desktop\ASR6505\Software_Release_V10\SDK\LoRaMac-node\src\radio\sx126x\radio.c" ""</A1>

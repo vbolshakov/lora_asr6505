@@ -26,7 +26,7 @@ D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\PingPong\EWSTM8\..\..\..\LoRaMac
 -I
 D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\crypto
 -I
-D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\PingPong\EWSTM8
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\PingPong\EWSTM8\..\..\PingPong\EWSTM8
 -I
 D:\IAR_STM8\stm8\inc
 -I

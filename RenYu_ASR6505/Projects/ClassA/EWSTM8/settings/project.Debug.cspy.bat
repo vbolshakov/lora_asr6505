@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\IAR_STM8\common\bin\cspybat" -f "D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\settings\project.Debug.general.xcl" --backend -f "D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\settings\project.Debug.driver.xcl" 
+"D:\IAR_STM8\common\bin\cspybat" -f "D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\settings\project.Debug.general.xcl" --backend -f "D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\settings\project.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\IAR_STM8\common\bin\cspybat" -f "D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\settings\project.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\settings\project.Debug.driver.xcl" 
+"D:\IAR_STM8\common\bin\cspybat" -f "D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\settings\project.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\settings\project.Debug.driver.xcl" 
 
 @echo off 
 :end

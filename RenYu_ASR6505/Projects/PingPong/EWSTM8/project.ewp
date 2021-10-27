@@ -265,7 +265,7 @@
                     <state>$PROJ_DIR$\..\..\..\LoRaMac-node\src\radio\sx126x</state>
                     <state>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system</state>
                     <state>$PROJ_DIR$\..\..\..\LoRaMac-node\src\system\crypto</state>
-                    <state>$PROJ_DIR$</state>
+                    <state>$PROJ_DIR$\..\..\PingPong\EWSTM8</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>

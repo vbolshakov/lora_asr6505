@@ -1,58 +1,62 @@
-"D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\LoRaMac-node\src\boards\mcu\utilities.c"
+"D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\boards\mcu\utilities.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\Debug\Obj\utilities.pbi.dep
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\Debug\Obj\utilities.pbi.dep
 -o
 utilities.pbi
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\LoRaMac-node\src\boards\mcu
+D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\boards\mcu
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\..\inc
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\inc
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\ASR6505
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\boards\ASR6505
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\crypto
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\system\crypto
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\mac
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\mac
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\mac\region
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\..\LoRaMac-node\src\mac\region
+-I
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\..\..\PingPong\EWSTM8
 -I
 D:\IAR_STM8\stm8\inc
 -I
 D:\IAR_STM8\stm8\inc\c
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Projects\ClassA\inc
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\inc
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\Libraries\STM8L15x_StdPeriph_Driver\inc
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\LoRaMac-node\src\boards
+D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\boards
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\LoRaMac-node\src\boards\ASR6505
+D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\boards\ASR6505
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\LoRaMac-node\src\radio
+D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\radio
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\LoRaMac-node\src\radio\sx126x
+D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\radio\sx126x
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\LoRaMac-node\src\system
+D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\system
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\LoRaMac-node\src\system\crypto
+D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\system\crypto
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\LoRaMac-node\src\mac
+D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\mac
 -I
-D:\仁钰科技\M-AS605\M-AS605\AS605开发文档\M-AS605 LORAWAN文档\ASR6505_AT_RELEASE_67\ASR6505_AT_RELEASE_uartwakeup\ASR6505_AT_RELEASE\LoRaMac-node\src\mac\region
+D:\lora_asr6505_pingpong\RenYu_ASR6505\LoRaMac-node\src\mac\region
+-I
+D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\PingPong\EWSTM8
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
