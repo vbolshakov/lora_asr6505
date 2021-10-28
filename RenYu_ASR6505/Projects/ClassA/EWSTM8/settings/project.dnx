@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <settings>
     <DebugChecksum>
-        <Checksum>108236838</Checksum>
+        <Checksum>1895035393</Checksum>
     </DebugChecksum>
     <Stack>
         <FillEnabled>0</FillEnabled>
@@ -27,11 +27,7 @@
     </DataSample>
     <Breakpoints>
         <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h}.245.1" 0 0 0 0 "" 0 ""</Bp0>
-        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c}.524.10" 1 0 0 0 "" 0 ""</Bp1>
-        <Bp2>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c}.524.10" 1 0 0 0 "" 0 ""</Bp2>
-        <Bp3>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c}.190.5" 1 0 0 0 "" 0 ""</Bp3>
-        <Bp4>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505\main.c}.468.17" 1 0 0 0 "" 0 ""</Bp4>
-        <Count>5</Count>
+        <Count>1</Count>
     </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>

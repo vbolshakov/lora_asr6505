@@ -140,12 +140,9 @@ static enum eDeviceState
  */
 static void PrepareTxFrame( uint8_t port )
 {
-    AppDataSize = 5;
-    AppData[0] = 0x3d;
-    AppData[1] = 0x2e;
-    AppData[2] = 0x7a;
-    AppData[3] = 0x8d;
-    AppData[4] = 0xb6;
+    AppDataSize = 11;
+    for(uint8_t i=0; i<AppDataSize; ++i)
+      AppData[i] = '0' + i;
 }
 
 /*!
