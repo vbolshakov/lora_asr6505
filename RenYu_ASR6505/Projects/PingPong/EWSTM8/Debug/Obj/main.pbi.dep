@@ -1,5 +1,5 @@
 main.pbi: \
-  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\PingPong\EWSTM8\rym6505-board.h \
+  D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\PingPong\EWSTM8\..\..\PingPong\EWSTM8\rym6505-board.h \
   D:\IAR_STM8\stm8\inc\c\stdint.h \
   D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio\radio.h \
   D:\IAR_STM8\stm8\inc\c\ysizet.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
