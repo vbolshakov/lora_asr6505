@@ -71282,7 +71282,7 @@
     "display": "void LoRaMacTestRxWindowsOn(bool)",
     "location": {
       "column": "6",
-      "line": "3482",
+      "line": "3484",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacTestRxWindowsOn",
@@ -71296,7 +71296,7 @@
     "display": "void LoRaMacTestSetMic(uint16_t)",
     "location": {
       "column": "6",
-      "line": "3487",
+      "line": "3489",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacTestSetMic",
@@ -71310,7 +71310,7 @@
     "display": "void LoRaMacTestSetDutyCycleOn(bool)",
     "location": {
       "column": "6",
-      "line": "3493",
+      "line": "3495",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacTestSetDutyCycleOn",
@@ -71318,13 +71318,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@117921@F@LoRaMacTestSetDutyCycleOn@verify",
+    "ID": "c:LoRaMac.c@117961@F@LoRaMacTestSetDutyCycleOn@verify",
     "What": "Variable",
     "defdec": "Def",
     "display": "verify",
     "location": {
       "column": "20",
-      "line": "3495",
+      "line": "3497",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "verify",
@@ -71338,7 +71338,7 @@
     "display": "void LoRaMacTestSetChannel(uint8_t)",
     "location": {
       "column": "6",
-      "line": "3505",
+      "line": "3507",
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacTestSetChannel",
@@ -136750,146 +136750,6 @@
     "scope": null
   },
   {
-    "ID": "c:Commissioning.h@724@macro@__LORA_COMMISSIONING_H__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__LORA_COMMISSIONING_H__",
-    "location": {
-      "column": "9",
-      "line": "24",
-      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "__LORA_COMMISSIONING_H__",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@927@macro@OVER_THE_AIR_ACTIVATION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "OVER_THE_AIR_ACTIVATION",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "OVER_THE_AIR_ACTIVATION",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@1076@macro@LORAWAN_PUBLIC_NETWORK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_PUBLIC_NETWORK",
-    "location": {
-      "column": "9",
-      "line": "35",
-      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_PUBLIC_NETWORK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@1306@macro@LORAWAN_DEVICE_EUI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_DEVICE_EUI",
-    "location": {
-      "column": "9",
-      "line": "43",
-      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_DEVICE_EUI",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@1460@macro@LORAWAN_APPLICATION_EUI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_APPLICATION_EUI",
-    "location": {
-      "column": "9",
-      "line": "48",
-      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_APPLICATION_EUI",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@1629@macro@LORAWAN_APPLICATION_KEY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_APPLICATION_KEY",
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_APPLICATION_KEY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@1816@macro@LORAWAN_NETWORK_ID",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_NETWORK_ID",
-    "location": {
-      "column": "9",
-      "line": "58",
-      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_NETWORK_ID",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@2162@macro@LORAWAN_DEVICE_ADDRESS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_DEVICE_ADDRESS",
-    "location": {
-      "column": "9",
-      "line": "67",
-      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_DEVICE_ADDRESS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@2307@macro@LORAWAN_NWKSKEY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_NWKSKEY",
-    "location": {
-      "column": "9",
-      "line": "72",
-      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_NWKSKEY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@2532@macro@LORAWAN_APPSKEY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_APPSKEY",
-    "location": {
-      "column": "9",
-      "line": "77",
-      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_APPSKEY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:stm8l15x_beep.h@1310@macro@__STM8L15x_BEEP_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -137268,6 +137128,146 @@
       "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
     },
     "name": "RST_GPOutputEnable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@724@macro@__LORA_COMMISSIONING_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__LORA_COMMISSIONING_H__",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "__LORA_COMMISSIONING_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@927@macro@OVER_THE_AIR_ACTIVATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "OVER_THE_AIR_ACTIVATION",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "OVER_THE_AIR_ACTIVATION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@1076@macro@LORAWAN_PUBLIC_NETWORK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_PUBLIC_NETWORK",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_PUBLIC_NETWORK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@1306@macro@LORAWAN_DEVICE_EUI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_DEVICE_EUI",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_DEVICE_EUI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@1460@macro@LORAWAN_APPLICATION_EUI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_APPLICATION_EUI",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_APPLICATION_EUI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@1629@macro@LORAWAN_APPLICATION_KEY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_APPLICATION_KEY",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_APPLICATION_KEY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@1816@macro@LORAWAN_NETWORK_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_NETWORK_ID",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_NETWORK_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@2162@macro@LORAWAN_DEVICE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_DEVICE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "67",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_DEVICE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@2307@macro@LORAWAN_NWKSKEY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_NWKSKEY",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_NWKSKEY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@2532@macro@LORAWAN_APPSKEY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_APPSKEY",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "D:\\lora_asr6505_pingpong\\ChipMatrix_ASR6505\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_APPSKEY",
     "origin": "user_include",
     "scope": null
   },

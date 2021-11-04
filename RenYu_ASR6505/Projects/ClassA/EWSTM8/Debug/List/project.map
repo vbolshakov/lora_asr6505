@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.11.1.207 for STM8                     28/Oct/2021  09:44:18
+# IAR ELF Linker V3.11.1.207 for STM8                     04/Nov/2021  20:19:31
 # Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\Debug\List\project.map
 #    Command line =  
-#        -f C:\Users\ADMINI~1\AppData\Local\Temp\EW5A92.tmp
+#        -f C:\Users\ADMINI~1\AppData\Local\Temp\EW1A96.tmp
 #        (D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\Debug\Obj\aes.o
 #        D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\Debug\Obj\board.o
 #        D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\Debug\Obj\cmac.o
@@ -362,7 +362,7 @@ No sections matched the following patterns:
   .near.rodata       const    0x008745     0x1  rtc-board.o [3]
                             - 0x008746   0x6c6
 
-"P4", part 1 of 2:                      0x60ac
+"P4", part 1 of 2:                      0x60ca
   .far_func.text     ro code  0x008746  0x15cf  LoRaMac.o [1]
   .far_func.text     ro code  0x009d15   0x60b  LoRaMac.o [1]
   .far_func.text     ro code  0x00a320   0x50d  float.o [5]
@@ -375,32 +375,32 @@ No sections matched the following patterns:
   .far_func.text     ro code  0x00be3c   0x26b  xexp.o [5]
   .far_func.text     ro code  0x00c0a7   0x24a  aes.o [1]
   .far_func.text     ro code  0x00c2f1   0x234  vreg_util.o [5]
-  .far_func.text     ro code  0x00c525   0x215  LoRaMacCrypto.o [1]
-  .far_func.text     ro code  0x00c73a   0x1f2  main.o [1]
-  .far_func.text     ro code  0x00c92c   0x1ca  rtc-board.o [3]
-  .far_func.text     ro code  0x00caf6   0x1aa  rtc-board.o [3]
-  .far_func.text     ro code  0x00cca0   0x1a9  radio.o [1]
-  .far_func.text     ro code  0x00ce49   0x198  RegionCN470.o [1]
-  .far_func.text     ro code  0x00cfe1   0x18d  radio.o [1]
-  .far_func.text     ro code  0x00d16e   0x182  float_libsup.o [5]
-  .far_func.text     ro code  0x00d2f0   0x181  xprintffull.o [5]
-  .far_func.text     ro code  0x00d471   0x16b  radio.o [1]
-  .far_func.text     ro code  0x00d5dc   0x16a  cmac.o [1]
-  .far_func.text     ro code  0x00d746   0x16a  spi-board.o [1]
-  .far_func.text     ro code  0x00d8b0   0x169  RegionCN470.o [1]
-  .far_func.text     ro code  0x00da19   0x14e  radio.o [1]
-  .far_func.text     ro code  0x00db67   0x14b  aes.o [1]
-  .far_func.text     ro code  0x00dcb2   0x145  LoRaMac.o [1]
-  .far_func.text     ro code  0x00ddf7   0x143  sx126x.o [1]
-  .far_func.text     ro code  0x00df3a   0x13d  cmac.o [1]
-  .far_func.text     ro code  0x00e077   0x12a  radio.o [1]
-  .far_func.text     ro code  0x00e1a1   0x11f  gpio-board.o [1]
-  .far_func.text     ro code  0x00e2c0   0x118  RegionCommon.o [1]
-  .far_func.text     ro code  0x00e3d8   0x10e  board.o [1]
-  .far_func.text     ro code  0x00e4e6   0x106  RegionCN470.o [1]
-  .far_func.text     ro code  0x00e5ec   0x106  RegionCommon.o [1]
-  .far_func.text     ro code  0x00e6f2   0x100  RegionCN470.o [1]
-                            - 0x00e7f2  0x60ac
+  .far_func.text     ro code  0x00c525   0x21c  main.o [1]
+  .far_func.text     ro code  0x00c741   0x215  LoRaMacCrypto.o [1]
+  .far_func.text     ro code  0x00c956   0x1ca  rtc-board.o [3]
+  .far_func.text     ro code  0x00cb20   0x1aa  rtc-board.o [3]
+  .far_func.text     ro code  0x00ccca   0x1a9  radio.o [1]
+  .far_func.text     ro code  0x00ce73   0x198  RegionCN470.o [1]
+  .far_func.text     ro code  0x00d00b   0x18d  radio.o [1]
+  .far_func.text     ro code  0x00d198   0x182  float_libsup.o [5]
+  .far_func.text     ro code  0x00d31a   0x181  xprintffull.o [5]
+  .far_func.text     ro code  0x00d49b   0x16b  radio.o [1]
+  .far_func.text     ro code  0x00d606   0x16a  cmac.o [1]
+  .far_func.text     ro code  0x00d770   0x16a  spi-board.o [1]
+  .far_func.text     ro code  0x00d8da   0x169  RegionCN470.o [1]
+  .far_func.text     ro code  0x00da43   0x14e  radio.o [1]
+  .far_func.text     ro code  0x00db91   0x14b  aes.o [1]
+  .far_func.text     ro code  0x00dcdc   0x143  sx126x.o [1]
+  .far_func.text     ro code  0x00de1f   0x13d  cmac.o [1]
+  .far_func.text     ro code  0x00df5c   0x139  LoRaMac.o [1]
+  .far_func.text     ro code  0x00e095   0x12a  radio.o [1]
+  .far_func.text     ro code  0x00e1bf   0x11f  gpio-board.o [1]
+  .far_func.text     ro code  0x00e2de   0x118  RegionCommon.o [1]
+  .far_func.text     ro code  0x00e3f6   0x10e  board.o [1]
+  .far_func.text     ro code  0x00e504   0x106  RegionCN470.o [1]
+  .far_func.text     ro code  0x00e60a   0x106  RegionCommon.o [1]
+  .far_func.text     ro code  0x00e710   0x100  RegionCN470.o [1]
+                            - 0x00e810  0x60ca
 
 "P4", part 2 of 2:                      0x427b
   .far_func.text     ro code  0x010000   0x100  stm8l15x_rtc.o [1]
@@ -913,7 +913,7 @@ Copy (__iar_copy_init2)
     Module                 ro code  ro data  rw data
     ------                 -------  -------  -------
 D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\Debug\Obj: [1]
-    LoRaMac.o                9 797       19    1 157
+    LoRaMac.o                9 785       19    1 157
     LoRaMacCrypto.o            807       32      582
     Region.o                   243        4
     RegionCN470.o            2 641      229       39
@@ -925,7 +925,7 @@ D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\Debug\Obj: [1]
     delay.o                      4
     gpio-board.o               659                48
     gpio.o                      16
-    main.o                     903      220      107
+    main.o                     945      220      107
     radio.o                  2 674      284      513
     spi-board.o                629                11
     stm8l15x_clk.o             314        5
@@ -943,7 +943,7 @@ D:\lora_asr6505_pingpong\RenYu_ASR6505\Projects\ClassA\EWSTM8\Debug\Obj: [1]
     timer.o                    881                 3
     utilities.o                206        4        4
     ------------------------------------------------
-    Total:                  29 956    1 589    2 501
+    Total:                  29 986    1 589    2 501
 
 command line: [2]
     ------------------------------------------------
@@ -1003,7 +1003,7 @@ dlstm8mmn.a: [5]
 
     Linker created                       20      256
 ----------------------------------------------------
-    Grand Total:            41 767    1 862    2 820
+    Grand Total:            41 797    1 862    2 820
 
 
 *******************************************************************************
@@ -1228,10 +1228,10 @@ Entry                    Address   Size  Type      Object
 ?w6                     0x00000c         Data  Gb  vregs.o [5]
 ?w7                     0x00000e         Data  Gb  vregs.o [5]
 ADC1_COMP_IRQHandler    0x01426e    0x1  Code  Gb  stm8l15x_it.o [1]
-AES_CMAC_Final          0x00df3a  0x13d  Code  Gb  cmac.o [1]
+AES_CMAC_Final          0x00de1f  0x13d  Code  Gb  cmac.o [1]
 AES_CMAC_Init           0x012b3e   0x32  Code  Gb  cmac.o [1]
 AES_CMAC_SetKey         0x013b9c    0xd  Code  Gb  cmac.o [1]
-AES_CMAC_Update         0x00d5dc  0x16a  Code  Gb  cmac.o [1]
+AES_CMAC_Update         0x00d606  0x16a  Code  Gb  cmac.o [1]
 AckTimeoutRetries       0x000015    0x1  Data  Lc  LoRaMac.o [1]
 AckTimeoutRetriesCounter
                         0x000016    0x1  Data  Lc  LoRaMac.o [1]
@@ -1262,7 +1262,7 @@ BoardDeInitMcu          0x014074    0x8  Code  Gb  board.o [1]
 BoardDisableIrq         0x014258    0x2  Code  Gb  board.o [1]
 BoardEnableIrq          0x01425a    0x2  Code  Gb  board.o [1]
 BoardGetBatteryLevel    0x01425c    0x2  Code  Gb  board.o [1]
-BoardInitMcu            0x00e3d8  0x10e  Code  Gb  board.o [1]
+BoardInitMcu            0x00e3f6  0x10e  Code  Gb  board.o [1]
 BoardInitPeriph         0x014262    0x1  Code  Gb  board.o [1]
 BoardUnusedIoInit       0x01238d   0x4b  Code  Lc  board.o [1]
 ByteToBcd2              0x01324f   0x1e  Code  Lc  stm8l15x_rtc.o [1]
@@ -1335,7 +1335,7 @@ GPIO_WriteBit           0x01395f   0x12  Code  Gb  stm8l15x_gpio.o [1]
 GetBoardPowerSource     0x014243    0x3  Code  Gb  board.o [1]
 GpioInit                0x014203    0x4  Code  Gb  gpio.o [1]
 GpioIrq                 0x00075a   0x30  Data  Lc  gpio-board.o [1]
-GpioMcuInit             0x00e1a1  0x11f  Code  Gb  gpio-board.o [1]
+GpioMcuInit             0x00e1bf  0x11f  Code  Gb  gpio-board.o [1]
 GpioMcuRead             0x013172   0x21  Code  Gb  gpio-board.o [1]
 GpioMcuSetInterrupt     0x010b07   0xc4  Code  Gb  gpio-board.o [1]
 GpioMcuWrite            0x013681   0x17  Code  Gb  gpio-board.o [1]
@@ -1366,7 +1366,7 @@ LoRaMacAppSKey          0x000854   0x10  Data  Lc  LoRaMac.o [1]
 LoRaMacBuffer           0x0001ec   0xff  Data  Lc  LoRaMac.o [1]
 LoRaMacBufferPktLen     0x0009c0    0x2  Data  Lc  LoRaMac.o [1]
 LoRaMacCallbacks        0x0009c6    0x2  Data  Lc  LoRaMac.o [1]
-LoRaMacComputeMic       0x00c525   0x58  Code  Gb  LoRaMacCrypto.o [1]
+LoRaMacComputeMic       0x00c741   0x58  Code  Gb  LoRaMacCrypto.o [1]
 LoRaMacDevAddr          0x00096a    0x4  Data  Lc  LoRaMac.o [1]
 LoRaMacDevEui           0x0009b6    0x2  Data  Lc  LoRaMac.o [1]
 LoRaMacDevNonce         0x0009bc    0x2  Data  Lc  LoRaMac.o [1]
@@ -1375,12 +1375,12 @@ LoRaMacFlags            0x0009f4    0x1  Data  Gb  LoRaMac.o [1]
 LoRaMacInitialization   0x00917f  0x373  Code  Gb  LoRaMac.o [1]
 LoRaMacInitializationTime
                         0x000982    0x4  Data  Lc  LoRaMac.o [1]
-LoRaMacJoinComputeMic   0x00c726   0x14  Code  Gb  LoRaMacCrypto.o [1]
+LoRaMacJoinComputeMic   0x00c942   0x14  Code  Gb  LoRaMacCrypto.o [1]
 LoRaMacJoinComputeSKeys
                         0x011432   0x94  Code  Gb  LoRaMacCrypto.o [1]
 LoRaMacJoinDecrypt      0x0122f4   0x4d  Code  Gb  LoRaMacCrypto.o [1]
 LoRaMacMaxEirpTable     0x008666   0x10  Data  Lc  LoRaMac.o [1]
-LoRaMacMcpsRequest      0x00dcb2  0x145  Code  Gb  LoRaMac.o [1]
+LoRaMacMcpsRequest      0x00df5c  0x139  Code  Gb  LoRaMac.o [1]
 LoRaMacMibGetRequestConfirm
                         0x009616  0x1de  Code  Gb  LoRaMac.o [1]
 LoRaMacMibSetRequestConfirm
@@ -1390,8 +1390,8 @@ LoRaMacNetID            0x000966    0x4  Data  Lc  LoRaMac.o [1]
 LoRaMacNwkSKey          0x000844   0x10  Data  Lc  LoRaMac.o [1]
 LoRaMacParams           0x00078a   0x2c  Data  Gb  LoRaMac.o [1]
 LoRaMacParamsDefaults   0x0007b6   0x2c  Data  Gb  LoRaMac.o [1]
-LoRaMacPayloadDecrypt   0x00c703   0x23  Code  Gb  LoRaMacCrypto.o [1]
-LoRaMacPayloadEncrypt   0x00c5fc   0xf7  Code  Gb  LoRaMacCrypto.o [1]
+LoRaMacPayloadDecrypt   0x00c91f   0x23  Code  Gb  LoRaMacCrypto.o [1]
+LoRaMacPayloadEncrypt   0x00c818   0xf7  Code  Gb  LoRaMacCrypto.o [1]
 LoRaMacPrimitives       0x0009c4    0x2  Data  Lc  LoRaMac.o [1]
 LoRaMacQueryTxPossible  0x00951d   0xee  Code  Gb  LoRaMac.o [1]
 LoRaMacRegion           0x0009dc    0x1  Data  Lc  LoRaMac.o [1]
@@ -1492,15 +1492,15 @@ RadioGetFskBandwidthRegValue
 RadioGetStatus          0x013501   0x1b  Code  Gb  radio.o [1]
 RadioGetWakeupTime      0x013a1b   0x10  Code  Gb  radio.o [1]
 RadioInit               0x011e09   0x5d  Code  Gb  radio.o [1]
-RadioIrqProcess         0x00d471  0x16b  Code  Gb  radio.o [1]
-RadioIsChannelFree      0x00ccf5   0xab  Code  Gb  radio.o [1]
+RadioIrqProcess         0x00d49b  0x16b  Code  Gb  radio.o [1]
+RadioIsChannelFree      0x00cd1f   0xab  Code  Gb  radio.o [1]
 RadioLoRaSymbTime       0x00007b   0x48  Data  Lc  radio.o [1]
 RadioOnDioIrq           0x0141eb    0x5  Code  Gb  radio.o [1]
 RadioOnRxTimeoutIrq     0x01351c   0x1b  Code  Gb  radio.o [1]
 RadioOnTxTimeoutIrq     0x013213   0x1e  Code  Gb  radio.o [1]
 RadioPktStatus          0x000894    0xf  Data  Gb  radio.o [1]
 RadioPublicNetwork      0x0009c8    0x2  Data  Lc  radio.o [1]
-RadioRandom             0x00cdb7   0x7f  Code  Gb  radio.o [1]
+RadioRandom             0x00cde1   0x7f  Code  Gb  radio.o [1]
 RadioRead               0x01421f    0x4  Code  Gb  radio.o [1]
 RadioReadBuffer         0x0140cc    0x8  Code  Gb  radio.o [1]
 RadioRssi               0x0140bc    0x8  Code  Gb  radio.o [1]
@@ -1508,20 +1508,20 @@ RadioRx                 0x012eaa   0x29  Code  Gb  radio.o [1]
 RadioRxBoosted          0x012cc2   0x2e  Code  Gb  radio.o [1]
 RadioRxPayload          0x0003ea   0xff  Data  Gb  radio.o [1]
 RadioSend               0x011c32   0x5f  Code  Gb  radio.o [1]
-RadioSetChannel         0x00ccf1    0x4  Code  Gb  radio.o [1]
+RadioSetChannel         0x00cd1b    0x4  Code  Gb  radio.o [1]
 RadioSetMaxPayloadLength
                         0x01307b   0x24  Code  Gb  radio.o [1]
-RadioSetModem           0x00ccde   0x13  Code  Gb  radio.o [1]
-RadioSetPublicNetwork   0x00cca0   0x3e  Code  Gb  radio.o [1]
-RadioSetRxConfig        0x00cfe1  0x18d  Code  Gb  radio.o [1]
+RadioSetModem           0x00cd08   0x13  Code  Gb  radio.o [1]
+RadioSetPublicNetwork   0x00ccca   0x3e  Code  Gb  radio.o [1]
+RadioSetRxConfig        0x00d00b  0x18d  Code  Gb  radio.o [1]
 RadioSetRxDutyCycle     0x014213    0x4  Code  Gb  radio.o [1]
-RadioSetTxConfig        0x00da19  0x14e  Code  Gb  radio.o [1]
+RadioSetTxConfig        0x00da43  0x14e  Code  Gb  radio.o [1]
 RadioSetTxContinuousWave
                         0x012cf0   0x2e  Code  Gb  radio.o [1]
 RadioSleep              0x012f4d   0x28  Code  Gb  radio.o [1]
 RadioStandby            0x0141e1    0x5  Code  Gb  radio.o [1]
 RadioStartCad           0x014217    0x4  Code  Gb  radio.o [1]
-RadioTimeOnAir          0x00e077  0x12a  Code  Gb  radio.o [1]
+RadioTimeOnAir          0x00e095  0x12a  Code  Gb  radio.o [1]
 RadioWrite              0x01421b    0x4  Code  Gb  radio.o [1]
 RadioWriteBuffer        0x0140c4    0x8  Code  Gb  radio.o [1]
 Region$$Table$$Base     0x0085d5          --   Gb  - Linker created -
@@ -1541,14 +1541,14 @@ RegionCN470ComputeRxWindowParameters
                         0x01126f   0x97  Code  Gb  RegionCN470.o [1]
 RegionCN470DlChannelReq
                         0x014260    0x2  Code  Gb  RegionCN470.o [1]
-RegionCN470GetPhyParam  0x00ce49  0x198  Code  Gb  RegionCN470.o [1]
+RegionCN470GetPhyParam  0x00ce73  0x198  Code  Gb  RegionCN470.o [1]
 RegionCN470InitDefaults
                         0x012dff   0x2b  Code  Gb  RegionCN470.o [1]
-RegionCN470LinkAdrReq   0x00d8b0  0x169  Code  Gb  RegionCN470.o [1]
+RegionCN470LinkAdrReq   0x00d8da  0x169  Code  Gb  RegionCN470.o [1]
 RegionCN470NewChannelReq
                         0x01425e    0x2  Code  Gb  RegionCN470.o [1]
-RegionCN470NextChannel  0x00e6f2  0x100  Code  Gb  RegionCN470.o [1]
-RegionCN470RxConfig     0x00e4e6  0x106  Code  Gb  RegionCN470.o [1]
+RegionCN470NextChannel  0x00e710  0x100  Code  Gb  RegionCN470.o [1]
+RegionCN470RxConfig     0x00e504  0x106  Code  Gb  RegionCN470.o [1]
 RegionCN470RxParamSetupReq
                         0x0114c6   0x91  Code  Gb  RegionCN470.o [1]
 RegionCN470SetBandTxDone
@@ -1574,13 +1574,13 @@ RegionCommonComputeTxPower
 RegionCommonCountChannels
                         0x011f1d   0x5a  Code  Gb  RegionCommon.o [1]
 RegionCommonLinkAdrReqVerifyParams
-                        0x00e5ec  0x106  Code  Gb  RegionCommon.o [1]
+                        0x00e60a  0x106  Code  Gb  RegionCommon.o [1]
 RegionCommonParseLinkAdrReq
                         0x0119d0   0x71  Code  Gb  RegionCommon.o [1]
 RegionCommonSetBandTxDone
                         0x0137e6   0x15  Code  Gb  RegionCommon.o [1]
 RegionCommonUpdateBandTimeOff
-                        0x00e2c0  0x118  Code  Gb  RegionCommon.o [1]
+                        0x00e2de  0x118  Code  Gb  RegionCommon.o [1]
 RegionCommonValueInRange
                         0x0139a4   0x11  Code  Gb  RegionCommon.o [1]
 RegionComputeRxWindowParameters
@@ -1606,10 +1606,10 @@ RtcAlarmSubSeconds      0x0009b2    0x4  Data  Lc  rtc-board.o [3]
 RtcCalendarContext      0x000939    0xc  Data  Gb  rtc-board.o [3]
 RtcComputeElapsedTime   0x011ec2   0x5b  Code  Gb  rtc-board.o [3]
 RtcComputeTimerTimeToAlarmTick
-                        0x00c92c  0x1ca  Code  Lc  rtc-board.o [3]
+                        0x00c956  0x1ca  Code  Lc  rtc-board.o [3]
 RtcComputeWakeUpTime    0x011b71   0x61  Code  Lc  rtc-board.o [3]
 RtcConvertCalendarTickToTimerTime
-                        0x00caf6  0x1aa  Code  Lc  rtc-board.o [3]
+                        0x00cb20  0x1aa  Code  Lc  rtc-board.o [3]
 RtcConvertMsToTick      0x010392   0x31  Code  Lc  rtc-board.o [3]
 RtcConvertTickToMs      0x012bd4   0x31  Code  Lc  rtc-board.o [3]
 RtcEnterLowPowerStopMode
@@ -1679,7 +1679,7 @@ SX126xSetLoRaSymbNumTimeout
 SX126xSetModulationParams
                         0x010bcb   0xc3  Code  Gb  sx126x.o [1]
 SX126xSetOperatingMode  0x01422f    0x4  Code  Gb  sx126x.o [1]
-SX126xSetPacketParams   0x00ddf7  0x143  Code  Gb  sx126x.o [1]
+SX126xSetPacketParams   0x00dcdc  0x143  Code  Gb  sx126x.o [1]
 SX126xSetPacketType     0x013c38    0xd  Code  Gb  sx126x.o [1]
 SX126xSetRegulatorMode  0x013a6b   0x10  Code  Gb  sx126x.o [1]
 SX126xSetRfFrequency    0x01261a   0x45  Code  Gb  sx126x.o [1]
@@ -1717,7 +1717,7 @@ SetTxContinuousWave     0x009129   0x43  Code  Gb  LoRaMac.o [1]
 SetTxContinuousWave1    0x00916c   0x13  Code  Gb  LoRaMac.o [1]
 SpiDeInit               0x01166d   0x84  Code  Gb  spi-board.o [1]
 SpiInOut                0x012341   0x4c  Code  Gb  spi-board.o [1]
-SpiInit                 0x00d746  0x16a  Code  Gb  spi-board.o [1]
+SpiInit                 0x00d770  0x16a  Code  Gb  spi-board.o [1]
 SpiInitialized          0x0009f8    0x1  Data  Lc  spi-board.o [1]
 SrvAckRequested         0x0009e5    0x1  Data  Lc  LoRaMac.o [1]
 SystemWakeupTimeCalibrated
@@ -1763,7 +1763,7 @@ UpLinkCounter           0x00096e    0x4  Data  Lc  LoRaMac.o [1]
 WakeUpTimeInitialized   0x000a02    0x1  Data  Gb  rtc-board.o [3]
 _GenldFull              0x00b11e  0x3b0  Code  Lc  xprintffull.o [5]
 _LdtobFull              0x00a82d  0x47a  Code  Lc  xprintffull.o [5]
-_LitobFull              0x00d2f0  0x181  Code  Lc  xprintffull.o [5]
+_LitobFull              0x00d31a  0x181  Code  Lc  xprintffull.o [5]
 _PrintfFull             0x00aca7  0x477  Code  Gb  xprintffull.o [5]
 _Prout                  0x0131f4   0x1f  Code  Gb  xprout.o [5]
 _PutcharFull            0x012d4c   0x2e  Code  Lc  xprintffull.o [5]
@@ -1771,10 +1771,10 @@ _PutcharsFull           0x0126e0   0x3e  Code  Lc  xprintffull.o [5]
 __DebugBreak            0x01427a    0x1  Code  Gb  __dbg_break.o [4]
 __exit                  0x013791   0x16  Code  Gb  __dbg_xxexit.o [4]
 __iar_Dint              0x0108b2   0xc9  Code  Gb  xdint.o [5]
-__iar_Dnorm             0x00d18e         Code  Gb  float_libsup.o [5]
-__iar_Dscale            0x00d21c         Code  Gb  float_libsup.o [5]
-__iar_Dtest             0x00d16e         Code  Gb  float_libsup.o [5]
-__iar_Dunscale          0x00d1ca         Code  Gb  float_libsup.o [5]
+__iar_Dnorm             0x00d1b8         Code  Gb  float_libsup.o [5]
+__iar_Dscale            0x00d246         Code  Gb  float_libsup.o [5]
+__iar_Dtest             0x00d198         Code  Gb  float_libsup.o [5]
+__iar_Dunscale          0x00d1f4         Code  Gb  float_libsup.o [5]
 __iar_Errno             0x0009d8    0x2  Data  Gb  errno.o [5]
 __iar_Exp               0x00be3c  0x26b  Code  Gb  xexp.o [5]
 __iar_Logpoly           0x013cee    0xc  Code  Gb  xlog.o [5]
@@ -1822,7 +1822,7 @@ _interrupt_8            0x01426a         Code  Gb  stm8l15x_it.o [1]
 _interrupt_9            0x01426b         Code  Gb  stm8l15x_it.o [1]
 aBlock                  0x000027   0x10  Data  Lc  LoRaMacCrypto.o [1]
 aes_encrypt             0x01195f   0x71  Code  Gb  aes.o [1]
-aes_set_key             0x00db67  0x14b  Code  Gb  aes.o [1]
+aes_set_key             0x00db91  0x14b  Code  Gb  aes.o [1]
 ceil                    0x01258e   0x46  Code  Gb  ceil.o [5]
 copy_and_key            0x010100   0xff  Code  Lc  aes.o [1]
 copy_block              0x010e9f   0xa5  Code  Lc  aes.o [1]
@@ -1833,7 +1833,7 @@ gPaOptSetting           0x0009f9    0x1  Data  Gb  sx1262-board.o [1]
 gfm2_sbox               0x008180  0x100  Data  Lc  aes.o [1]
 gfm3_sbox               0x008280  0x100  Data  Lc  aes.o [1]
 internal_Pow            0x00b851  0x358  Code  Lc  pow.o [5]
-main                    0x00c73a  0x1f2  Code  Gb  main.o [1]
+main                    0x00c525  0x21c  Code  Gb  main.o [1]
 memcpy                  0x0131d4   0x20  Code  Gb  memcpy.o [5]
 memcpy1                 0x0135d5   0x1a  Code  Gb  utilities.o [1]
 memcpyr                 0x012f9d   0x27  Code  Gb  utilities.o [1]
@@ -1867,7 +1867,7 @@ xor_block               0x01071e   0xcb  Code  Lc  aes.o [1]
 [4] = dbgstm8mmd.a
 [5] = dlstm8mmn.a
 
-  41 767 bytes of readonly  code memory
+  41 797 bytes of readonly  code memory
    1 862 bytes of readonly  data memory
    2 820 bytes of readwrite data memory
 

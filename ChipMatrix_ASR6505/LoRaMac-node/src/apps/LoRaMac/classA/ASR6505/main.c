@@ -66,7 +66,7 @@
  *
  * \remark Please note that when ADR is enabled the end-device should be static
  */
-#define LORAWAN_ADR_ON                              1
+#define LORAWAN_ADR_ON                              0
 
 /*!
  * LoRaWAN application port
@@ -553,7 +553,7 @@ int main( void )
             {
                 DeviceState = DEVICE_STATE_SLEEP;
 
-		//printf("dev cycle and the TxDutyCycleTime is %d\n", TxDutyCycleTime);
+		printf("dev cycle\n");
                 // Schedule next packet transmission
                 TimerSetValue( &TxNextPacketTimer, TxDutyCycleTime );
                 TimerStart( &TxNextPacketTimer );

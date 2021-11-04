@@ -23,13 +23,14 @@
 
 /*! \file classA/ASR6505/main.c */
 #include <stdio.h>
+#include "stm8l15x.h"
 #include "utilities.h"
 #include "board.h"
 #include "gpio.h"
 #include "LoRaMac.h"
 #include "Commissioning.h"
 #include "rym6505-board.h"
-//#include "stm8l15x.h"
+
 
 #ifndef ACTIVE_REGION
 
@@ -42,7 +43,7 @@
 /*!
  * Defines the application data transmission duty cycle. 5s, value in [ms].
  */
-#define APP_TX_DUTYCYCLE                            10000
+#define APP_TX_DUTYCYCLE                            5000
 
 /*!
  * Defines a random delay for application data transmission duty cycle. 1s,
@@ -432,6 +433,11 @@ int main( void )
 
     BoardInitMcu( );
     BoardInitPeriph( );
+    
+    GPIO_Init(LED_TX_PORT, LED_TX_PIN, GPIO_Mode_Out_PP_High_Fast);
+    GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_High_Fast);
+    GPIO_LOW(LED_TX_PORT, LED_TX_PIN);
+    GPIO_LOW(LED_RX_PORT, LED_RX_PIN);
 
     DeviceState = DEVICE_STATE_INIT;
 
@@ -521,12 +527,12 @@ int main( void )
 	        printf("in send\n");
                 if( NextTx == true )
                 {
-//		    GPIO_LOW(LED_TX_PORT, LED_TX_PIN);
+		    GPIO_HIGH(LED_TX_PORT, LED_TX_PIN);
                     PrepareTxFrame( AppPort );
 
                     NextTx = SendFrame( );
 		    printf("frame has been sent.\n");
-//		    GPIO_HIGH(LED_TX_PORT, LED_TX_PIN);
+		    GPIO_LOW(LED_TX_PORT, LED_TX_PIN);
                 }
                 
                 // Schedule next packet transmission
