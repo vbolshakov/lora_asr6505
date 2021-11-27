@@ -1,0 +1,13 @@
+gpio.pbi: E:\ASR6505\ASR6505-EVB\ Demo\LoRaMac-node\src\system\gpio.c \
+  E:\ASR6505\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\gpio-board.h \
+  E:\ASR6505\ASR6505-EVB\ Demo\LoRaMac-node\src\system\gpio.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8mmn.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  E:\ASR6505\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-board.h \
+  E:\ASR6505\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-ioe.h

@@ -1,0 +1,20 @@
+stm8l15x_tim2.pbi: \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim2.c \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_TIM2.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
+  D:\IAR_STM8\stm8\inc\c\stdint.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
+  D:\IAR_STM8\stm8\inc\c\yvals.h D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h \
+  D:\IAR_STM8\stm8\LIB\dlstm8mmn.h D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
+  D:\IAR_STM8\stm8\inc\c\xencoding_limits.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Threads.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\inc\stm8l15x_conf.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\ClassA\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
+  D:\IAR_STM8\stm8\inc\c\intrinsics.h

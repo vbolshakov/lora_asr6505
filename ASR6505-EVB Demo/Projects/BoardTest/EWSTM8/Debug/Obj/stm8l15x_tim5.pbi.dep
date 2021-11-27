@@ -1,0 +1,23 @@
+stm8l15x_tim5.pbi: \
+  E:\ASR6505\Software_Release_V10\SDK\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim5.c \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_TIM5.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8mmn.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\inc\stm8l15x_conf.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h

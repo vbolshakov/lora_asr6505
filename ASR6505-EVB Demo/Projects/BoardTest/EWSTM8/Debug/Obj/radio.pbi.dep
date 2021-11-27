@@ -1,0 +1,29 @@
+radio.pbi: \
+  E:\ASR6505\Software_Release_V10\SDK\LoRaMac-node\src\radio\sx126x\radio.c \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\math.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ymath.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8mmn.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xtgmath.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\string.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\system\timer.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stddef.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdbool.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\system\delay.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\radio\radio.h \
+  E:\ASR6505\Software_Release_V10\SDK\LoRaMac-node\src\radio\sx126x/sx126x.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\system\gpio.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-board.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-ioe.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\system\spi.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\system/gpio.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\boards\sx126x-board.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x/sx126x.h \
+  E:\ASR6505\Software_Release_V10\SDK\Projects\BoardTest\EWSTM8\..\..\..\LoRaMac-node\src\boards\board.h

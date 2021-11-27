@@ -43,7 +43,7 @@
 /*!
  * Defines the application data transmission duty cycle. 5s, value in [ms].
  */
-#define APP_TX_DUTYCYCLE                            5000
+#define APP_TX_DUTYCYCLE                            8000
 
 /*!
  * Defines a random delay for application data transmission duty cycle. 1s,
@@ -54,7 +54,7 @@
 /*!
  * Default datarate
  */
-#define LORAWAN_DEFAULT_DATARATE                    DR_0
+#define LORAWAN_DEFAULT_DATARATE                    DR_3
 
 /*!
  * LoRaWAN confirmed messages
@@ -141,9 +141,10 @@ static enum eDeviceState
  */
 static void PrepareTxFrame( uint8_t port )
 {
+    uint8_t randomX = randr(0, 10);
     AppDataSize = 14;
     for(uint8_t i=0; i<AppDataSize; ++i){
-    	AppData[i] = '0' + i;
+    	AppData[i] = '0' + i + randomX;
     }
     //AppData[AppDataSize-1] = 0;
 }
