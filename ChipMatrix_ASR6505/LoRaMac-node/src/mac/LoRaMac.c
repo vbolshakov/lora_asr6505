@@ -753,7 +753,7 @@ static void PrepareRxDoneAbort( void )
 
 static void OnRadioRxDone( uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr )
 {
-    int i=0;
+ //   int i=0;
     LoRaMacHeader_t macHdr;
     LoRaMacFrameCtrl_t fCtrl;
     ApplyCFListParams_t applyCFList;
@@ -863,7 +863,7 @@ static void OnRadioRxDone( uint8_t *payload, uint16_t size, int16_t rssi, int8_t
 
                 MlmeConfirm.Status = LORAMAC_EVENT_INFO_STATUS_OK;
                 IsLoRaMacNetworkJoined = true;
-#if 1               
+#if 0               
 printf("nwkskey: ");
 for(i=0; i<16; i++) {
     printf("%02x ", (uint16_t)LoRaMacNwkSKey[i]);
@@ -3372,7 +3372,7 @@ LoRaMacStatus_t LoRaMacMcpsRequest( McpsReq_t *mcpsRequest )
     int8_t datarate = DR_0;
     bool readyToSend = false;
     
-    LoRaMacState = LORAMAC_IDLE;
+//    LoRaMacState = LORAMAC_IDLE;
 
     if( mcpsRequest == NULL )
     {

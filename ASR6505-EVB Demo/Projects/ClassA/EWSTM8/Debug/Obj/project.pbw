@@ -127488,48 +127488,6 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@NwkSKey",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "NwkSKey",
-    "location": {
-      "column": "16",
-      "line": "82",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
-    },
-    "name": "NwkSKey",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@AppSKey",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "AppSKey",
-    "location": {
-      "column": "16",
-      "line": "83",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
-    },
-    "name": "AppSKey",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@DevAddr",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "DevAddr",
-    "location": {
-      "column": "17",
-      "line": "84",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
-    },
-    "name": "DevAddr",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:main.c@AppPort",
     "What": "Variable",
     "defdec": "Def",
@@ -128004,6 +127962,20 @@
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "mibReq",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@13059@F@main@mlmeReq",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "mlmeReq",
+    "location": {
+      "column": "27",
+      "line": "481",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
+    },
+    "name": "mlmeReq",
     "origin": "project_file",
     "scope": null
   },
@@ -134604,6 +134576,118 @@
     "scope": null
   },
   {
+    "ID": "c:stm8l15x_wwdg.c@4310@macro@BIT_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BIT_MASK",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "BIT_MASK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_Init(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "119",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "WWDG_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetWindowValue",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_SetWindowValue(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "135",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "WWDG_SetWindowValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_wwdg.c@6072@F@WWDG_SetWindowValue@tmpreg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tmpreg",
+    "location": {
+      "column": "16",
+      "line": "137",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "tmpreg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_SetCounter(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "156",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "WWDG_SetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Enable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_Enable(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "187",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "WWDG_Enable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_GetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t WWDG_GetCounter(void)",
+    "location": {
+      "column": "9",
+      "line": "216",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "WWDG_GetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SWReset",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_SWReset(void)",
+    "location": {
+      "column": "6",
+      "line": "226",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "WWDG_SWReset",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:stm8l15x_comp.h@1310@macro@__STM8L15x_COMP_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -135446,115 +135530,213 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_wwdg.c@4310@macro@BIT_MASK",
+    "ID": "c:stm8l15x_wwdg.h@1310@macro@__STM8L15x_WWDG_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "BIT_MASK",
+    "display": "__STM8L15x_WWDG_H",
     "location": {
       "column": "9",
-      "line": "89",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+      "line": "31",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
-    "name": "BIT_MASK",
-    "origin": "project_file",
+    "name": "__STM8L15x_WWDG_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_wwdg.h@1902@macro@IS_WWDG_WINDOW_LIMIT_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_WWDG_WINDOW_LIMIT_VALUE",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "IS_WWDG_WINDOW_LIMIT_VALUE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_wwdg.h@2056@macro@IS_WWDG_COUNTER_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_WWDG_COUNTER_VALUE",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "IS_WWDG_COUNTER_VALUE",
+    "origin": "user_include",
     "scope": null
   },
   {
     "ID": "c:@F@WWDG_Init",
     "What": "Function",
-    "defdec": "Def",
+    "defdec": "Dec",
     "display": "void WWDG_Init(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "119",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+      "line": "75",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
     "name": "WWDG_Init",
-    "origin": "project_file",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_Init(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "75",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_Init",
+    "origin": "user_include",
     "scope": null
   },
   {
     "ID": "c:@F@WWDG_SetWindowValue",
     "What": "Function",
-    "defdec": "Def",
+    "defdec": "Dec",
     "display": "void WWDG_SetWindowValue(uint8_t)",
     "location": {
       "column": "6",
-      "line": "135",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+      "line": "76",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
     "name": "WWDG_SetWindowValue",
-    "origin": "project_file",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_wwdg.c@6072@F@WWDG_SetWindowValue@tmpreg",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "tmpreg",
+    "ID": "c:@F@WWDG_SetWindowValue",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SetWindowValue(uint8_t)",
     "location": {
-      "column": "16",
-      "line": "137",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+      "column": "6",
+      "line": "76",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
-    "name": "tmpreg",
-    "origin": "project_file",
+    "name": "WWDG_SetWindowValue",
+    "origin": "user_include",
     "scope": null
   },
   {
     "ID": "c:@F@WWDG_SetCounter",
     "What": "Function",
-    "defdec": "Def",
+    "defdec": "Dec",
     "display": "void WWDG_SetCounter(uint8_t)",
     "location": {
       "column": "6",
-      "line": "156",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+      "line": "77",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
     "name": "WWDG_SetCounter",
-    "origin": "project_file",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SetCounter(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "77",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_SetCounter",
+    "origin": "user_include",
     "scope": null
   },
   {
     "ID": "c:@F@WWDG_Enable",
     "What": "Function",
-    "defdec": "Def",
+    "defdec": "Dec",
     "display": "void WWDG_Enable(uint8_t)",
     "location": {
       "column": "6",
-      "line": "187",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+      "line": "80",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
     "name": "WWDG_Enable",
-    "origin": "project_file",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Enable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_Enable(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "80",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_Enable",
+    "origin": "user_include",
     "scope": null
   },
   {
     "ID": "c:@F@WWDG_GetCounter",
     "What": "Function",
-    "defdec": "Def",
+    "defdec": "Dec",
     "display": "uint8_t WWDG_GetCounter(void)",
     "location": {
       "column": "9",
-      "line": "216",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+      "line": "83",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
     "name": "WWDG_GetCounter",
-    "origin": "project_file",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_GetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t WWDG_GetCounter(void)",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_GetCounter",
+    "origin": "user_include",
     "scope": null
   },
   {
     "ID": "c:@F@WWDG_SWReset",
     "What": "Function",
-    "defdec": "Def",
+    "defdec": "Dec",
     "display": "void WWDG_SWReset(void)",
     "location": {
       "column": "6",
-      "line": "226",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+      "line": "84",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
     "name": "WWDG_SWReset",
-    "origin": "project_file",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SWReset",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SWReset(void)",
+    "location": {
+      "column": "6",
+      "line": "84",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_SWReset",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -136526,212 +136708,142 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_wwdg.h@1310@macro@__STM8L15x_WWDG_H",
+    "ID": "c:Commissioning.h@724@macro@__LORA_COMMISSIONING_H__",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__STM8L15x_WWDG_H",
+    "display": "__LORA_COMMISSIONING_H__",
     "location": {
       "column": "9",
-      "line": "31",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+      "line": "24",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
     },
-    "name": "__STM8L15x_WWDG_H",
+    "name": "__LORA_COMMISSIONING_H__",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_wwdg.h@1902@macro@IS_WWDG_WINDOW_LIMIT_VALUE",
+    "ID": "c:Commissioning.h@927@macro@OVER_THE_AIR_ACTIVATION",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "IS_WWDG_WINDOW_LIMIT_VALUE",
+    "display": "OVER_THE_AIR_ACTIVATION",
     "location": {
       "column": "9",
-      "line": "55",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+      "line": "30",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
     },
-    "name": "IS_WWDG_WINDOW_LIMIT_VALUE",
+    "name": "OVER_THE_AIR_ACTIVATION",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_wwdg.h@2056@macro@IS_WWDG_COUNTER_VALUE",
+    "ID": "c:Commissioning.h@1076@macro@LORAWAN_PUBLIC_NETWORK",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "IS_WWDG_COUNTER_VALUE",
+    "display": "LORAWAN_PUBLIC_NETWORK",
     "location": {
       "column": "9",
-      "line": "64",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+      "line": "35",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
     },
-    "name": "IS_WWDG_COUNTER_VALUE",
+    "name": "LORAWAN_PUBLIC_NETWORK",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@WWDG_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_Init(uint8_t, uint8_t)",
+    "ID": "c:Commissioning.h@1306@macro@LORAWAN_DEVICE_EUI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_DEVICE_EUI",
     "location": {
-      "column": "6",
-      "line": "75",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+      "column": "9",
+      "line": "43",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
     },
-    "name": "WWDG_Init",
+    "name": "LORAWAN_DEVICE_EUI",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@WWDG_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_Init(uint8_t, uint8_t)",
+    "ID": "c:Commissioning.h@1460@macro@LORAWAN_APPLICATION_EUI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_APPLICATION_EUI",
     "location": {
-      "column": "6",
-      "line": "75",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+      "column": "9",
+      "line": "48",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
     },
-    "name": "WWDG_Init",
+    "name": "LORAWAN_APPLICATION_EUI",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@WWDG_SetWindowValue",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SetWindowValue(uint8_t)",
+    "ID": "c:Commissioning.h@1629@macro@LORAWAN_APPLICATION_KEY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_APPLICATION_KEY",
     "location": {
-      "column": "6",
-      "line": "76",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+      "column": "9",
+      "line": "53",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
     },
-    "name": "WWDG_SetWindowValue",
+    "name": "LORAWAN_APPLICATION_KEY",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@WWDG_SetWindowValue",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SetWindowValue(uint8_t)",
+    "ID": "c:Commissioning.h@1816@macro@LORAWAN_NETWORK_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_NETWORK_ID",
     "location": {
-      "column": "6",
-      "line": "76",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+      "column": "9",
+      "line": "58",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
     },
-    "name": "WWDG_SetWindowValue",
+    "name": "LORAWAN_NETWORK_ID",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@WWDG_SetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SetCounter(uint8_t)",
+    "ID": "c:Commissioning.h@2167@macro@LORAWAN_DEVICE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_DEVICE_ADDRESS",
     "location": {
-      "column": "6",
+      "column": "9",
+      "line": "67",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_DEVICE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@2312@macro@LORAWAN_NWKSKEY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_NWKSKEY",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_NWKSKEY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@2537@macro@LORAWAN_APPSKEY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_APPSKEY",
+    "location": {
+      "column": "9",
       "line": "77",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
     },
-    "name": "WWDG_SetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SetCounter(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "77",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Enable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_Enable(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "80",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_Enable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Enable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_Enable(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "80",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_Enable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_GetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t WWDG_GetCounter(void)",
-    "location": {
-      "column": "9",
-      "line": "83",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_GetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_GetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t WWDG_GetCounter(void)",
-    "location": {
-      "column": "9",
-      "line": "83",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_GetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SWReset",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SWReset(void)",
-    "location": {
-      "column": "6",
-      "line": "84",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SWReset",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SWReset",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SWReset(void)",
-    "location": {
-      "column": "6",
-      "line": "84",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SWReset",
+    "name": "LORAWAN_APPSKEY",
     "origin": "user_include",
     "scope": null
   },
@@ -137114,146 +137226,6 @@
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
     },
     "name": "RST_GPOutputEnable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@724@macro@__LORA_COMMISSIONING_H__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__LORA_COMMISSIONING_H__",
-    "location": {
-      "column": "9",
-      "line": "24",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "__LORA_COMMISSIONING_H__",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@927@macro@OVER_THE_AIR_ACTIVATION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "OVER_THE_AIR_ACTIVATION",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "OVER_THE_AIR_ACTIVATION",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@1076@macro@LORAWAN_PUBLIC_NETWORK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_PUBLIC_NETWORK",
-    "location": {
-      "column": "9",
-      "line": "35",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_PUBLIC_NETWORK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@1306@macro@LORAWAN_DEVICE_EUI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_DEVICE_EUI",
-    "location": {
-      "column": "9",
-      "line": "43",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_DEVICE_EUI",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@1460@macro@LORAWAN_APPLICATION_EUI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_APPLICATION_EUI",
-    "location": {
-      "column": "9",
-      "line": "48",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_APPLICATION_EUI",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@1629@macro@LORAWAN_APPLICATION_KEY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_APPLICATION_KEY",
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_APPLICATION_KEY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@1816@macro@LORAWAN_NETWORK_ID",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_NETWORK_ID",
-    "location": {
-      "column": "9",
-      "line": "58",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_NETWORK_ID",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@2162@macro@LORAWAN_DEVICE_ADDRESS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_DEVICE_ADDRESS",
-    "location": {
-      "column": "9",
-      "line": "67",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_DEVICE_ADDRESS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@2307@macro@LORAWAN_NWKSKEY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_NWKSKEY",
-    "location": {
-      "column": "9",
-      "line": "72",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_NWKSKEY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@2532@macro@LORAWAN_APPSKEY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_APPSKEY",
-    "location": {
-      "column": "9",
-      "line": "77",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_APPSKEY",
     "origin": "user_include",
     "scope": null
   },
