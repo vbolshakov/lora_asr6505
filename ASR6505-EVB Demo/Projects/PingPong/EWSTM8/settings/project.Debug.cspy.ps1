@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\IAR_STM8\common\bin\cspybat" -f "D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\settings\project.Debug.general.xcl" --backend -f "D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\settings\project.Debug.driver.xcl" 
+& "D:\IAR_STM8\common\bin\cspybat" -f "D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\settings\project.Debug.general.xcl" --backend -f "D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\settings\project.Debug.driver.xcl" 
 }
 else
 {
-& "D:\IAR_STM8\common\bin\cspybat" -f "D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\settings\project.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\settings\project.Debug.driver.xcl" 
+& "D:\IAR_STM8\common\bin\cspybat" -f "D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\settings\project.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\settings\project.Debug.driver.xcl" 
 }

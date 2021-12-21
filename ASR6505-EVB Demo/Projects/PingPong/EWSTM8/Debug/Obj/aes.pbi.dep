@@ -1,12 +1,9 @@
-aes.pbi: E:\ASR6505\ASR6505-EVB\ Demo\LoRaMac-node\src\system\crypto\aes.c \
-  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdlib.h \
-  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
-  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
-  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
-  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8mmn.h \
-  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
-  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
-  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
-  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
-  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdint.h \
-  E:\ASR6505\ASR6505-EVB\ Demo\LoRaMac-node\src\system\crypto/aes.h
+aes.pbi: \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\LoRaMac-node\src\system\crypto\aes.c \
+  D:\IAR_STM8\stm8\inc\c\stdlib.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
+  D:\IAR_STM8\stm8\inc\c\yvals.h D:\IAR_STM8\stm8\inc\c\DLib_Defaults.h \
+  D:\IAR_STM8\stm8\LIB\dlstm8mmn.h D:\IAR_STM8\stm8\inc\c\DLib_Product.h \
+  D:\IAR_STM8\stm8\inc\c\xencoding_limits.h \
+  D:\IAR_STM8\stm8\inc\c\DLib_Threads.h D:\IAR_STM8\stm8\inc\c\ysizet.h \
+  D:\IAR_STM8\stm8\inc\c\stdint.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\LoRaMac-node\src\system\crypto/aes.h

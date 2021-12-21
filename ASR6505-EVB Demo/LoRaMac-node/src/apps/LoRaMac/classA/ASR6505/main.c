@@ -286,7 +286,7 @@ static void McpsIndication( McpsIndication_t *mcpsIndication )
         return;
     }
 
-    GPIO_TOGGLE(LED_RX_PORT,LED_RX_PIN);
+ //   GPIO_TOGGLE(LED_RX_PORT,LED_RX_PIN);
     
     printf( "receive data: rssi = %d, snr = %d, datarate = %d,data=%s\r\n", mcpsIndication->Rssi, (int)mcpsIndication->Snr,
                  (int)mcpsIndication->RxDatarate,mcpsIndication->Buffer);
@@ -441,8 +441,8 @@ int main( void )
  /* TX led init: GPIO set in output */
     GPIO_Init(LED_TX_PORT, LED_TX_PIN, GPIO_Mode_Out_PP_High_Fast);
  
-/* TX led init: GPIO set in output */
-    GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_High_Fast);
+/* RX led init: GPIO set in output */
+//    GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_High_Fast);
 
     DeviceState = DEVICE_STATE_INIT;
 

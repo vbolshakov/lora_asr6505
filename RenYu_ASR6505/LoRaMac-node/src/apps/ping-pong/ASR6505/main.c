@@ -40,7 +40,8 @@
 
 #elif defined( REGION_CN470 )
 
-#define RF_FREQUENCY                                470300000 // Hz
+//#define RF_FREQUENCY                                470300000 // Hz
+#define RF_FREQUENCY                                434000000 // Hz
 
 #elif defined( REGION_CN779 )
 
@@ -82,8 +83,8 @@
                                                               //  1: 250 kHz,
                                                               //  2: 500 kHz,
                                                               //  3: Reserved]
-#define LORA_SPREADING_FACTOR                       7         // [SF7..SF12]
-#define LORA_CODINGRATE                             1         // [1: 4/5,
+#define LORA_SPREADING_FACTOR                       10         // [SF7..SF12]
+#define LORA_CODINGRATE                             2         // [1: 4/5,
                                                               //  2: 4/6,
                                                               //  3: 4/7,
                                                               //  4: 4/8]
@@ -162,6 +163,7 @@ void OnRxError( void );
 /**
  * Main application entry point.
  */
+uint16_t rx_count = 0;
 int main( void )
 {
 //    bool isMaster = true;
@@ -220,11 +222,39 @@ int main( void )
     Buffer[3] = 'G';
     for( i = 4; i < BufferSize; i++ )
       Buffer[i] = i - 4;
-    Radio.Send( Buffer, BufferSize);
-    uint16_t tx_count = 0;
+ //   Radio.Send( Buffer, BufferSize);
+    memset(Buffer, 0, sizeof(Buffer));
     while( 1 )
     {
+#if 1
         switch( State )
+        {
+        case RX:
+	    printf("received:%s, rssi=%d, snr=%d, rx_count=%d\n", Buffer, RssiValue, SnrValue, rx_count);
+	    rx_count++;
+            Radio.Rx(5000);
+	    State = LOWPOWER;
+            break;
+        case TX:
+            Radio.Rx(5000);
+            State = LOWPOWER;
+            break;
+        case RX_TIMEOUT:
+        case RX_ERROR:
+	    Radio.Rx(5000);
+            State = LOWPOWER;
+            break;
+        case TX_TIMEOUT:
+	    Radio.Rx(5000);
+            State = LOWPOWER;
+            break;
+        case LOWPOWER:
+        default:
+            // Set low power
+            break;
+        }
+#else
+	switch( State )
         {
         case RX:
             State = LOWPOWER;
@@ -253,8 +283,8 @@ int main( void )
             // Set low power
             break;
         }
-
-        TimerLowPowerHandler( );
+#endif
+   //     TimerLowPowerHandler( );
         // Process Radio IRQ
         Radio.IrqProcess( );
     }

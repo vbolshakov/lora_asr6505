@@ -313,7 +313,7 @@ void SystemClockConfig( void )
 {
 	CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_1);
     
-#if 1    
+#if 0    
     /* Enable LSE */
     CLK_LSEConfig(CLK_LSE_ON);
     /* Wait for LSE clock to be ready */

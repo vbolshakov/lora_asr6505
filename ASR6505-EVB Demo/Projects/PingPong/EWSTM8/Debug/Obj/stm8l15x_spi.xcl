@@ -1,50 +1,50 @@
-"D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_spi.c"
+"D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_spi.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\Debug\Obj\stm8l15x_spi.pbi.dep
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\Debug\Obj\stm8l15x_spi.pbi.dep
 -o
 stm8l15x_spi.pbi
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Libraries\STM8L15x_StdPeriph_Driver\src
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Libraries\STM8L15x_StdPeriph_Driver\src
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\inc
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\inc
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\ASR6505
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\ASR6505
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\crypto
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\crypto
 -I
 D:\IAR_STM8\stm8\inc
 -I
 D:\IAR_STM8\stm8\inc\c
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Projects\PingPong\inc
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\inc
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\Libraries\STM8L15x_StdPeriph_Driver\inc
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\LoRaMac-node\src\boards
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\LoRaMac-node\src\boards
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\LoRaMac-node\src\boards\ASR6505
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\LoRaMac-node\src\boards\ASR6505
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\LoRaMac-node\src\radio
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\LoRaMac-node\src\radio
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\LoRaMac-node\src\radio\sx126x
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\LoRaMac-node\src\radio\sx126x
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\LoRaMac-node\src\system
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\LoRaMac-node\src\system
 -I
-D:\Lora\LPIOT-302(CN470)LoRaWAN开发套件资料\ASR6505-EVB 节点开发板资料\ASR6505-EVB Demo\LoRaMac-node\src\system\crypto
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\LoRaMac-node\src\system\crypto
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

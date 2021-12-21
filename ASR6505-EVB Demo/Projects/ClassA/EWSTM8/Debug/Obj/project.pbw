@@ -127840,7 +127840,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@9102@F@MlmeConfirm@mlmeReq",
+    "ID": "c:main.c@9104@F@MlmeConfirm@mlmeReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "mlmeReq",
@@ -127882,7 +127882,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@10705@F@lwan_dev_params_update@mibReq",
+    "ID": "c:main.c@10707@F@lwan_dev_params_update@mibReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "mibReq",
@@ -127896,7 +127896,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@10738@F@lwan_dev_params_update@channelsMaskTemp",
+    "ID": "c:main.c@10740@F@lwan_dev_params_update@channelsMaskTemp",
     "What": "Variable",
     "defdec": "Def",
     "display": "channelsMaskTemp",
@@ -127924,7 +127924,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@11334@F@main@LoRaMacPrimitives",
+    "ID": "c:main.c@11336@F@main@LoRaMacPrimitives",
     "What": "Variable",
     "defdec": "Def",
     "display": "LoRaMacPrimitives",
@@ -127938,7 +127938,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@11378@F@main@LoRaMacCallbacks",
+    "ID": "c:main.c@11380@F@main@LoRaMacCallbacks",
     "What": "Variable",
     "defdec": "Def",
     "display": "LoRaMacCallbacks",
@@ -127952,7 +127952,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@11419@F@main@mibReq",
+    "ID": "c:main.c@11421@F@main@mibReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "mibReq",
@@ -127966,7 +127966,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@13059@F@main@mlmeReq",
+    "ID": "c:main.c@13063@F@main@mlmeReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "mlmeReq",
@@ -137060,6 +137060,118 @@
     "scope": null
   },
   {
+    "ID": "c:asr6505evb-board.h@38@macro@_ASR6505EVB_BOARD_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_ASR6505EVB_BOARD_H_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
+    },
+    "name": "_ASR6505EVB_BOARD_H_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:asr6505evb-board.h@125@macro@GPIO_HIGH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_HIGH",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
+    },
+    "name": "GPIO_HIGH",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:asr6505evb-board.h@161@macro@GPIO_LOW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_LOW",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
+    },
+    "name": "GPIO_LOW",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:asr6505evb-board.h@196@macro@GPIO_TOGGLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_TOGGLE",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
+    },
+    "name": "GPIO_TOGGLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:asr6505evb-board.h@259@macro@LED_TX_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_TX_PORT",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
+    },
+    "name": "LED_TX_PORT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:asr6505evb-board.h@287@macro@LED_TX_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_TX_PIN",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
+    },
+    "name": "LED_TX_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:asr6505evb-board.h@345@macro@LED_RX_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_RX_PORT",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
+    },
+    "name": "LED_RX_PORT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:asr6505evb-board.h@373@macro@LED_RX_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_RX_PIN",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
+    },
+    "name": "LED_RX_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:stm8l15x_rst.h@1307@macro@__STM8L15x_RST_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -137226,118 +137338,6 @@
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_rst.h"
     },
     "name": "RST_GPOutputEnable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:asr6505evb-board.h@38@macro@_ASR6505EVB_BOARD_H_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ASR6505EVB_BOARD_H_",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
-    },
-    "name": "_ASR6505EVB_BOARD_H_",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:asr6505evb-board.h@125@macro@GPIO_HIGH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_HIGH",
-    "location": {
-      "column": "9",
-      "line": "7",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
-    },
-    "name": "GPIO_HIGH",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:asr6505evb-board.h@161@macro@GPIO_LOW",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_LOW",
-    "location": {
-      "column": "9",
-      "line": "8",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
-    },
-    "name": "GPIO_LOW",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:asr6505evb-board.h@196@macro@GPIO_TOGGLE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_TOGGLE",
-    "location": {
-      "column": "9",
-      "line": "9",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
-    },
-    "name": "GPIO_TOGGLE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:asr6505evb-board.h@259@macro@LED_TX_PORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED_TX_PORT",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
-    },
-    "name": "LED_TX_PORT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:asr6505evb-board.h@287@macro@LED_TX_PIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED_TX_PIN",
-    "location": {
-      "column": "9",
-      "line": "13",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
-    },
-    "name": "LED_TX_PIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:asr6505evb-board.h@345@macro@LED_RX_PORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED_RX_PORT",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
-    },
-    "name": "LED_RX_PORT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:asr6505evb-board.h@373@macro@LED_RX_PIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED_RX_PIN",
-    "location": {
-      "column": "9",
-      "line": "17",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
-    },
-    "name": "LED_RX_PIN",
     "origin": "user_include",
     "scope": null
   },

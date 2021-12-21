@@ -40,7 +40,8 @@
 
 #elif defined( REGION_CN470 )
 
-#define RF_FREQUENCY                                470300000 // Hz
+//#define RF_FREQUENCY                                470300000 // Hz
+#define RF_FREQUENCY                                434000000 // Hz
 
 #elif defined( REGION_CN779 )
 
@@ -82,8 +83,8 @@
                                                               //  1: 250 kHz,
                                                               //  2: 500 kHz,
                                                               //  3: Reserved]
-#define LORA_SPREADING_FACTOR                       12         // [SF7..SF12]
-#define LORA_CODINGRATE                             1         // [1: 4/5,
+#define LORA_SPREADING_FACTOR                       10         // [SF7..SF12]
+#define LORA_CODINGRATE                             2         // [1: 4/5,
                                                               //  2: 4/6,
                                                               //  3: 4/7,
                                                               //  4: 4/8]
@@ -124,7 +125,7 @@ const uint8_t PongMsg[] = "PONG";
 uint16_t BufferSize = BUFFER_SIZE;
 uint8_t Buffer[BUFFER_SIZE];
 
-volatile States_t State = RX;
+volatile States_t State = LOWPOWER;
 
 int8_t RssiValue = 0;
 int8_t SnrValue = 0;
@@ -162,21 +163,22 @@ void OnRxError( void );
 /**
  * Main application entry point.
  */
+uint8_t buf[] = "ars6505 send";
+uint16_t tx_count = 0;
 int main( void )
 {
-    bool isMaster = false;
-    uint8_t i;
 
-    printf("PingPong test Start!\r\n");
+    
     // Target board initialization
     BoardInitMcu( );
     BoardInitPeriph( );
+    printf("PingPong test Start!\r\n");
     
  /* TX led init: GPIO set in output */
-    GPIO_Init(LED_TX_PORT, LED_TX_PIN, GPIO_Mode_Out_PP_High_Fast);
+//    GPIO_Init(LED_TX_PORT, LED_TX_PIN, GPIO_Mode_Out_PP_High_Fast);
  
 /* TX led init: GPIO set in output */
-    GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_High_Fast);
+  //  GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_High_Fast);
 
     // Radio initialization
     RadioEvents.TxDone = OnTxDone;
@@ -217,115 +219,29 @@ int main( void )
     #error "Please define a frequency band in the compiler options."
 #endif
 
-    Radio.Rx( RX_TIMEOUT_VALUE );
-
+//    Radio.Rx( RX_TIMEOUT_VALUE );
+    Radio.Send(buf, 12);
+    
     while( 1 )
     {
+#if 0      
         switch( State )
         {
         case RX:
-            if( isMaster == true )
-            {
-                if( BufferSize > 0 )
-                {
-                    if( strncmp( ( const char* )Buffer, ( const char* )PongMsg, 4 ) == 0 )
-                    {
-                        GPIO_TOGGLE(LED_RX_PORT,LED_RX_PIN);
-                        
-                        printf("Received: PONG\r\n");
-
-                        // Send the next PING frame
-                        /* LED TX ON */
-                        GPIO_LOW(LED_TX_PORT,LED_TX_PIN);
-                        Buffer[0] = 'P';
-                        Buffer[1] = 'I';
-                        Buffer[2] = 'N';
-                        Buffer[3] = 'G';
-                        // We fill the buffer with numbers for the payload
-                        for( i = 4; i < BufferSize; i++ )
-                        {
-                            Buffer[i] = i - 4;
-                        }
-                        DelayMs( 1 );
-                        printf("Sent: PING\r\n");
-                        Radio.Send( Buffer, BufferSize );
-                        /* LED TX OFF */
-                        GPIO_HIGH(LED_TX_PORT,LED_TX_PIN);
-                    }
-                    else if( strncmp( ( const char* )Buffer, ( const char* )PingMsg, 4 ) == 0 )
-                    { // A master already exists then become a slave
-                        isMaster = false;
-                        Radio.Rx( RX_TIMEOUT_VALUE );
-                    }
-                    else // valid reception but neither a PING or a PONG message
-                    {    // Set device as master ans start again
-                        isMaster = true;
-                        Radio.Rx( RX_TIMEOUT_VALUE );
-                    }
-                }
-            }
-            else
-            {
-                if( BufferSize > 0 )
-                {
-                    if( strncmp( ( const char* )Buffer, ( const char* )PingMsg, 4 ) == 0 )
-                    {
-                        GPIO_TOGGLE(LED_RX_PORT,LED_RX_PIN);
-                        printf("Received: PING\r\n");
-                        printf("Rssi: %d\r\n", RssiValue);
-                        printf("Snr: %d\r\n",  SnrValue);
-                        // Send the reply to the PONG string
-                        /* LED TX ON */
-                        GPIO_LOW(LED_TX_PORT,LED_TX_PIN);
-                        Buffer[0] = 'P';
-                        Buffer[1] = 'O';
-                        Buffer[2] = 'N';
-                        Buffer[3] = 'G';
-                        // We fill the buffer with numbers for the payload
-                        for( i = 4; i < BufferSize; i++ )
-                        {
-                            Buffer[i] = i - 4;
-                        }
-                        DelayMs( 1 );
-                        Radio.Send( Buffer, BufferSize );
-                        printf("Sent: PONG\r\n");
-                        /* LED TX OFF */
-                        GPIO_HIGH(LED_TX_PORT,LED_TX_PIN);
-                    }
-                    else // valid reception but not a PING as expected
-                    {    // Set device as master and start again
-                        isMaster = true;
-                        Radio.Rx( RX_TIMEOUT_VALUE );
-                    }
-                }
-            }
+            printf("received:%s, rssi=%d, snr=%d, rx_count=%d\n", Buffer, RssiValue, SnrValue, ++rx_count);
+ //           Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
+	    Radio.Rx(5000);
+	    
             State = LOWPOWER;
             break;
+            
         case TX:
             Radio.Rx( RX_TIMEOUT_VALUE );
             State = LOWPOWER;
             break;
         case RX_TIMEOUT:
         case RX_ERROR:
-            if( isMaster == true )
-            {
-                // Send the next PING frame
-                Buffer[0] = 'P';
-                Buffer[1] = 'I';
-                Buffer[2] = 'N';
-                Buffer[3] = 'G';
-                for( i = 4; i < BufferSize; i++ )
-                {
-                    Buffer[i] = i - 4;
-                }
-                DelayMs( 1 );
-                Radio.Send( Buffer, BufferSize );
-                printf("Sent: PING\r\n");
-            }
-            else
-            {
-                Radio.Rx( RX_TIMEOUT_VALUE );
-            }
+            Radio.Rx(5000);
             State = LOWPOWER;
             break;
         case TX_TIMEOUT:
@@ -338,7 +254,32 @@ int main( void )
             // Set low power
             break;
         }
-
+#else
+	
+        switch( State )
+        {
+	case RX:    
+            State = LOWPOWER;
+            break;
+            
+        case TX:
+            Radio.Send(buf, 12);
+            State = LOWPOWER;
+            break;
+        case RX_TIMEOUT:
+        case RX_ERROR:
+            State = LOWPOWER;
+            break;
+        case TX_TIMEOUT:          
+            Radio.Send(buf, 12);
+            State = LOWPOWER;
+            break;
+        case LOWPOWER:
+        default:
+            // Set low power
+            break;
+        }
+#endif
         //TimerLowPowerHandler( );
         // Process Radio IRQ
         Radio.IrqProcess( );
@@ -347,6 +288,8 @@ int main( void )
 
 void OnTxDone( void )
 {
+    printf("OnTxDone, tx_count:%d\n", tx_count);
+    tx_count++;
     Radio.Sleep( );
     State = TX;
 }
@@ -365,6 +308,7 @@ void OnTxTimeout( void )
 {
     Radio.Sleep( );
     State = TX_TIMEOUT;
+    
 }
 
 void OnRxTimeout( void )

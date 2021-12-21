@@ -41,6 +41,7 @@
 #elif defined( REGION_CN470 )
 
 #define RF_FREQUENCY                                470300000 // Hz
+//#define RF_FREQUENCY                                433000000 // Hz
 
 #elif defined( REGION_CN779 )
 
@@ -171,10 +172,11 @@ int main( void )
     
  //   printf("test1!");                                       //test1
 
-    printf("PingPong test Start!\r\n");
+    
     // Target board initialization
     BoardInitMcu( );
     BoardInitPeriph( );
+    printf("PingPong test Start!\r\n");
     
  /* TX led init: GPIO set in output */
     GPIO_Init(LED_TX_PORT, LED_TX_PIN, GPIO_Mode_Out_PP_High_Fast);
@@ -220,8 +222,8 @@ int main( void )
 #else
     #error "Please define a frequency band in the compiler options."
 #endif
-
-    Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
+    Radio.Rx(5000);
+  //  Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
     uint16_t rx_count = 0;
     while( 1 )
     {
@@ -233,7 +235,8 @@ int main( void )
         case RX:
 	    GPIO_ResetBits(LED_TX_PORT, LED_TX_PIN);
 	    printf("received:%s, rssi=%d, snr=%d, rx_count=%d\n", Buffer, RssiValue, SnrValue, ++rx_count);
-            Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
+ //           Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
+	    Radio.Rx(5000);
 	    GPIO_SetBits(LED_TX_PORT, LED_TX_PIN);
             State = LOWPOWER;
             break;
@@ -242,7 +245,8 @@ int main( void )
             break;
         case RX_TIMEOUT:
         case RX_ERROR:
-            Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
+  //          Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
+	    Radio.Rx(5000);
             State = LOWPOWER;
             break;
         case TX_TIMEOUT:         

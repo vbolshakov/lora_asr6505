@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <settings>
     <DebugChecksum>
-        <Checksum>2883117391</Checksum>
+        <Checksum>2171324898</Checksum>
     </DebugChecksum>
     <Stack>
         <FillEnabled>0</FillEnabled>
@@ -35,13 +35,20 @@
         <Category>_ 0</Category>
     </LogFile>
     <Breakpoints>
-        <Count>0</Count>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\ping-pong\ASR6505}.1113.9" 0 0 0 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\ping-pong\ASR6505}.1176.21" 0 0 0 0 "" 0 ""</Bp1>
+        <Count>2</Count>
     </Breakpoints>
     <Aliases>
         <A0>_ "C:\Users\jiangxiao\Desktop\ASR6505\Software_Release_V10\SDK\LoRaMac-node\src\apps\ping-pong\ASR6505\main.c" ""</A0>
         <A1>_ "C:\Users\jiangxiao\Desktop\ASR6505\Software_Release_V10\SDK\LoRaMac-node\src\radio\sx126x\radio.c" ""</A1>
-        <A2>_ "E:\ASR6505\ASR6505-EVB开发评估资料\ASR6505-EVB Demo\LoRaMac-node\src\apps\ping-pong\ASR6505\main.c" ""</A2>
-        <Count>3</Count>
+        <A2>_ "D:\msys32\home\ruilinhao\new_git\6505\test_new\ASR6505\LoRaMac-node\src\boards\ASR6505\rtc-board.c" ""</A2>
+        <A3>_ "E:\ASR6505\ASR6505-EVB开发评估资料\ASR6505-EVB Demo\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c" ""</A3>
+        <A4>_ "E:\ASR6505\ASR6505-EVB开发评估资料\ASR6505-EVB Demo\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c" ""</A4>
+        <A5>_ "E:\ASR6505\ASR6505-EVB开发评估资料\ASR6505-EVB Demo\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""</A5>
+        <A6>_ "E:\ASR6505\ASR6505-EVB开发评估资料\ASR6505-EVB Demo\LoRaMac-node\src\apps\ping-pong\ASR6505\main.c" ""</A6>
+        <A7>_ "E:\ASR6505\ASR6505-EVB开发评估资料\ASR6505-EVB Demo\LoRaMac-node\src\radio\sx126x\radio.c" "D:\lora_asr6505_pingpong\ASR6505-EVB Demo\LoRaMac-node\src\radio\sx126x\radio.c"</A7>
+        <Count>8</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
     <DebuggerSettings>
