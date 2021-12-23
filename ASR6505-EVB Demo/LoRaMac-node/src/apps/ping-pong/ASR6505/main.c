@@ -29,6 +29,7 @@
 #include "timer.h"
 #include "radio.h"
 #include  "asr6505evb-board.h"
+#include "sx126x.h"
 
 #if defined( REGION_AS923 )
 
@@ -165,6 +166,7 @@ void OnRxError( void );
  */
 uint8_t buf[] = "ars6505 send";
 uint16_t tx_count = 0;
+uint16_t rx_count = 0;
 int main( void )
 {
 
@@ -175,10 +177,11 @@ int main( void )
     printf("PingPong test Start!\r\n");
     
  /* TX led init: GPIO set in output */
-//    GPIO_Init(LED_TX_PORT, LED_TX_PIN, GPIO_Mode_Out_PP_High_Fast);
+ //   GPIO_Init(LED_TX_PORT, LED_TX_PIN, GPIO_Mode_Out_PP_High_Fast);
+ //   GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_Low_Slow);
  
 /* TX led init: GPIO set in output */
-  //  GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_High_Fast);
+    GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_High_Fast);
 
     // Radio initialization
     RadioEvents.TxDone = OnTxDone;
@@ -190,6 +193,7 @@ int main( void )
     Radio.Init( &RadioEvents );
 
     Radio.SetChannel( RF_FREQUENCY );
+
 
 #if defined( USE_MODEM_LORA )
 
@@ -219,20 +223,23 @@ int main( void )
     #error "Please define a frequency band in the compiler options."
 #endif
 
-//    Radio.Rx( RX_TIMEOUT_VALUE );
+ //   Radio.Rx( RX_TIMEOUT_VALUE );
     Radio.Send(buf, 12);
-    
+
     while( 1 )
     {
 #if 0      
         switch( State )
         {
         case RX:
+	    GPIO_HIGH(LED_RX_PORT, LED_RX_PIN);
             printf("received:%s, rssi=%d, snr=%d, rx_count=%d\n", Buffer, RssiValue, SnrValue, ++rx_count);
  //           Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
-	    Radio.Rx(5000);
-	    
+	    Radio.Rx(5000);	    
             State = LOWPOWER;
+	    GPIO_LOW(LED_RX_PORT, LED_RX_PIN);
+	    memset(Buffer, 0, BufferSize);
+	    BufferSize = 0;
             break;
             
         case TX:
@@ -244,8 +251,7 @@ int main( void )
             Radio.Rx(5000);
             State = LOWPOWER;
             break;
-        case TX_TIMEOUT:
-          
+        case TX_TIMEOUT:       
             Radio.Rx( RX_TIMEOUT_VALUE );
             State = LOWPOWER;
             break;
@@ -263,16 +269,21 @@ int main( void )
             break;
             
         case TX:
+	    GPIO_HIGH(LED_RX_PORT, LED_TX_PIN);
             Radio.Send(buf, 12);
             State = LOWPOWER;
+	    GPIO_LOW(LED_RX_PORT, LED_TX_PIN);
             break;
         case RX_TIMEOUT:
         case RX_ERROR:
             State = LOWPOWER;
             break;
-        case TX_TIMEOUT:          
+        case TX_TIMEOUT: 
+	    GPIO_HIGH(LED_RX_PORT, LED_RX_PIN);
             Radio.Send(buf, 12);
+
             State = LOWPOWER;
+	    GPIO_LOW(LED_RX_PORT, LED_RX_PIN);
             break;
         case LOWPOWER:
         default:
@@ -280,7 +291,7 @@ int main( void )
             break;
         }
 #endif
-        //TimerLowPowerHandler( );
+        TimerLowPowerHandler( );
         // Process Radio IRQ
         Radio.IrqProcess( );
     }
@@ -288,15 +299,15 @@ int main( void )
 
 void OnTxDone( void )
 {
-    printf("OnTxDone, tx_count:%d\n", tx_count);
     tx_count++;
-    Radio.Sleep( );
+    printf("OnTxDone, tx_count:%d\n", tx_count);
+    Radio.Sleep();
     State = TX;
 }
 
 void OnRxDone( uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr )
 {
-    Radio.Sleep( );
+    Radio.Sleep();
     BufferSize = size;
     memcpy( Buffer, payload, BufferSize );
     RssiValue = rssi;
@@ -306,7 +317,10 @@ void OnRxDone( uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr )
 
 void OnTxTimeout( void )
 {
-    Radio.Sleep( );
+    printf("OnTxTimeout\n");
+//    Radio.Sleep();
+    Radio.Sleep();
+//    SX126xCheckDeviceReady( );
     State = TX_TIMEOUT;
     
 }
@@ -314,12 +328,13 @@ void OnTxTimeout( void )
 void OnRxTimeout( void )
 {
     printf("OnRxTimeout\r\n");
-    Radio.Sleep( );
+    Radio.Sleep();
     State = RX_TIMEOUT;
 }
 
 void OnRxError( void )
 {
-    Radio.Sleep( );
+    printf("OnRxError\n");
+    Radio.Sleep();
     State = RX_ERROR;
 }

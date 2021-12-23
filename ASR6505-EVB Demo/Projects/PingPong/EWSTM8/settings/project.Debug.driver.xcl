@@ -6,6 +6,8 @@
 
 "STM8L152M8" 
 
+"--erase_memory" 
+
 
 
 

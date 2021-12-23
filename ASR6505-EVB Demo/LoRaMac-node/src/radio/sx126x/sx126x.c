@@ -97,7 +97,7 @@ void SX126xInit( DioIrqHandler dioIrq )
 {
     CalibrationParams_t calibParam;
 
-    SX126xSetDio3AsTcxoCtrl( TCXO_CTRL_1_8V, SX126xGetBoardTcxoWakeupTime( ) << 6 ); // convert from ms to SX126x time base
+    SX126xSetDio3AsTcxoCtrl( TCXO_CTRL_3_3V, SX126xGetBoardTcxoWakeupTime( ) << 6 ); // convert from ms to SX126x time base
     calibParam.Value = 0x7F;
     SX126xCalibrate( calibParam );
 }
@@ -644,6 +644,7 @@ void SX126xSetPacketParams( PacketParams_t *packetParams )
     case PACKET_TYPE_NONE:
         return;
     }
+    SX126xCheckDeviceReady( );
     SX126xWriteCommand( RADIO_SET_PACKETPARAMS, buf, n );
 }
 

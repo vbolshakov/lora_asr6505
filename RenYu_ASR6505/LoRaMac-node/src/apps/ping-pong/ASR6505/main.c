@@ -167,15 +167,14 @@ uint16_t rx_count = 0;
 int main( void )
 {
 //    bool isMaster = true;
-    uint8_t i;
 
     printf("PingPong test Start!\r\n");
     // Target board initialization
     BoardInitMcu( );
     BoardInitPeriph( );
     
-    GPIO_Init(LED_TX_PORT, LED_TX_PIN, GPIO_Mode_Out_PP_High_Fast);
-    GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_High_Fast);
+    GPIO_Init(LED_TX_PORT, LED_TX_PIN, GPIO_Mode_Out_PP_Low_Slow);
+    GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_Low_Slow);
 
     // Radio initialization
     RadioEvents.TxDone = OnTxDone;
@@ -216,12 +215,6 @@ int main( void )
     #error "Please define a frequency band in the compiler options."
 #endif
 
-    Buffer[0] = 'P';
-    Buffer[1] = 'I';
-    Buffer[2] = 'N';
-    Buffer[3] = 'G';
-    for( i = 4; i < BufferSize; i++ )
-      Buffer[i] = i - 4;
  //   Radio.Send( Buffer, BufferSize);
     memset(Buffer, 0, sizeof(Buffer));
     while( 1 )
@@ -230,10 +223,12 @@ int main( void )
         switch( State )
         {
         case RX:
+	    GPIO_HIGH(LED_RX_PORT, LED_RX_PIN);
 	    printf("received:%s, rssi=%d, snr=%d, rx_count=%d\n", Buffer, RssiValue, SnrValue, rx_count);
 	    rx_count++;
             Radio.Rx(5000);
 	    State = LOWPOWER;
+	    GPIO_LOW(LED_RX_PORT, LED_RX_PIN);
             break;
         case TX:
             Radio.Rx(5000);

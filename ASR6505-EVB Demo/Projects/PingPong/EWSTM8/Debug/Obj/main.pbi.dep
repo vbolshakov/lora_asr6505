@@ -1,9 +1,13 @@
 main.pbi: \
-  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\asr6505evb-board.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\spi.h \
+  D:\IAR_STM8\stm8\inc\c\xtgmath.h D:\IAR_STM8\stm8\inc\c\ycheck.h \
+  D:\IAR_STM8\stm8\inc\c\ymath.h D:\IAR_STM8\stm8\inc\c\math.h \
   D:\IAR_STM8\stm8\inc\c\stdint.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio\sx126x\sx126x.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\asr6505evb-board.h \
   D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\radio\radio.h \
   D:\IAR_STM8\stm8\inc\c\stdbool.h D:\IAR_STM8\stm8\inc\c\ysizet.h \
-  D:\IAR_STM8\stm8\inc\c\ycheck.h D:\IAR_STM8\stm8\inc\c\stddef.h \
+  D:\IAR_STM8\stm8\inc\c\stddef.h \
   D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\timer.h \
   D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\system\delay.h \
   D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\LoRaMac-node\src\boards\pinName-ioe.h \

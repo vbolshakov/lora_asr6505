@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <settings>
     <DebugChecksum>
-        <Checksum>4269381192</Checksum>
+        <Checksum>3765482315</Checksum>
     </DebugChecksum>
     <Stack>
         <FillEnabled>0</FillEnabled>
@@ -25,6 +25,9 @@
         <GraphEnabled>0</GraphEnabled>
         <ShowTimeLog>1</ShowTimeLog>
     </DataSample>
+    <Breakpoints>
+        <Count>0</Count>
+    </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -34,9 +37,6 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
-    <Breakpoints>
-        <Count>0</Count>
-    </Breakpoints>
     <Aliases>
         <A0>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c" ""</A0>
         <A1>_ "C:\Users\Administrator\Desktop\ASR6505_AT_RELEASE\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_flash.c" ""</A1>

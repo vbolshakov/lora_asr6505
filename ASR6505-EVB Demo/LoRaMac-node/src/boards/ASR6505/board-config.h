@@ -69,7 +69,7 @@
 
 #define RADIO_BUSY                                  PH_1
 #define RADIO_DIO_1                                 PH_2
-#define RADIO_ANT_SWITCH_POWER                      PG_6
+#define RADIO_ANT_SWITCH_POWER                      PG_6//GPIO0
 
 #endif
 
