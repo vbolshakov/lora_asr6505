@@ -106964,13 +106964,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1253@macro@RF_FREQUENCY",
+    "ID": "c:main.c@1182@macro@RF_FREQUENCY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RF_FREQUENCY",
     "location": {
       "column": "9",
-      "line": "45",
+      "line": "44",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "RF_FREQUENCY",
@@ -107400,13 +107400,55 @@
     "scope": null
   },
   {
+    "ID": "c:@F@SendDataTimerEvent",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SendDataTimerEvent(void)",
+    "location": {
+      "column": "6",
+      "line": "164",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
+    },
+    "name": "SendDataTimerEvent",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@SendDataTimer",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "SendDataTimer",
+    "location": {
+      "column": "14",
+      "line": "169",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
+    },
+    "name": "SendDataTimer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@isMaster",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "isMaster",
+    "location": {
+      "column": "6",
+      "line": "170",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
+    },
+    "name": "isMaster",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
       "column": "9",
-      "line": "167",
+      "line": "171",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "buf",
@@ -107420,7 +107462,7 @@
     "display": "tx_count",
     "location": {
       "column": "10",
-      "line": "168",
+      "line": "172",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "tx_count",
@@ -107434,7 +107476,7 @@
     "display": "rx_count",
     "location": {
       "column": "10",
-      "line": "169",
+      "line": "173",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "rx_count",
@@ -107448,7 +107490,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "170",
+      "line": "174",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "main",
@@ -107462,7 +107504,7 @@
     "display": "void OnTxDone(void)",
     "location": {
       "column": "6",
-      "line": "300",
+      "line": "318",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnTxDone",
@@ -107476,7 +107518,7 @@
     "display": "void OnRxDone(uint8_t *, uint16_t, int16_t, int8_t)",
     "location": {
       "column": "6",
-      "line": "308",
+      "line": "327",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnRxDone",
@@ -107490,7 +107532,7 @@
     "display": "void OnTxTimeout(void)",
     "location": {
       "column": "6",
-      "line": "318",
+      "line": "345",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnTxTimeout",
@@ -107504,7 +107546,7 @@
     "display": "void OnRxTimeout(void)",
     "location": {
       "column": "6",
-      "line": "328",
+      "line": "356",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnRxTimeout",
@@ -107518,10 +107560,24 @@
     "display": "void OnRxError(void)",
     "location": {
       "column": "6",
-      "line": "335",
+      "line": "364",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
     },
     "name": "OnRxError",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SendDataTimerEvent",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SendDataTimerEvent(void)",
+    "location": {
+      "column": "6",
+      "line": "372",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\ping-pong\\ASR6505\\main.c"
+    },
+    "name": "SendDataTimerEvent",
     "origin": "project_file",
     "scope": null
   },

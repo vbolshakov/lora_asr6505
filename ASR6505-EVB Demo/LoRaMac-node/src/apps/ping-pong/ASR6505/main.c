@@ -41,8 +41,8 @@
 
 #elif defined( REGION_CN470 )
 
-//#define RF_FREQUENCY                                470300000 // Hz
-#define RF_FREQUENCY                                434000000 // Hz
+#define RF_FREQUENCY                                470300000 // Hz
+//#define RF_FREQUENCY                                434000000 // Hz
 
 #elif defined( REGION_CN779 )
 
@@ -161,10 +161,14 @@ void OnRxTimeout( void );
  */
 void OnRxError( void );
 
+void SendDataTimerEvent( void );
+
 /**
  * Main application entry point.
  */
-uint8_t buf[] = "ars6505 send";
+TimerEvent_t SendDataTimer;
+bool isMaster = true;
+uint8_t buf[] = "ars6505 send0";
 uint16_t tx_count = 0;
 uint16_t rx_count = 0;
 int main( void )
@@ -224,85 +228,100 @@ int main( void )
 #endif
 
  //   Radio.Rx( RX_TIMEOUT_VALUE );
-    Radio.Send(buf, 12);
+ //   Radio.Send(buf, 12);
 
-    while( 1 )
-    {
-#if 0      
-        switch( State )
-        {
-        case RX:
-	    GPIO_HIGH(LED_RX_PORT, LED_RX_PIN);
-            printf("received:%s, rssi=%d, snr=%d, rx_count=%d\n", Buffer, RssiValue, SnrValue, ++rx_count);
- //           Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
-	    Radio.Rx(5000);	    
-            State = LOWPOWER;
-	    GPIO_LOW(LED_RX_PORT, LED_RX_PIN);
-	    memset(Buffer, 0, BufferSize);
-	    BufferSize = 0;
-            break;
-            
-        case TX:
-            Radio.Rx( RX_TIMEOUT_VALUE );
-            State = LOWPOWER;
-            break;
-        case RX_TIMEOUT:
-        case RX_ERROR:
-            Radio.Rx(5000);
-            State = LOWPOWER;
-            break;
-        case TX_TIMEOUT:       
-            Radio.Rx( RX_TIMEOUT_VALUE );
-            State = LOWPOWER;
-            break;
-        case LOWPOWER:
-        default:
-            // Set low power
-            break;
-        }
-#else
-	
-        switch( State )
-        {
-	case RX:    
-            State = LOWPOWER;
-            break;
-            
-        case TX:
-	    GPIO_HIGH(LED_RX_PORT, LED_TX_PIN);
-            Radio.Send(buf, 12);
-            State = LOWPOWER;
-	    GPIO_LOW(LED_RX_PORT, LED_TX_PIN);
-            break;
-        case RX_TIMEOUT:
-        case RX_ERROR:
-            State = LOWPOWER;
-            break;
-        case TX_TIMEOUT: 
-	    GPIO_HIGH(LED_RX_PORT, LED_RX_PIN);
-            Radio.Send(buf, 12);
-
-            State = LOWPOWER;
-	    GPIO_LOW(LED_RX_PORT, LED_RX_PIN);
-            break;
-        case LOWPOWER:
-        default:
-            // Set low power
-            break;
-        }
-#endif
-        TimerLowPowerHandler( );
-        // Process Radio IRQ
-        Radio.IrqProcess( );
+//    while( 1 )
+//    {
+//#if 0      
+//        switch( State )
+//        {
+//        case RX:
+//	    GPIO_HIGH(LED_RX_PORT, LED_RX_PIN);
+//            printf("received:%s, rssi=%d, snr=%d, rx_count=%d\n", Buffer, RssiValue, SnrValue, ++rx_count);
+// //           Radio.SetRxDutyCycle( RX_TIME, SLEEP_TIME);
+//	    Radio.Rx(5000);	    
+//            State = LOWPOWER;
+//	    GPIO_LOW(LED_RX_PORT, LED_RX_PIN);
+//	    memset(Buffer, 0, BufferSize);
+//	    BufferSize = 0;
+//            break;
+//            
+//        case TX:
+//            Radio.Rx( RX_TIMEOUT_VALUE );
+//            State = LOWPOWER;
+//            break;
+//        case RX_TIMEOUT:
+//        case RX_ERROR:
+//            Radio.Rx(5000);
+//            State = LOWPOWER;
+//            break;
+//        case TX_TIMEOUT:       
+//            Radio.Rx( RX_TIMEOUT_VALUE );
+//            State = LOWPOWER;
+//            break;
+//        case LOWPOWER:
+//        default:
+//            // Set low power
+//            break;
+//        }
+//#else
+//	
+//        switch( State )
+//        {
+//	case RX:    
+//            State = LOWPOWER;
+//            break;
+//            
+//        case TX:
+//	    GPIO_HIGH(LED_RX_PORT, LED_TX_PIN);
+//            Radio.Send(buf, 12);
+//            State = LOWPOWER;
+//	    GPIO_LOW(LED_RX_PORT, LED_TX_PIN);
+//            break;
+//        case RX_TIMEOUT:
+//        case RX_ERROR:
+//            State = LOWPOWER;
+//            break;
+//        case TX_TIMEOUT: 
+//	    GPIO_HIGH(LED_RX_PORT, LED_RX_PIN);
+//            Radio.Send(buf, 12);
+//
+//            State = LOWPOWER;
+//	    GPIO_LOW(LED_RX_PORT, LED_RX_PIN);
+//            break;
+//        case LOWPOWER:
+//        default:
+//            // Set low power
+//            break;
+//        }
+//#endif
+//        TimerLowPowerHandler( );
+//        // Process Radio IRQ
+//        Radio.IrqProcess( );
+//    }
+    if(isMaster){
+    	TimerInit(&SendDataTimer, &SendDataTimerEvent);
+	TimerSetValue(&SendDataTimer, 3000);
+	TimerStart(&SendDataTimer);
+	DelayMs(1);
+	Radio.Send(buf, 13);
+    }
+    else{
+    	Radio.Rx(5000);
+    }
+    while(1){
+    	TimerLowPowerHandler( );
+	Radio.IrqProcess( );
     }
 }
-
+    
 void OnTxDone( void )
 {
     tx_count++;
     printf("OnTxDone, tx_count:%d\n", tx_count);
     Radio.Sleep();
-    State = TX;
+//    State = TX;
+    Radio.Rx(5000);
 }
 
 void OnRxDone( uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr )
@@ -312,7 +331,15 @@ void OnRxDone( uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr )
     memcpy( Buffer, payload, BufferSize );
     RssiValue = rssi;
     SnrValue = snr;
-    State = RX;
+//    State = RX;
+    if(isMaster){
+    	printf("master received:%s, size=%d, rssi=%d, snr=%d, rx_count=%d\n", Buffer, BufferSize, RssiValue, SnrValue, ++rx_count);
+	Radio.Sleep();
+    }
+    else{
+    	printf("slave received:%s, size=%d, rssi=%d, snr=%d, rx_count=%d\n", Buffer, BufferSize, RssiValue, SnrValue, ++rx_count);
+	Radio.Send(Buffer, BufferSize);
+    }
 }
 
 void OnTxTimeout( void )
@@ -321,7 +348,8 @@ void OnTxTimeout( void )
 //    Radio.Sleep();
     Radio.Sleep();
 //    SX126xCheckDeviceReady( );
-    State = TX_TIMEOUT;
+ //   State = TX_TIMEOUT;
+    Radio.Rx(5000);
     
 }
 
@@ -329,12 +357,23 @@ void OnRxTimeout( void )
 {
     printf("OnRxTimeout\r\n");
     Radio.Sleep();
-    State = RX_TIMEOUT;
+ //   State = RX_TIMEOUT;
+    Radio.Rx(5000);
 }
 
 void OnRxError( void )
 {
     printf("OnRxError\n");
     Radio.Sleep();
-    State = RX_ERROR;
+ //   State = RX_ERROR;
+    Radio.Rx(5000);
+}
+
+void SendDataTimerEvent( void ){
+	TimerStop(&SendDataTimer);
+	buf[12]++;
+	if(buf[12] >= 58)
+	  buf[12] = '0';
+	Radio.Send(buf, 13);
+	TimerStart(&SendDataTimer);
 }
