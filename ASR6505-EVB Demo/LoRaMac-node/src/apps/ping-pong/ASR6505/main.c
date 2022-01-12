@@ -182,10 +182,14 @@ int main( void )
     
  /* TX led init: GPIO set in output */
  //   GPIO_Init(LED_TX_PORT, LED_TX_PIN, GPIO_Mode_Out_PP_High_Fast);
- //   GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_Low_Slow);
+//    GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_Low_Slow);
  
 /* TX led init: GPIO set in output */
     GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_High_Fast);
+    GPIO_LOW(LED_RX_PORT, LED_RX_PIN);
+//    GPIO_Init(GPIOF, GPIO_Pin_4, GPIO_Mode_Out_PP_High_Fast);
+//    GPIO_LOW(GPIOF, GPIO_Pin_4);
+//    GPIO_HIGH(GPIOF, GPIO_Pin_4);
 
     // Radio initialization
     RadioEvents.TxDone = OnTxDone;
@@ -370,10 +374,12 @@ void OnRxError( void )
 }
 
 void SendDataTimerEvent( void ){
+  	GPIO_HIGH(LED_RX_PORT, LED_RX_PIN);
 	TimerStop(&SendDataTimer);
 	buf[12]++;
 	if(buf[12] >= 58)
 	  buf[12] = '0';
 	Radio.Send(buf, 13);
 	TimerStart(&SendDataTimer);
+	GPIO_LOW(LED_RX_PORT, LED_RX_PIN);
 }
