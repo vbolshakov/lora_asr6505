@@ -31,6 +31,8 @@
 #include  "asr6505evb-board.h"
 #include "sx126x.h"
 
+#include "adc.h"
+
 #if defined( REGION_AS923 )
 
 #define RF_FREQUENCY                                923000000 // Hz
@@ -179,6 +181,10 @@ int main( void )
     BoardInitMcu( );
     BoardInitPeriph( );
     printf("PingPong test Start!\r\n");
+    
+    adc_init();
+    vol_measure();
+    printf("adc1_value=%d, vrefint=%f", adc1_value, VoltageValue);
     
  /* TX led init: GPIO set in output */
  //   GPIO_Init(LED_TX_PORT, LED_TX_PIN, GPIO_Mode_Out_PP_High_Fast);

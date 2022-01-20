@@ -2356,6 +2356,9 @@
         <group>
             <name>src</name>
             <file>
+                <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_adc.c</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_aes.c</name>
             </file>
             <file>
@@ -2430,6 +2433,9 @@
         </group>
         <group>
             <name>src</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\adc.c</name>
+            </file>
             <file>
                 <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\ping-pong\ASR6505\main.c</name>
             </file>
