@@ -680,6 +680,7 @@ static void OpenContinuousRx2Window( void );
 
 static void OnRadioTxDone( void )
 {
+    printf("TXDONE");
     GetPhyParams_t getPhy;
     PhyParam_t phyParam;
     SetBandTxDoneParams_t txDone;
@@ -775,6 +776,7 @@ static void PrepareRxDoneAbort( void )
 
 static void OnRadioRxDone( uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr )
 {
+    printf("RXDONE");
     int i=0;
     LoRaMacHeader_t macHdr;
     LoRaMacFrameCtrl_t fCtrl;
@@ -1270,11 +1272,14 @@ printf("LoRaMacDevNonce: %08x\r\n", LoRaMacDevNonce);
         // Trig OnMacCheckTimerEvent call as soon as possible
         TimerSetValue( &MacStateCheckTimer, 1 );
         TimerStart( &MacStateCheckTimer );
+	printf("RXDONE_OUT0\n");
     }
+    printf("RXDONE_OUT\n");
 }
 
 static void OnRadioTxTimeout( void )
 {
+    printf("TXTIMEOUT");
     if( LoRaMacDeviceClass != CLASS_C )
     {
         Radio.Sleep( );
@@ -1294,11 +1299,16 @@ static void OnRadioTxTimeout( void )
 
 static void OnRadioRxError( void )
 {
+    printf("RXERROR_IN\n");
+    printf("RXERROR_IN\n");
     if( LoRaMacDeviceClass != CLASS_C )
     {
-        Radio.Sleep( );
+        printf("RXERROR_OUT0\n");
+   //     Radio.Sleep( );
     }
 
+    printf("RXERROR_OUT1\n");
+    
     if( RxSlot == RX_SLOT_WIN_1 )
     {
         if( NodeAckRequested == true )
@@ -1330,14 +1340,18 @@ static void OnRadioRxError( void )
         }
     }
 
+    printf("RXERROR_OUT2\n");
+    
     if( LoRaMacDeviceClass == CLASS_C )
     {
         OpenContinuousRx2Window( );
     }
+    printf("RXERROR_OUT3\n");
 }
 
 static void OnRadioRxTimeout( void )
 {
+    printf("RXTIMEOUT");
     if( LoRaMacDeviceClass != CLASS_C )
     {
         Radio.Sleep( );
@@ -1382,6 +1396,8 @@ static void OnRadioRxTimeout( void )
 
 static void OnMacStateCheckTimerEvent( void )
 {
+    printf("OnMacStateCheckTimerEvent\tstate=%d\n", LoRaMacState);
+    
     GetPhyParams_t getPhy;
     PhyParam_t phyParam;
     bool txTimeout = false;
@@ -1592,6 +1608,7 @@ static void OnMacStateCheckTimerEvent( void )
         }
         if( LoRaMacFlags.Bits.McpsIndSkip == 0 )
         {
+	    printf("call macmcpsindication\n");
             LoRaMacPrimitives->MacMcpsIndication( &McpsIndication );
         }
         LoRaMacFlags.Bits.McpsIndSkip = 0;
@@ -1608,6 +1625,7 @@ static void OnMacStateCheckTimerEvent( void )
             }
 #endif    
     }
+    printf("OnMacStateCheckTimerEvent_OUT\tstate=%d\n", LoRaMacState);
 }
 
 static void OnTxDelayedTimerEvent( void )
@@ -1662,6 +1680,7 @@ static void OnRxWindow1TimerEvent( void )
 
     RegionRxConfig( LoRaMacRegion, &RxWindow1Config, ( int8_t* )&McpsIndication.RxDatarate );
     RxWindowSetup( RxWindow1Config.RxContinuous, LoRaMacParams.MaxRxWindow );
+    printf("RxWindow1");
 }
 
 static void OnRxWindow2TimerEvent( void )
@@ -1688,6 +1707,7 @@ static void OnRxWindow2TimerEvent( void )
     {
         RxWindowSetup( RxWindow2Config.RxContinuous, LoRaMacParams.MaxRxWindow );
         RxSlot = RX_SLOT_WIN_2;
+	printf("RxWindow2");
     }
 }
 

@@ -56,3 +56,16 @@ void DelayMsMcu( uint32_t ms )
 /* Disable Counter */
   TIM4->CR1 &= ~TIM4_CR1_CEN; 
 }
+
+void delay_us_Mcu(uint16_t us){
+  TIM4->PSCR = 0;
+  TIM4->ARR = 15;
+  TIM4->SR1 &= ~TIM4_SR1_UIF;
+  TIM4->CR1 |= TIM4_CR1_CEN;
+  while(us--)
+  {
+    while((TIM4->SR1 & TIM4_SR1_UIF) == 0) ;
+    TIM4->SR1 &= ~TIM4_SR1_UIF;
+  }
+  TIM4->CR1 &= ~TIM4_CR1_CEN; 
+}

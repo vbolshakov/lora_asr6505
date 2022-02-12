@@ -23,6 +23,7 @@ void vol_measure(){
         ADC_ClearFlag (ADC1,ADC_FLAG_EOC);//清除相关标识
        
         adc1_value=ADC_GetConversionValue (ADC1);//获取转换值
-        VoltageValue=adc1_value*0.000805664;	//3.3UL/4095UL=0.000805664
+     //   VoltageValue=adc1_value*0.000805664;	//3.3UL/4095UL=0.000805664
+	VoltageValue=5013.504/adc1_value; //4096*1.224
 	
 }

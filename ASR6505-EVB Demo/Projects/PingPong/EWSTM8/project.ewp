@@ -1924,7 +1924,13 @@
         <group>
             <name>src</name>
             <file>
-                <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\adc.c</name>
+                <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\ping-pong\ASR6505\adc.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\boards\ds18b20.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\ping-pong\ASR6505\e2prom.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\ping-pong\ASR6505\main.c</name>

@@ -12,7 +12,7 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <DebugChecksum>
-        <Checksum>1527388101</Checksum>
+        <Checksum>2357322987</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -39,13 +39,12 @@
         <Bp1>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505}.2392.1" 0 0 0 0 "" 0 ""</Bp1>
         <Bp2>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505}.2014.1" 0 0 0 0 "" 0 ""</Bp2>
         <Bp3>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505}.2014.5" 0 0 0 0 "" 0 ""</Bp3>
-        <Bp4>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\mac\LoRaMac.c}.3298.22" 0 0 0 0 "" 0 ""</Bp4>
-        <Bp5>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505}.2572.5" 0 0 0 0 "" 0 ""</Bp5>
-        <Bp6>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505}.2578.5" 0 0 0 0 "" 0 ""</Bp6>
-        <Count>7</Count>
+        <Bp4>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505}.2572.5" 0 0 0 0 "" 0 ""</Bp4>
+        <Bp5>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\LoRaMac\classA\ASR6505}.2578.5" 0 0 0 0 "" 0 ""</Bp5>
+        <Count>6</Count>
     </Breakpoints>
     <Aliases>
-        <A0>_ "D:\msys32\home\ruilinhao\new_git\6505\test_new\ASR6505\LoRaMac-node\src\boards\ASR6505\rtc-board.c" ""</A0>
+        <A0>_ "D:\msys32\home\ruilinhao\new_git\6505\test_new\ASR6505\LoRaMac-node\src\boards\ASR6505\rtc-board.c" "D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Libraries\asrlib\IAR\asrlib.a"</A0>
         <A1>_ "E:\ASR6505\Software_Release_V10\SDK\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" "D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c"</A1>
         <Count>2</Count>
         <SuppressDialog>0</SuppressDialog>

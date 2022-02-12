@@ -69372,13 +69372,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@17539@F@OnRadioTxDone@getPhy",
+    "ID": "c:LoRaMac.c@17563@F@OnRadioTxDone@getPhy",
     "What": "Variable",
     "defdec": "Def",
     "display": "getPhy",
     "location": {
       "column": "20",
-      "line": "667",
+      "line": "668",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "getPhy",
@@ -69386,13 +69386,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@17567@F@OnRadioTxDone@phyParam",
+    "ID": "c:LoRaMac.c@17591@F@OnRadioTxDone@phyParam",
     "What": "Variable",
     "defdec": "Def",
     "display": "phyParam",
     "location": {
       "column": "16",
-      "line": "668",
+      "line": "669",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "phyParam",
@@ -69400,13 +69400,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@17593@F@OnRadioTxDone@txDone",
+    "ID": "c:LoRaMac.c@17617@F@OnRadioTxDone@txDone",
     "What": "Variable",
     "defdec": "Def",
     "display": "txDone",
     "location": {
       "column": "27",
-      "line": "669",
+      "line": "670",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "txDone",
@@ -69414,13 +69414,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@17628@F@OnRadioTxDone@curTime",
+    "ID": "c:LoRaMac.c@17652@F@OnRadioTxDone@curTime",
     "What": "Variable",
     "defdec": "Def",
     "display": "curTime",
     "location": {
       "column": "17",
-      "line": "670",
+      "line": "671",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "curTime",
@@ -69434,7 +69434,7 @@
     "display": "void PrepareRxDoneAbort(void)",
     "location": {
       "column": "13",
-      "line": "737",
+      "line": "738",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "PrepareRxDoneAbort",
@@ -69448,7 +69448,7 @@
     "display": "void OnRadioRxDone(uint8_t *, uint16_t, int16_t, int8_t)",
     "location": {
       "column": "13",
-      "line": "754",
+      "line": "755",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "OnRadioRxDone",
@@ -69456,13 +69456,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20089@F@OnRadioRxDone@macHdr",
+    "ID": "c:LoRaMac.c@20141@F@OnRadioRxDone@macHdr",
     "What": "Variable",
     "defdec": "Def",
     "display": "macHdr",
     "location": {
       "column": "21",
-      "line": "757",
+      "line": "760",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "macHdr",
@@ -69470,13 +69470,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20118@F@OnRadioRxDone@fCtrl",
+    "ID": "c:LoRaMac.c@20170@F@OnRadioRxDone@fCtrl",
     "What": "Variable",
     "defdec": "Def",
     "display": "fCtrl",
     "location": {
       "column": "24",
-      "line": "758",
+      "line": "761",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "fCtrl",
@@ -69484,13 +69484,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20149@F@OnRadioRxDone@applyCFList",
+    "ID": "c:LoRaMac.c@20201@F@OnRadioRxDone@applyCFList",
     "What": "Variable",
     "defdec": "Def",
     "display": "applyCFList",
     "location": {
       "column": "25",
-      "line": "759",
+      "line": "762",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "applyCFList",
@@ -69498,13 +69498,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20187@F@OnRadioRxDone@getPhy",
+    "ID": "c:LoRaMac.c@20239@F@OnRadioRxDone@getPhy",
     "What": "Variable",
     "defdec": "Def",
     "display": "getPhy",
     "location": {
       "column": "20",
-      "line": "760",
+      "line": "763",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "getPhy",
@@ -69512,13 +69512,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20215@F@OnRadioRxDone@phyParam",
+    "ID": "c:LoRaMac.c@20267@F@OnRadioRxDone@phyParam",
     "What": "Variable",
     "defdec": "Def",
     "display": "phyParam",
     "location": {
       "column": "16",
-      "line": "761",
+      "line": "764",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "phyParam",
@@ -69526,13 +69526,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20243@F@OnRadioRxDone@pktHeaderLen",
+    "ID": "c:LoRaMac.c@20295@F@OnRadioRxDone@pktHeaderLen",
     "What": "Variable",
     "defdec": "Def",
     "display": "pktHeaderLen",
     "location": {
       "column": "13",
-      "line": "763",
+      "line": "766",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "pktHeaderLen",
@@ -69540,13 +69540,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20274@F@OnRadioRxDone@address",
+    "ID": "c:LoRaMac.c@20326@F@OnRadioRxDone@address",
     "What": "Variable",
     "defdec": "Def",
     "display": "address",
     "location": {
       "column": "14",
-      "line": "764",
+      "line": "767",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "address",
@@ -69554,13 +69554,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20301@F@OnRadioRxDone@appPayloadStartIndex",
+    "ID": "c:LoRaMac.c@20353@F@OnRadioRxDone@appPayloadStartIndex",
     "What": "Variable",
     "defdec": "Def",
     "display": "appPayloadStartIndex",
     "location": {
       "column": "13",
-      "line": "765",
+      "line": "768",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "appPayloadStartIndex",
@@ -69568,13 +69568,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20340@F@OnRadioRxDone@port",
+    "ID": "c:LoRaMac.c@20392@F@OnRadioRxDone@port",
     "What": "Variable",
     "defdec": "Def",
     "display": "port",
     "location": {
       "column": "13",
-      "line": "766",
+      "line": "769",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "port",
@@ -69582,13 +69582,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20366@F@OnRadioRxDone@frameLen",
+    "ID": "c:LoRaMac.c@20418@F@OnRadioRxDone@frameLen",
     "What": "Variable",
     "defdec": "Def",
     "display": "frameLen",
     "location": {
       "column": "13",
-      "line": "767",
+      "line": "770",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "frameLen",
@@ -69596,13 +69596,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20393@F@OnRadioRxDone@mic",
+    "ID": "c:LoRaMac.c@20445@F@OnRadioRxDone@mic",
     "What": "Variable",
     "defdec": "Def",
     "display": "mic",
     "location": {
       "column": "14",
-      "line": "768",
+      "line": "771",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "mic",
@@ -69610,13 +69610,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20416@F@OnRadioRxDone@micRx",
+    "ID": "c:LoRaMac.c@20468@F@OnRadioRxDone@micRx",
     "What": "Variable",
     "defdec": "Def",
     "display": "micRx",
     "location": {
       "column": "14",
-      "line": "769",
+      "line": "772",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "micRx",
@@ -69624,13 +69624,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20443@F@OnRadioRxDone@sequenceCounter",
+    "ID": "c:LoRaMac.c@20495@F@OnRadioRxDone@sequenceCounter",
     "What": "Variable",
     "defdec": "Def",
     "display": "sequenceCounter",
     "location": {
       "column": "14",
-      "line": "771",
+      "line": "774",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "sequenceCounter",
@@ -69638,13 +69638,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20478@F@OnRadioRxDone@sequenceCounterPrev",
+    "ID": "c:LoRaMac.c@20530@F@OnRadioRxDone@sequenceCounterPrev",
     "What": "Variable",
     "defdec": "Def",
     "display": "sequenceCounterPrev",
     "location": {
       "column": "14",
-      "line": "772",
+      "line": "775",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "sequenceCounterPrev",
@@ -69652,13 +69652,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20517@F@OnRadioRxDone@sequenceCounterDiff",
+    "ID": "c:LoRaMac.c@20569@F@OnRadioRxDone@sequenceCounterDiff",
     "What": "Variable",
     "defdec": "Def",
     "display": "sequenceCounterDiff",
     "location": {
       "column": "14",
-      "line": "773",
+      "line": "776",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "sequenceCounterDiff",
@@ -69666,13 +69666,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20556@F@OnRadioRxDone@downLinkCounter",
+    "ID": "c:LoRaMac.c@20608@F@OnRadioRxDone@downLinkCounter",
     "What": "Variable",
     "defdec": "Def",
     "display": "downLinkCounter",
     "location": {
       "column": "14",
-      "line": "774",
+      "line": "777",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "downLinkCounter",
@@ -69680,13 +69680,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20593@F@OnRadioRxDone@curMulticastParams",
+    "ID": "c:LoRaMac.c@20645@F@OnRadioRxDone@curMulticastParams",
     "What": "Variable",
     "defdec": "Def",
     "display": "curMulticastParams",
     "location": {
       "column": "24",
-      "line": "776",
+      "line": "779",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "curMulticastParams",
@@ -69694,13 +69694,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20644@F@OnRadioRxDone@nwkSKey",
+    "ID": "c:LoRaMac.c@20696@F@OnRadioRxDone@nwkSKey",
     "What": "Variable",
     "defdec": "Def",
     "display": "nwkSKey",
     "location": {
       "column": "14",
-      "line": "777",
+      "line": "780",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "nwkSKey",
@@ -69708,13 +69708,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20684@F@OnRadioRxDone@appSKey",
+    "ID": "c:LoRaMac.c@20736@F@OnRadioRxDone@appSKey",
     "What": "Variable",
     "defdec": "Def",
     "display": "appSKey",
     "location": {
       "column": "14",
-      "line": "778",
+      "line": "781",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "appSKey",
@@ -69722,13 +69722,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20726@F@OnRadioRxDone@multicast",
+    "ID": "c:LoRaMac.c@20778@F@OnRadioRxDone@multicast",
     "What": "Variable",
     "defdec": "Def",
     "display": "multicast",
     "location": {
       "column": "13",
-      "line": "780",
+      "line": "783",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "multicast",
@@ -69736,13 +69736,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@20756@F@OnRadioRxDone@isMicOk",
+    "ID": "c:LoRaMac.c@20808@F@OnRadioRxDone@isMicOk",
     "What": "Variable",
     "defdec": "Def",
     "display": "isMicOk",
     "location": {
       "column": "10",
-      "line": "782",
+      "line": "785",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "isMicOk",
@@ -69750,13 +69750,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@28610@F@OnRadioRxDone@downLinkCounterTmp",
+    "ID": "c:LoRaMac.c@28662@F@OnRadioRxDone@downLinkCounterTmp",
     "What": "Variable",
     "defdec": "Def",
     "display": "downLinkCounterTmp",
     "location": {
       "column": "31",
-      "line": "978",
+      "line": "981",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "downLinkCounterTmp",
@@ -69770,7 +69770,7 @@
     "display": "void OnRadioTxTimeout(void)",
     "location": {
       "column": "13",
-      "line": "1188",
+      "line": "1191",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "OnRadioTxTimeout",
@@ -69784,7 +69784,7 @@
     "display": "void OnRadioRxError(void)",
     "location": {
       "column": "13",
-      "line": "1204",
+      "line": "1208",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "OnRadioRxError",
@@ -69798,7 +69798,7 @@
     "display": "void OnRadioRxTimeout(void)",
     "location": {
       "column": "13",
-      "line": "1248",
+      "line": "1253",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "OnRadioRxTimeout",
@@ -69812,7 +69812,7 @@
     "display": "void OnMacStateCheckTimerEvent(void)",
     "location": {
       "column": "13",
-      "line": "1292",
+      "line": "1298",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "OnMacStateCheckTimerEvent",
@@ -69820,13 +69820,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@41287@F@OnMacStateCheckTimerEvent@getPhy",
+    "ID": "c:LoRaMac.c@41418@F@OnMacStateCheckTimerEvent@getPhy",
     "What": "Variable",
     "defdec": "Def",
     "display": "getPhy",
     "location": {
       "column": "20",
-      "line": "1294",
+      "line": "1300",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "getPhy",
@@ -69834,13 +69834,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@41315@F@OnMacStateCheckTimerEvent@phyParam",
+    "ID": "c:LoRaMac.c@41446@F@OnMacStateCheckTimerEvent@phyParam",
     "What": "Variable",
     "defdec": "Def",
     "display": "phyParam",
     "location": {
       "column": "16",
-      "line": "1295",
+      "line": "1301",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "phyParam",
@@ -69848,13 +69848,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@41341@F@OnMacStateCheckTimerEvent@txTimeout",
+    "ID": "c:LoRaMac.c@41472@F@OnMacStateCheckTimerEvent@txTimeout",
     "What": "Variable",
     "defdec": "Def",
     "display": "txTimeout",
     "location": {
       "column": "10",
-      "line": "1296",
+      "line": "1302",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "txTimeout",
@@ -69868,7 +69868,7 @@
     "display": "void OnTxDelayedTimerEvent(void)",
     "location": {
       "column": "13",
-      "line": "1494",
+      "line": "1500",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "OnTxDelayedTimerEvent",
@@ -69882,7 +69882,7 @@
     "display": "void OnRxWindow1TimerEvent(void)",
     "location": {
       "column": "13",
-      "line": "1503",
+      "line": "1509",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "OnRxWindow1TimerEvent",
@@ -69896,7 +69896,7 @@
     "display": "void OnRxWindow2TimerEvent(void)",
     "location": {
       "column": "13",
-      "line": "1524",
+      "line": "1530",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "OnRxWindow2TimerEvent",
@@ -69910,7 +69910,7 @@
     "display": "void CheckToDisableAckTimeout(bool, DeviceClass_t, bool, uint8_t, uint8_t)",
     "location": {
       "column": "13",
-      "line": "1551",
+      "line": "1557",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "CheckToDisableAckTimeout",
@@ -69924,7 +69924,7 @@
     "display": "void OnAckTimeoutTimerEvent(void)",
     "location": {
       "column": "13",
-      "line": "1586",
+      "line": "1592",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "OnAckTimeoutTimerEvent",
@@ -69938,7 +69938,7 @@
     "display": "void RxWindowSetup(bool, uint32_t)",
     "location": {
       "column": "13",
-      "line": "1601",
+      "line": "1607",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "RxWindowSetup",
@@ -69952,7 +69952,7 @@
     "display": "bool ValidatePayloadLength(uint8_t, int8_t, uint8_t)",
     "location": {
       "column": "13",
-      "line": "1613",
+      "line": "1619",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "ValidatePayloadLength",
@@ -69960,13 +69960,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@52507@F@ValidatePayloadLength@getPhy",
+    "ID": "c:LoRaMac.c@52638@F@ValidatePayloadLength@getPhy",
     "What": "Variable",
     "defdec": "Def",
     "display": "getPhy",
     "location": {
       "column": "20",
-      "line": "1615",
+      "line": "1621",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "getPhy",
@@ -69974,13 +69974,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@52535@F@ValidatePayloadLength@phyParam",
+    "ID": "c:LoRaMac.c@52666@F@ValidatePayloadLength@phyParam",
     "What": "Variable",
     "defdec": "Def",
     "display": "phyParam",
     "location": {
       "column": "16",
-      "line": "1616",
+      "line": "1622",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "phyParam",
@@ -69988,13 +69988,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@52561@F@ValidatePayloadLength@maxN",
+    "ID": "c:LoRaMac.c@52692@F@ValidatePayloadLength@maxN",
     "What": "Variable",
     "defdec": "Def",
     "display": "maxN",
     "location": {
       "column": "14",
-      "line": "1617",
+      "line": "1623",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "maxN",
@@ -70002,13 +70002,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@52585@F@ValidatePayloadLength@payloadSize",
+    "ID": "c:LoRaMac.c@52716@F@ValidatePayloadLength@payloadSize",
     "What": "Variable",
     "defdec": "Def",
     "display": "payloadSize",
     "location": {
       "column": "14",
-      "line": "1618",
+      "line": "1624",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "payloadSize",
@@ -70022,7 +70022,7 @@
     "display": "bool IsStickyMacCommandPending(void)",
     "location": {
       "column": "13",
-      "line": "1644",
+      "line": "1650",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "IsStickyMacCommandPending",
@@ -70036,7 +70036,7 @@
     "display": "void SetMlmeScheduleUplinkIndication(void)",
     "location": {
       "column": "13",
-      "line": "1654",
+      "line": "1660",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "SetMlmeScheduleUplinkIndication",
@@ -70050,7 +70050,7 @@
     "display": "LoRaMacStatus_t AddMacCommand(uint8_t, uint8_t, uint8_t)",
     "location": {
       "column": "24",
-      "line": "1660",
+      "line": "1666",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "AddMacCommand",
@@ -70058,13 +70058,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@53724@F@AddMacCommand@status",
+    "ID": "c:LoRaMac.c@53855@F@AddMacCommand@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "21",
-      "line": "1662",
+      "line": "1668",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "status",
@@ -70072,13 +70072,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@53857@F@AddMacCommand@bufLen",
+    "ID": "c:LoRaMac.c@53988@F@AddMacCommand@bufLen",
     "What": "Variable",
     "defdec": "Def",
     "display": "bufLen",
     "location": {
       "column": "13",
-      "line": "1664",
+      "line": "1670",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "bufLen",
@@ -70092,7 +70092,7 @@
     "display": "uint8_t ParseMacCommandsToRepeat(uint8_t *, uint8_t, uint8_t *)",
     "location": {
       "column": "16",
-      "line": "1765",
+      "line": "1771",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "ParseMacCommandsToRepeat",
@@ -70100,13 +70100,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@57855@F@ParseMacCommandsToRepeat@i",
+    "ID": "c:LoRaMac.c@57986@F@ParseMacCommandsToRepeat@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "13",
-      "line": "1767",
+      "line": "1773",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "i",
@@ -70114,13 +70114,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@57875@F@ParseMacCommandsToRepeat@cmdCount",
+    "ID": "c:LoRaMac.c@58006@F@ParseMacCommandsToRepeat@cmdCount",
     "What": "Variable",
     "defdec": "Def",
     "display": "cmdCount",
     "location": {
       "column": "13",
-      "line": "1768",
+      "line": "1774",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "cmdCount",
@@ -70134,7 +70134,7 @@
     "display": "void ProcessMacCommands(uint8_t *, uint8_t, uint8_t, uint8_t)",
     "location": {
       "column": "13",
-      "line": "1818",
+      "line": "1824",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "ProcessMacCommands",
@@ -70142,13 +70142,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@59302@F@ProcessMacCommands@i",
+    "ID": "c:LoRaMac.c@59433@F@ProcessMacCommands@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "13",
-      "line": "1820",
+      "line": "1826",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "i",
@@ -70156,13 +70156,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@59322@F@ProcessMacCommands@status",
+    "ID": "c:LoRaMac.c@59453@F@ProcessMacCommands@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "13",
-      "line": "1821",
+      "line": "1827",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "status",
@@ -70170,13 +70170,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@59818@F@ProcessMacCommands@linkAdrReq",
+    "ID": "c:LoRaMac.c@59949@F@ProcessMacCommands@linkAdrReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "linkAdrReq",
     "location": {
       "column": "40",
-      "line": "1835",
+      "line": "1841",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "linkAdrReq",
@@ -70184,13 +70184,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@59870@F@ProcessMacCommands@linkAdrDatarate",
+    "ID": "c:LoRaMac.c@60001@F@ProcessMacCommands@linkAdrDatarate",
     "What": "Variable",
     "defdec": "Def",
     "display": "linkAdrDatarate",
     "location": {
       "column": "28",
-      "line": "1836",
+      "line": "1842",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "linkAdrDatarate",
@@ -70198,13 +70198,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@59922@F@ProcessMacCommands@linkAdrTxPower",
+    "ID": "c:LoRaMac.c@60053@F@ProcessMacCommands@linkAdrTxPower",
     "What": "Variable",
     "defdec": "Def",
     "display": "linkAdrTxPower",
     "location": {
       "column": "28",
-      "line": "1837",
+      "line": "1843",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "linkAdrTxPower",
@@ -70212,13 +70212,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@59979@F@ProcessMacCommands@linkAdrNbRep",
+    "ID": "c:LoRaMac.c@60110@F@ProcessMacCommands@linkAdrNbRep",
     "What": "Variable",
     "defdec": "Def",
     "display": "linkAdrNbRep",
     "location": {
       "column": "29",
-      "line": "1838",
+      "line": "1844",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "linkAdrNbRep",
@@ -70226,13 +70226,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@60026@F@ProcessMacCommands@linkAdrNbBytesParsed",
+    "ID": "c:LoRaMac.c@60157@F@ProcessMacCommands@linkAdrNbBytesParsed",
     "What": "Variable",
     "defdec": "Def",
     "display": "linkAdrNbBytesParsed",
     "location": {
       "column": "29",
-      "line": "1839",
+      "line": "1845",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "linkAdrNbBytesParsed",
@@ -70240,13 +70240,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@61912@F@ProcessMacCommands@rxParamSetupReq",
+    "ID": "c:LoRaMac.c@62043@F@ProcessMacCommands@rxParamSetupReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "rxParamSetupReq",
     "location": {
       "column": "45",
-      "line": "1877",
+      "line": "1883",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "rxParamSetupReq",
@@ -70254,13 +70254,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@63197@F@ProcessMacCommands@batteryLevel",
+    "ID": "c:LoRaMac.c@63328@F@ProcessMacCommands@batteryLevel",
     "What": "Variable",
     "defdec": "Def",
     "display": "batteryLevel",
     "location": {
       "column": "29",
-      "line": "1903",
+      "line": "1909",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "batteryLevel",
@@ -70268,13 +70268,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@63689@F@ProcessMacCommands@newChannelReq",
+    "ID": "c:LoRaMac.c@63820@F@ProcessMacCommands@newChannelReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "newChannelReq",
     "location": {
       "column": "43",
-      "line": "1913",
+      "line": "1919",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "newChannelReq",
@@ -70282,13 +70282,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@63747@F@ProcessMacCommands@chParam",
+    "ID": "c:LoRaMac.c@63878@F@ProcessMacCommands@chParam",
     "What": "Variable",
     "defdec": "Def",
     "display": "chParam",
     "location": {
       "column": "37",
-      "line": "1914",
+      "line": "1920",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "chParam",
@@ -70296,13 +70296,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@64626@F@ProcessMacCommands@delay",
+    "ID": "c:LoRaMac.c@64757@F@ProcessMacCommands@delay",
     "What": "Variable",
     "defdec": "Def",
     "display": "delay",
     "location": {
       "column": "29",
-      "line": "1934",
+      "line": "1940",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "delay",
@@ -70310,13 +70310,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@65145@F@ProcessMacCommands@txParamSetupReq",
+    "ID": "c:LoRaMac.c@65276@F@ProcessMacCommands@txParamSetupReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "txParamSetupReq",
     "location": {
       "column": "45",
-      "line": "1947",
+      "line": "1953",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "txParamSetupReq",
@@ -70324,13 +70324,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@65207@F@ProcessMacCommands@eirpDwellTime",
+    "ID": "c:LoRaMac.c@65338@F@ProcessMacCommands@eirpDwellTime",
     "What": "Variable",
     "defdec": "Def",
     "display": "eirpDwellTime",
     "location": {
       "column": "29",
-      "line": "1948",
+      "line": "1954",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "eirpDwellTime",
@@ -70338,13 +70338,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@66549@F@ProcessMacCommands@dlChannelReq",
+    "ID": "c:LoRaMac.c@66680@F@ProcessMacCommands@dlChannelReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "dlChannelReq",
     "location": {
       "column": "42",
-      "line": "1977",
+      "line": "1983",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "dlChannelReq",
@@ -70358,7 +70358,7 @@
     "display": "LoRaMacStatus_t Send(LoRaMacHeader_t *, uint8_t, void *, uint16_t)",
     "location": {
       "column": "17",
-      "line": "1998",
+      "line": "2004",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "Send",
@@ -70366,13 +70366,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@67452@F@Send@fCtrl",
+    "ID": "c:LoRaMac.c@67583@F@Send@fCtrl",
     "What": "Variable",
     "defdec": "Def",
     "display": "fCtrl",
     "location": {
       "column": "24",
-      "line": "2000",
+      "line": "2006",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "fCtrl",
@@ -70380,13 +70380,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@67483@F@Send@status",
+    "ID": "c:LoRaMac.c@67614@F@Send@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "21",
-      "line": "2001",
+      "line": "2007",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "status",
@@ -70400,7 +70400,7 @@
     "display": "LoRaMacStatus_t ScheduleTx(bool)",
     "location": {
       "column": "24",
-      "line": "2030",
+      "line": "2036",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "ScheduleTx",
@@ -70408,13 +70408,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@68305@F@ScheduleTx@status",
+    "ID": "c:LoRaMac.c@68436@F@ScheduleTx@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "21",
-      "line": "2032",
+      "line": "2038",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "status",
@@ -70422,13 +70422,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@68369@F@ScheduleTx@dutyCycleTimeOff",
+    "ID": "c:LoRaMac.c@68500@F@ScheduleTx@dutyCycleTimeOff",
     "What": "Variable",
     "defdec": "Def",
     "display": "dutyCycleTimeOff",
     "location": {
       "column": "17",
-      "line": "2033",
+      "line": "2039",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "dutyCycleTimeOff",
@@ -70436,13 +70436,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@68408@F@ScheduleTx@nextChan",
+    "ID": "c:LoRaMac.c@68539@F@ScheduleTx@nextChan",
     "What": "Variable",
     "defdec": "Def",
     "display": "nextChan",
     "location": {
       "column": "22",
-      "line": "2034",
+      "line": "2040",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "nextChan",
@@ -70456,7 +70456,7 @@
     "display": "void CalculateBackOff(uint8_t)",
     "location": {
       "column": "13",
-      "line": "2111",
+      "line": "2117",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "CalculateBackOff",
@@ -70464,13 +70464,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@71405@F@CalculateBackOff@calcBackOff",
+    "ID": "c:LoRaMac.c@71536@F@CalculateBackOff@calcBackOff",
     "What": "Variable",
     "defdec": "Def",
     "display": "calcBackOff",
     "location": {
       "column": "25",
-      "line": "2113",
+      "line": "2119",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "calcBackOff",
@@ -70484,7 +70484,7 @@
     "display": "void ResetMacParameters(void)",
     "location": {
       "column": "13",
-      "line": "2130",
+      "line": "2136",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "ResetMacParameters",
@@ -70492,13 +70492,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@72145@F@ResetMacParameters@cur",
+    "ID": "c:LoRaMac.c@72276@F@ResetMacParameters@cur",
     "What": "Variable",
     "defdec": "Def",
     "display": "cur",
     "location": {
       "column": "24",
-      "line": "2132",
+      "line": "2138",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "cur",
@@ -70512,7 +70512,7 @@
     "display": "bool IsFPortAllowed(uint8_t)",
     "location": {
       "column": "13",
-      "line": "2183",
+      "line": "2189",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "IsFPortAllowed",
@@ -70526,7 +70526,7 @@
     "display": "void OpenContinuousRx2Window(void)",
     "location": {
       "column": "13",
-      "line": "2192",
+      "line": "2198",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "OpenContinuousRx2Window",
@@ -70540,7 +70540,7 @@
     "display": "LoRaMacStatus_t PrepareFrame(LoRaMacHeader_t *, LoRaMacFrameCtrl_t *, uint8_t, void *, uint16_t)",
     "location": {
       "column": "17",
-      "line": "2198",
+      "line": "2204",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "PrepareFrame",
@@ -70548,13 +70548,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@74062@F@PrepareFrame@adrNext",
+    "ID": "c:LoRaMac.c@74193@F@PrepareFrame@adrNext",
     "What": "Variable",
     "defdec": "Def",
     "display": "adrNext",
     "location": {
       "column": "21",
-      "line": "2200",
+      "line": "2206",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "adrNext",
@@ -70562,13 +70562,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@74092@F@PrepareFrame@i",
+    "ID": "c:LoRaMac.c@74223@F@PrepareFrame@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "14",
-      "line": "2201",
+      "line": "2207",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "i",
@@ -70576,13 +70576,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@74109@F@PrepareFrame@pktHeaderLen",
+    "ID": "c:LoRaMac.c@74240@F@PrepareFrame@pktHeaderLen",
     "What": "Variable",
     "defdec": "Def",
     "display": "pktHeaderLen",
     "location": {
       "column": "13",
-      "line": "2202",
+      "line": "2208",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "pktHeaderLen",
@@ -70590,13 +70590,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@74140@F@PrepareFrame@mic",
+    "ID": "c:LoRaMac.c@74271@F@PrepareFrame@mic",
     "What": "Variable",
     "defdec": "Def",
     "display": "mic",
     "location": {
       "column": "14",
-      "line": "2203",
+      "line": "2209",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "mic",
@@ -70604,13 +70604,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@74163@F@PrepareFrame@payload",
+    "ID": "c:LoRaMac.c@74294@F@PrepareFrame@payload",
     "What": "Variable",
     "defdec": "Def",
     "display": "payload",
     "location": {
       "column": "17",
-      "line": "2204",
+      "line": "2210",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "payload",
@@ -70618,13 +70618,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@74199@F@PrepareFrame@framePort",
+    "ID": "c:LoRaMac.c@74330@F@PrepareFrame@framePort",
     "What": "Variable",
     "defdec": "Def",
     "display": "framePort",
     "location": {
       "column": "13",
-      "line": "2205",
+      "line": "2211",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "framePort",
@@ -70638,7 +70638,7 @@
     "display": "LoRaMacStatus_t SendFrameOnChannel(uint8_t)",
     "location": {
       "column": "17",
-      "line": "2363",
+      "line": "2369",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "SendFrameOnChannel",
@@ -70646,13 +70646,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@80965@F@SendFrameOnChannel@txConfig",
+    "ID": "c:LoRaMac.c@81096@F@SendFrameOnChannel@txConfig",
     "What": "Variable",
     "defdec": "Def",
     "display": "txConfig",
     "location": {
       "column": "22",
-      "line": "2365",
+      "line": "2371",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "txConfig",
@@ -70660,13 +70660,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@80997@F@SendFrameOnChannel@txPower",
+    "ID": "c:LoRaMac.c@81128@F@SendFrameOnChannel@txPower",
     "What": "Variable",
     "defdec": "Def",
     "display": "txPower",
     "location": {
       "column": "12",
-      "line": "2366",
+      "line": "2372",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "txPower",
@@ -70680,7 +70680,7 @@
     "display": "LoRaMacStatus_t SetTxContinuousWave(uint16_t)",
     "location": {
       "column": "17",
-      "line": "2399",
+      "line": "2405",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "SetTxContinuousWave",
@@ -70688,13 +70688,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@82135@F@SetTxContinuousWave@continuousWave",
+    "ID": "c:LoRaMac.c@82266@F@SetTxContinuousWave@continuousWave",
     "What": "Variable",
     "defdec": "Def",
     "display": "continuousWave",
     "location": {
       "column": "28",
-      "line": "2401",
+      "line": "2407",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "continuousWave",
@@ -70708,7 +70708,7 @@
     "display": "LoRaMacStatus_t SetTxContinuousWave1(uint16_t, uint32_t, uint8_t)",
     "location": {
       "column": "17",
-      "line": "2421",
+      "line": "2427",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "SetTxContinuousWave1",
@@ -70722,7 +70722,7 @@
     "display": "LoRaMacStatus_t LoRaMacInitialization(LoRaMacPrimitives_t *, LoRaMacCallback_t *, LoRaMacRegion_t)",
     "location": {
       "column": "17",
-      "line": "2434",
+      "line": "2440",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacInitialization",
@@ -70730,13 +70730,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@83329@F@LoRaMacInitialization@getPhy",
+    "ID": "c:LoRaMac.c@83460@F@LoRaMacInitialization@getPhy",
     "What": "Variable",
     "defdec": "Def",
     "display": "getPhy",
     "location": {
       "column": "20",
-      "line": "2436",
+      "line": "2442",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "getPhy",
@@ -70744,13 +70744,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@83357@F@LoRaMacInitialization@phyParam",
+    "ID": "c:LoRaMac.c@83488@F@LoRaMacInitialization@phyParam",
     "What": "Variable",
     "defdec": "Def",
     "display": "phyParam",
     "location": {
       "column": "16",
-      "line": "2437",
+      "line": "2443",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "phyParam",
@@ -70764,7 +70764,7 @@
     "display": "LoRaMacStatus_t LoRaMacQueryTxPossible(uint8_t, LoRaMacTxInfo_t *)",
     "location": {
       "column": "17",
-      "line": "2581",
+      "line": "2587",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacQueryTxPossible",
@@ -70772,13 +70772,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@88745@F@LoRaMacQueryTxPossible@adrNext",
+    "ID": "c:LoRaMac.c@88876@F@LoRaMacQueryTxPossible@adrNext",
     "What": "Variable",
     "defdec": "Def",
     "display": "adrNext",
     "location": {
       "column": "21",
-      "line": "2583",
+      "line": "2589",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "adrNext",
@@ -70786,13 +70786,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@88775@F@LoRaMacQueryTxPossible@getPhy",
+    "ID": "c:LoRaMac.c@88906@F@LoRaMacQueryTxPossible@getPhy",
     "What": "Variable",
     "defdec": "Def",
     "display": "getPhy",
     "location": {
       "column": "20",
-      "line": "2584",
+      "line": "2590",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "getPhy",
@@ -70800,13 +70800,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@88803@F@LoRaMacQueryTxPossible@phyParam",
+    "ID": "c:LoRaMac.c@88934@F@LoRaMacQueryTxPossible@phyParam",
     "What": "Variable",
     "defdec": "Def",
     "display": "phyParam",
     "location": {
       "column": "16",
-      "line": "2585",
+      "line": "2591",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "phyParam",
@@ -70814,13 +70814,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@88829@F@LoRaMacQueryTxPossible@datarate",
+    "ID": "c:LoRaMac.c@88960@F@LoRaMacQueryTxPossible@datarate",
     "What": "Variable",
     "defdec": "Def",
     "display": "datarate",
     "location": {
       "column": "12",
-      "line": "2586",
+      "line": "2592",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "datarate",
@@ -70828,13 +70828,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@88892@F@LoRaMacQueryTxPossible@txPower",
+    "ID": "c:LoRaMac.c@89023@F@LoRaMacQueryTxPossible@txPower",
     "What": "Variable",
     "defdec": "Def",
     "display": "txPower",
     "location": {
       "column": "12",
-      "line": "2587",
+      "line": "2593",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "txPower",
@@ -70842,13 +70842,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@88953@F@LoRaMacQueryTxPossible@fOptLen",
+    "ID": "c:LoRaMac.c@89084@F@LoRaMacQueryTxPossible@fOptLen",
     "What": "Variable",
     "defdec": "Def",
     "display": "fOptLen",
     "location": {
       "column": "13",
-      "line": "2588",
+      "line": "2594",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "fOptLen",
@@ -70862,7 +70862,7 @@
     "display": "LoRaMacStatus_t LoRaMacMibGetRequestConfirm(MibRequestConfirm_t *)",
     "location": {
       "column": "17",
-      "line": "2643",
+      "line": "2649",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacMibGetRequestConfirm",
@@ -70870,13 +70870,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@90949@F@LoRaMacMibGetRequestConfirm@status",
+    "ID": "c:LoRaMac.c@91080@F@LoRaMacMibGetRequestConfirm@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "21",
-      "line": "2645",
+      "line": "2651",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "status",
@@ -70884,13 +70884,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@90998@F@LoRaMacMibGetRequestConfirm@getPhy",
+    "ID": "c:LoRaMac.c@91129@F@LoRaMacMibGetRequestConfirm@getPhy",
     "What": "Variable",
     "defdec": "Def",
     "display": "getPhy",
     "location": {
       "column": "20",
-      "line": "2646",
+      "line": "2652",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "getPhy",
@@ -70898,13 +70898,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@91026@F@LoRaMacMibGetRequestConfirm@phyParam",
+    "ID": "c:LoRaMac.c@91157@F@LoRaMacMibGetRequestConfirm@phyParam",
     "What": "Variable",
     "defdec": "Def",
     "display": "phyParam",
     "location": {
       "column": "16",
-      "line": "2647",
+      "line": "2653",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "phyParam",
@@ -70918,7 +70918,7 @@
     "display": "LoRaMacStatus_t LoRaMacMibSetRequestConfirm(MibRequestConfirm_t *)",
     "location": {
       "column": "17",
-      "line": "2828",
+      "line": "2834",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacMibSetRequestConfirm",
@@ -70926,13 +70926,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@96248@F@LoRaMacMibSetRequestConfirm@status",
+    "ID": "c:LoRaMac.c@96379@F@LoRaMacMibSetRequestConfirm@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "21",
-      "line": "2830",
+      "line": "2836",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "status",
@@ -70940,13 +70940,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@96297@F@LoRaMacMibSetRequestConfirm@chanMaskSet",
+    "ID": "c:LoRaMac.c@96428@F@LoRaMacMibSetRequestConfirm@chanMaskSet",
     "What": "Variable",
     "defdec": "Def",
     "display": "chanMaskSet",
     "location": {
       "column": "25",
-      "line": "2831",
+      "line": "2837",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "chanMaskSet",
@@ -70954,13 +70954,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@96335@F@LoRaMacMibSetRequestConfirm@verify",
+    "ID": "c:LoRaMac.c@96466@F@LoRaMacMibSetRequestConfirm@verify",
     "What": "Variable",
     "defdec": "Def",
     "display": "verify",
     "location": {
       "column": "20",
-      "line": "2832",
+      "line": "2838",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "verify",
@@ -70974,7 +70974,7 @@
     "display": "LoRaMacStatus_t LoRaMacChannelAdd(uint8_t, ChannelParams_t)",
     "location": {
       "column": "17",
-      "line": "3136",
+      "line": "3142",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacChannelAdd",
@@ -70982,13 +70982,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@106679@F@LoRaMacChannelAdd@channelAdd",
+    "ID": "c:LoRaMac.c@106810@F@LoRaMacChannelAdd@channelAdd",
     "What": "Variable",
     "defdec": "Def",
     "display": "channelAdd",
     "location": {
       "column": "24",
-      "line": "3138",
+      "line": "3144",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "channelAdd",
@@ -71002,7 +71002,7 @@
     "display": "LoRaMacStatus_t LoRaMacChannelRemove(uint8_t)",
     "location": {
       "column": "17",
-      "line": "3155",
+      "line": "3161",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacChannelRemove",
@@ -71010,13 +71010,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@107182@F@LoRaMacChannelRemove@channelRemove",
+    "ID": "c:LoRaMac.c@107313@F@LoRaMacChannelRemove@channelRemove",
     "What": "Variable",
     "defdec": "Def",
     "display": "channelRemove",
     "location": {
       "column": "27",
-      "line": "3157",
+      "line": "3163",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "channelRemove",
@@ -71030,7 +71030,7 @@
     "display": "LoRaMacStatus_t LoRaMacMulticastChannelLink(MulticastParams_t *)",
     "location": {
       "column": "17",
-      "line": "3176",
+      "line": "3182",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacMulticastChannelLink",
@@ -71038,13 +71038,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@108192@F@LoRaMacMulticastChannelLink@cur",
+    "ID": "c:LoRaMac.c@108323@F@LoRaMacMulticastChannelLink@cur",
     "What": "Variable",
     "defdec": "Def",
     "display": "cur",
     "location": {
       "column": "28",
-      "line": "3197",
+      "line": "3203",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "cur",
@@ -71058,7 +71058,7 @@
     "display": "LoRaMacStatus_t LoRaMacMulticastChannelUnlink(MulticastParams_t *)",
     "location": {
       "column": "17",
-      "line": "3211",
+      "line": "3217",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacMulticastChannelUnlink",
@@ -71066,13 +71066,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@109041@F@LoRaMacMulticastChannelUnlink@cur",
+    "ID": "c:LoRaMac.c@109172@F@LoRaMacMulticastChannelUnlink@cur",
     "What": "Variable",
     "defdec": "Def",
     "display": "cur",
     "location": {
       "column": "32",
-      "line": "3231",
+      "line": "3237",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "cur",
@@ -71086,7 +71086,7 @@
     "display": "LoRaMacStatus_t LoRaMacMlmeRequest(MlmeReq_t *)",
     "location": {
       "column": "17",
-      "line": "3250",
+      "line": "3256",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacMlmeRequest",
@@ -71094,13 +71094,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@109574@F@LoRaMacMlmeRequest@status",
+    "ID": "c:LoRaMac.c@109705@F@LoRaMacMlmeRequest@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "21",
-      "line": "3252",
+      "line": "3258",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "status",
@@ -71108,13 +71108,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@109636@F@LoRaMacMlmeRequest@macHdr",
+    "ID": "c:LoRaMac.c@109767@F@LoRaMacMlmeRequest@macHdr",
     "What": "Variable",
     "defdec": "Def",
     "display": "macHdr",
     "location": {
       "column": "21",
-      "line": "3253",
+      "line": "3259",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "macHdr",
@@ -71128,7 +71128,7 @@
     "display": "LoRaMacStatus_t LoRaMacMcpsRequest(McpsReq_t *)",
     "location": {
       "column": "17",
-      "line": "3337",
+      "line": "3343",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacMcpsRequest",
@@ -71136,13 +71136,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@112265@F@LoRaMacMcpsRequest@getPhy",
+    "ID": "c:LoRaMac.c@112396@F@LoRaMacMcpsRequest@getPhy",
     "What": "Variable",
     "defdec": "Def",
     "display": "getPhy",
     "location": {
       "column": "20",
-      "line": "3339",
+      "line": "3345",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "getPhy",
@@ -71150,13 +71150,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@112293@F@LoRaMacMcpsRequest@phyParam",
+    "ID": "c:LoRaMac.c@112424@F@LoRaMacMcpsRequest@phyParam",
     "What": "Variable",
     "defdec": "Def",
     "display": "phyParam",
     "location": {
       "column": "16",
-      "line": "3340",
+      "line": "3346",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "phyParam",
@@ -71164,13 +71164,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@112319@F@LoRaMacMcpsRequest@status",
+    "ID": "c:LoRaMac.c@112450@F@LoRaMacMcpsRequest@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "21",
-      "line": "3341",
+      "line": "3347",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "status",
@@ -71178,13 +71178,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@112381@F@LoRaMacMcpsRequest@macHdr",
+    "ID": "c:LoRaMac.c@112512@F@LoRaMacMcpsRequest@macHdr",
     "What": "Variable",
     "defdec": "Def",
     "display": "macHdr",
     "location": {
       "column": "21",
-      "line": "3342",
+      "line": "3348",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "macHdr",
@@ -71192,13 +71192,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@112410@F@LoRaMacMcpsRequest@verify",
+    "ID": "c:LoRaMac.c@112541@F@LoRaMacMcpsRequest@verify",
     "What": "Variable",
     "defdec": "Def",
     "display": "verify",
     "location": {
       "column": "20",
-      "line": "3343",
+      "line": "3349",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "verify",
@@ -71206,13 +71206,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@112438@F@LoRaMacMcpsRequest@fPort",
+    "ID": "c:LoRaMac.c@112569@F@LoRaMacMcpsRequest@fPort",
     "What": "Variable",
     "defdec": "Def",
     "display": "fPort",
     "location": {
       "column": "13",
-      "line": "3344",
+      "line": "3350",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "fPort",
@@ -71220,13 +71220,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@112462@F@LoRaMacMcpsRequest@fBuffer",
+    "ID": "c:LoRaMac.c@112593@F@LoRaMacMcpsRequest@fBuffer",
     "What": "Variable",
     "defdec": "Def",
     "display": "fBuffer",
     "location": {
       "column": "11",
-      "line": "3345",
+      "line": "3351",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "fBuffer",
@@ -71234,13 +71234,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@112482@F@LoRaMacMcpsRequest@fBufferSize",
+    "ID": "c:LoRaMac.c@112613@F@LoRaMacMcpsRequest@fBufferSize",
     "What": "Variable",
     "defdec": "Def",
     "display": "fBufferSize",
     "location": {
       "column": "14",
-      "line": "3346",
+      "line": "3352",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "fBufferSize",
@@ -71248,13 +71248,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@112509@F@LoRaMacMcpsRequest@datarate",
+    "ID": "c:LoRaMac.c@112640@F@LoRaMacMcpsRequest@datarate",
     "What": "Variable",
     "defdec": "Def",
     "display": "datarate",
     "location": {
       "column": "12",
-      "line": "3347",
+      "line": "3353",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "datarate",
@@ -71262,13 +71262,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@112538@F@LoRaMacMcpsRequest@readyToSend",
+    "ID": "c:LoRaMac.c@112669@F@LoRaMacMcpsRequest@readyToSend",
     "What": "Variable",
     "defdec": "Def",
     "display": "readyToSend",
     "location": {
       "column": "10",
-      "line": "3348",
+      "line": "3354",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "readyToSend",
@@ -71282,7 +71282,7 @@
     "display": "void LoRaMacTestRxWindowsOn(bool)",
     "location": {
       "column": "6",
-      "line": "3453",
+      "line": "3459",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacTestRxWindowsOn",
@@ -71296,7 +71296,7 @@
     "display": "void LoRaMacTestSetMic(uint16_t)",
     "location": {
       "column": "6",
-      "line": "3458",
+      "line": "3464",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacTestSetMic",
@@ -71310,7 +71310,7 @@
     "display": "void LoRaMacTestSetDutyCycleOn(bool)",
     "location": {
       "column": "6",
-      "line": "3464",
+      "line": "3470",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacTestSetDutyCycleOn",
@@ -71318,13 +71318,13 @@
     "scope": null
   },
   {
-    "ID": "c:LoRaMac.c@116123@F@LoRaMacTestSetDutyCycleOn@verify",
+    "ID": "c:LoRaMac.c@116254@F@LoRaMacTestSetDutyCycleOn@verify",
     "What": "Variable",
     "defdec": "Def",
     "display": "verify",
     "location": {
       "column": "20",
-      "line": "3466",
+      "line": "3472",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "verify",
@@ -71338,7 +71338,7 @@
     "display": "void LoRaMacTestSetChannel(uint8_t)",
     "location": {
       "column": "6",
-      "line": "3476",
+      "line": "3482",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\LoRaMac.c"
     },
     "name": "LoRaMacTestSetChannel",
@@ -86534,13 +86534,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@3163@macro@CN470_MAX_RX_WINDOW",
+    "ID": "c:RegionCN470.h@3223@macro@CN470_MAX_RX_WINDOW",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_MAX_RX_WINDOW",
     "location": {
       "column": "9",
-      "line": "128",
+      "line": "129",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_MAX_RX_WINDOW",
@@ -86548,13 +86548,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@3253@macro@CN470_RECEIVE_DELAY1",
+    "ID": "c:RegionCN470.h@3314@macro@CN470_RECEIVE_DELAY1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_RECEIVE_DELAY1",
     "location": {
       "column": "9",
-      "line": "133",
+      "line": "135",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_RECEIVE_DELAY1",
@@ -86562,13 +86562,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@3343@macro@CN470_RECEIVE_DELAY2",
+    "ID": "c:RegionCN470.h@3404@macro@CN470_RECEIVE_DELAY2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_RECEIVE_DELAY2",
     "location": {
       "column": "9",
-      "line": "138",
+      "line": "140",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_RECEIVE_DELAY2",
@@ -86576,13 +86576,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@3437@macro@CN470_JOIN_ACCEPT_DELAY1",
+    "ID": "c:RegionCN470.h@3498@macro@CN470_JOIN_ACCEPT_DELAY1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_JOIN_ACCEPT_DELAY1",
     "location": {
       "column": "9",
-      "line": "143",
+      "line": "145",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_JOIN_ACCEPT_DELAY1",
@@ -86590,13 +86590,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@3531@macro@CN470_JOIN_ACCEPT_DELAY2",
+    "ID": "c:RegionCN470.h@3592@macro@CN470_JOIN_ACCEPT_DELAY2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_JOIN_ACCEPT_DELAY2",
     "location": {
       "column": "9",
-      "line": "148",
+      "line": "150",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_JOIN_ACCEPT_DELAY2",
@@ -86604,13 +86604,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@3631@macro@CN470_MAX_FCNT_GAP",
+    "ID": "c:RegionCN470.h@3692@macro@CN470_MAX_FCNT_GAP",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_MAX_FCNT_GAP",
     "location": {
       "column": "9",
-      "line": "153",
+      "line": "155",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_MAX_FCNT_GAP",
@@ -86618,13 +86618,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@3718@macro@CN470_ACKTIMEOUT",
+    "ID": "c:RegionCN470.h@3779@macro@CN470_ACKTIMEOUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_ACKTIMEOUT",
     "location": {
       "column": "9",
-      "line": "158",
+      "line": "160",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_ACKTIMEOUT",
@@ -86632,13 +86632,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@3818@macro@CN470_ACK_TIMEOUT_RND",
+    "ID": "c:RegionCN470.h@3879@macro@CN470_ACK_TIMEOUT_RND",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_ACK_TIMEOUT_RND",
     "location": {
       "column": "9",
-      "line": "163",
+      "line": "165",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_ACK_TIMEOUT_RND",
@@ -86646,13 +86646,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@3946@macro@CN470_RX_WND_2_FREQ",
+    "ID": "c:RegionCN470.h@4007@macro@CN470_RX_WND_2_FREQ",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_RX_WND_2_FREQ",
     "location": {
       "column": "9",
-      "line": "168",
+      "line": "170",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_RX_WND_2_FREQ",
@@ -86660,13 +86660,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@4078@macro@CN470_RX_WND_2_DR",
+    "ID": "c:RegionCN470.h@4139@macro@CN470_RX_WND_2_DR",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_RX_WND_2_DR",
     "location": {
       "column": "9",
-      "line": "173",
+      "line": "175",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_RX_WND_2_DR",
@@ -86674,13 +86674,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@4184@macro@CN470_MAX_NB_BANDS",
+    "ID": "c:RegionCN470.h@4245@macro@CN470_MAX_NB_BANDS",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_MAX_NB_BANDS",
     "location": {
       "column": "9",
-      "line": "178",
+      "line": "180",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_MAX_NB_BANDS",
@@ -86688,13 +86688,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@4349@macro@CN470_BAND0",
+    "ID": "c:RegionCN470.h@4410@macro@CN470_BAND0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_BAND0",
     "location": {
       "column": "9",
-      "line": "184",
+      "line": "186",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_BAND0",
@@ -86702,13 +86702,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@4522@macro@CN470_FIRST_RX1_CHANNEL",
+    "ID": "c:RegionCN470.h@4583@macro@CN470_FIRST_RX1_CHANNEL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_FIRST_RX1_CHANNEL",
     "location": {
       "column": "9",
-      "line": "189",
+      "line": "191",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_FIRST_RX1_CHANNEL",
@@ -86716,13 +86716,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@4672@macro@CN470_LAST_RX1_CHANNEL",
+    "ID": "c:RegionCN470.h@4733@macro@CN470_LAST_RX1_CHANNEL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_LAST_RX1_CHANNEL",
     "location": {
       "column": "9",
-      "line": "194",
+      "line": "196",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_LAST_RX1_CHANNEL",
@@ -86730,13 +86730,13 @@
     "scope": null
   },
   {
-    "ID": "c:RegionCN470.h@4821@macro@CN470_STEPWIDTH_RX1_CHANNEL",
+    "ID": "c:RegionCN470.h@4882@macro@CN470_STEPWIDTH_RX1_CHANNEL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CN470_STEPWIDTH_RX1_CHANNEL",
     "location": {
       "column": "9",
-      "line": "199",
+      "line": "201",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "CN470_STEPWIDTH_RX1_CHANNEL",
@@ -86750,7 +86750,7 @@
     "display": "DataratesCN470",
     "location": {
       "column": "22",
-      "line": "204",
+      "line": "206",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "DataratesCN470",
@@ -86764,7 +86764,7 @@
     "display": "BandwidthsCN470",
     "location": {
       "column": "23",
-      "line": "209",
+      "line": "211",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "BandwidthsCN470",
@@ -86778,7 +86778,7 @@
     "display": "MaxPayloadOfDatarateCN470",
     "location": {
       "column": "22",
-      "line": "214",
+      "line": "216",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "MaxPayloadOfDatarateCN470",
@@ -86792,7 +86792,7 @@
     "display": "MaxPayloadOfDatarateRepeaterCN470",
     "location": {
       "column": "22",
-      "line": "219",
+      "line": "221",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "MaxPayloadOfDatarateRepeaterCN470",
@@ -86806,7 +86806,7 @@
     "display": "PhyParam_t RegionCN470GetPhyParam(GetPhyParams_t *)",
     "location": {
       "column": "12",
-      "line": "228",
+      "line": "230",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470GetPhyParam",
@@ -86820,7 +86820,7 @@
     "display": "PhyParam_t RegionCN470GetPhyParam(GetPhyParams_t *)",
     "location": {
       "column": "12",
-      "line": "228",
+      "line": "230",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470GetPhyParam",
@@ -86834,7 +86834,7 @@
     "display": "void RegionCN470SetBandTxDone(SetBandTxDoneParams_t *)",
     "location": {
       "column": "6",
-      "line": "235",
+      "line": "237",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470SetBandTxDone",
@@ -86848,7 +86848,7 @@
     "display": "void RegionCN470SetBandTxDone(SetBandTxDoneParams_t *)",
     "location": {
       "column": "6",
-      "line": "235",
+      "line": "237",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470SetBandTxDone",
@@ -86862,7 +86862,7 @@
     "display": "void RegionCN470InitDefaults(InitType_t)",
     "location": {
       "column": "6",
-      "line": "242",
+      "line": "244",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470InitDefaults",
@@ -86876,7 +86876,7 @@
     "display": "void RegionCN470InitDefaults(InitType_t)",
     "location": {
       "column": "6",
-      "line": "242",
+      "line": "244",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470InitDefaults",
@@ -86890,7 +86890,7 @@
     "display": "bool RegionCN470Verify(VerifyParams_t *, PhyAttribute_t)",
     "location": {
       "column": "6",
-      "line": "253",
+      "line": "255",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470Verify",
@@ -86904,7 +86904,7 @@
     "display": "bool RegionCN470Verify(VerifyParams_t *, PhyAttribute_t)",
     "location": {
       "column": "6",
-      "line": "253",
+      "line": "255",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470Verify",
@@ -86918,7 +86918,7 @@
     "display": "void RegionCN470ApplyCFList(ApplyCFListParams_t *)",
     "location": {
       "column": "6",
-      "line": "261",
+      "line": "263",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470ApplyCFList",
@@ -86932,7 +86932,7 @@
     "display": "void RegionCN470ApplyCFList(ApplyCFListParams_t *)",
     "location": {
       "column": "6",
-      "line": "261",
+      "line": "263",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470ApplyCFList",
@@ -86946,7 +86946,7 @@
     "display": "bool RegionCN470ChanMaskSet(ChanMaskSetParams_t *)",
     "location": {
       "column": "6",
-      "line": "270",
+      "line": "272",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470ChanMaskSet",
@@ -86960,7 +86960,7 @@
     "display": "bool RegionCN470ChanMaskSet(ChanMaskSetParams_t *)",
     "location": {
       "column": "6",
-      "line": "270",
+      "line": "272",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470ChanMaskSet",
@@ -86974,7 +86974,7 @@
     "display": "bool RegionCN470AdrNext(AdrNextParams_t *, int8_t *, int8_t *, uint32_t *)",
     "location": {
       "column": "6",
-      "line": "285",
+      "line": "287",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470AdrNext",
@@ -86988,7 +86988,7 @@
     "display": "bool RegionCN470AdrNext(AdrNextParams_t *, int8_t *, int8_t *, uint32_t *)",
     "location": {
       "column": "6",
-      "line": "285",
+      "line": "287",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470AdrNext",
@@ -87002,7 +87002,7 @@
     "display": "void RegionCN470ComputeRxWindowParameters(int8_t, uint8_t, uint32_t, RxConfigParams_t *)",
     "location": {
       "column": "6",
-      "line": "300",
+      "line": "302",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470ComputeRxWindowParameters",
@@ -87016,7 +87016,7 @@
     "display": "void RegionCN470ComputeRxWindowParameters(int8_t, uint8_t, uint32_t, RxConfigParams_t *)",
     "location": {
       "column": "6",
-      "line": "300",
+      "line": "302",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470ComputeRxWindowParameters",
@@ -87030,7 +87030,7 @@
     "display": "bool RegionCN470RxConfig(RxConfigParams_t *, int8_t *)",
     "location": {
       "column": "6",
-      "line": "311",
+      "line": "313",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470RxConfig",
@@ -87044,7 +87044,7 @@
     "display": "bool RegionCN470RxConfig(RxConfigParams_t *, int8_t *)",
     "location": {
       "column": "6",
-      "line": "311",
+      "line": "313",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470RxConfig",
@@ -87058,7 +87058,7 @@
     "display": "bool RegionCN470TxConfig(TxConfigParams_t *, int8_t *, TimerTime_t *)",
     "location": {
       "column": "6",
-      "line": "324",
+      "line": "326",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470TxConfig",
@@ -87072,7 +87072,7 @@
     "display": "bool RegionCN470TxConfig(TxConfigParams_t *, int8_t *, TimerTime_t *)",
     "location": {
       "column": "6",
-      "line": "324",
+      "line": "326",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470TxConfig",
@@ -87086,7 +87086,7 @@
     "display": "uint8_t RegionCN470LinkAdrReq(LinkAdrReqParams_t *, int8_t *, int8_t *, uint8_t *, uint8_t *)",
     "location": {
       "column": "9",
-      "line": "333",
+      "line": "335",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470LinkAdrReq",
@@ -87100,7 +87100,7 @@
     "display": "uint8_t RegionCN470LinkAdrReq(LinkAdrReqParams_t *, int8_t *, int8_t *, uint8_t *, uint8_t *)",
     "location": {
       "column": "9",
-      "line": "333",
+      "line": "335",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470LinkAdrReq",
@@ -87114,7 +87114,7 @@
     "display": "uint8_t RegionCN470RxParamSetupReq(RxParamSetupReqParams_t *)",
     "location": {
       "column": "9",
-      "line": "342",
+      "line": "344",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470RxParamSetupReq",
@@ -87128,7 +87128,7 @@
     "display": "uint8_t RegionCN470RxParamSetupReq(RxParamSetupReqParams_t *)",
     "location": {
       "column": "9",
-      "line": "342",
+      "line": "344",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470RxParamSetupReq",
@@ -87142,7 +87142,7 @@
     "display": "uint8_t RegionCN470NewChannelReq(NewChannelReqParams_t *)",
     "location": {
       "column": "9",
-      "line": "351",
+      "line": "353",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470NewChannelReq",
@@ -87156,7 +87156,7 @@
     "display": "uint8_t RegionCN470NewChannelReq(NewChannelReqParams_t *)",
     "location": {
       "column": "9",
-      "line": "351",
+      "line": "353",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470NewChannelReq",
@@ -87170,7 +87170,7 @@
     "display": "int8_t RegionCN470TxParamSetupReq(TxParamSetupReqParams_t *)",
     "location": {
       "column": "8",
-      "line": "362",
+      "line": "364",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470TxParamSetupReq",
@@ -87184,7 +87184,7 @@
     "display": "int8_t RegionCN470TxParamSetupReq(TxParamSetupReqParams_t *)",
     "location": {
       "column": "8",
-      "line": "362",
+      "line": "364",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470TxParamSetupReq",
@@ -87198,7 +87198,7 @@
     "display": "uint8_t RegionCN470DlChannelReq(DlChannelReqParams_t *)",
     "location": {
       "column": "9",
-      "line": "371",
+      "line": "373",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470DlChannelReq",
@@ -87212,7 +87212,7 @@
     "display": "uint8_t RegionCN470DlChannelReq(DlChannelReqParams_t *)",
     "location": {
       "column": "9",
-      "line": "371",
+      "line": "373",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470DlChannelReq",
@@ -87226,7 +87226,7 @@
     "display": "int8_t RegionCN470AlternateDr(int8_t)",
     "location": {
       "column": "8",
-      "line": "380",
+      "line": "382",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470AlternateDr",
@@ -87240,7 +87240,7 @@
     "display": "int8_t RegionCN470AlternateDr(int8_t)",
     "location": {
       "column": "8",
-      "line": "380",
+      "line": "382",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470AlternateDr",
@@ -87254,7 +87254,7 @@
     "display": "void RegionCN470CalcBackOff(CalcBackOffParams_t *)",
     "location": {
       "column": "6",
-      "line": "387",
+      "line": "389",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470CalcBackOff",
@@ -87268,7 +87268,7 @@
     "display": "void RegionCN470CalcBackOff(CalcBackOffParams_t *)",
     "location": {
       "column": "6",
-      "line": "387",
+      "line": "389",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470CalcBackOff",
@@ -87282,7 +87282,7 @@
     "display": "LoRaMacStatus_t RegionCN470NextChannel(NextChanParams_t *, uint8_t *, TimerTime_t *, TimerTime_t *)",
     "location": {
       "column": "17",
-      "line": "401",
+      "line": "403",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470NextChannel",
@@ -87296,7 +87296,7 @@
     "display": "LoRaMacStatus_t RegionCN470NextChannel(NextChanParams_t *, uint8_t *, TimerTime_t *, TimerTime_t *)",
     "location": {
       "column": "17",
-      "line": "401",
+      "line": "403",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470NextChannel",
@@ -87310,7 +87310,7 @@
     "display": "LoRaMacStatus_t RegionCN470ChannelAdd(ChannelAddParams_t *)",
     "location": {
       "column": "17",
-      "line": "410",
+      "line": "412",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470ChannelAdd",
@@ -87324,7 +87324,7 @@
     "display": "LoRaMacStatus_t RegionCN470ChannelAdd(ChannelAddParams_t *)",
     "location": {
       "column": "17",
-      "line": "410",
+      "line": "412",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470ChannelAdd",
@@ -87338,7 +87338,7 @@
     "display": "bool RegionCN470ChannelsRemove(ChannelRemoveParams_t *)",
     "location": {
       "column": "6",
-      "line": "419",
+      "line": "421",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470ChannelsRemove",
@@ -87352,7 +87352,7 @@
     "display": "bool RegionCN470ChannelsRemove(ChannelRemoveParams_t *)",
     "location": {
       "column": "6",
-      "line": "419",
+      "line": "421",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470ChannelsRemove",
@@ -87366,7 +87366,7 @@
     "display": "void RegionCN470SetContinuousWave(ContinuousWaveParams_t *)",
     "location": {
       "column": "6",
-      "line": "426",
+      "line": "428",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470SetContinuousWave",
@@ -87380,7 +87380,7 @@
     "display": "void RegionCN470SetContinuousWave(ContinuousWaveParams_t *)",
     "location": {
       "column": "6",
-      "line": "426",
+      "line": "428",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470SetContinuousWave",
@@ -87394,7 +87394,7 @@
     "display": "uint8_t RegionCN470ApplyDrOffset(uint8_t, int8_t, int8_t)",
     "location": {
       "column": "9",
-      "line": "439",
+      "line": "441",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470ApplyDrOffset",
@@ -87408,7 +87408,7 @@
     "display": "uint8_t RegionCN470ApplyDrOffset(uint8_t, int8_t, int8_t)",
     "location": {
       "column": "9",
-      "line": "439",
+      "line": "441",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\mac\\region\\RegionCN470.h"
     },
     "name": "RegionCN470ApplyDrOffset",
@@ -91310,7 +91310,7 @@
     "display": "void SX126xSetCadParams(RadioLoRaCadSymbols_t, uint8_t, uint8_t, RadioCadExitModes_t, uint32_t)",
     "location": {
       "column": "6",
-      "line": "650",
+      "line": "651",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "SX126xSetCadParams",
@@ -91318,13 +91318,13 @@
     "scope": null
   },
   {
-    "ID": "c:sx126x.c@17823@F@SX126xSetCadParams@buf",
+    "ID": "c:sx126x.c@17855@F@SX126xSetCadParams@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
       "column": "13",
-      "line": "652",
+      "line": "653",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "buf",
@@ -91338,7 +91338,7 @@
     "display": "void SX126xSetBufferBaseAddress(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "665",
+      "line": "666",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "SX126xSetBufferBaseAddress",
@@ -91346,13 +91346,13 @@
     "scope": null
   },
   {
-    "ID": "c:sx126x.c@18313@F@SX126xSetBufferBaseAddress@buf",
+    "ID": "c:sx126x.c@18345@F@SX126xSetBufferBaseAddress@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
       "column": "13",
-      "line": "667",
+      "line": "668",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "buf",
@@ -91366,7 +91366,7 @@
     "display": "RadioStatus_t SX126xGetStatus(void)",
     "location": {
       "column": "15",
-      "line": "674",
+      "line": "675",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "SX126xGetStatus",
@@ -91374,13 +91374,13 @@
     "scope": null
   },
   {
-    "ID": "c:sx126x.c@18505@F@SX126xGetStatus@stat",
+    "ID": "c:sx126x.c@18537@F@SX126xGetStatus@stat",
     "What": "Variable",
     "defdec": "Def",
     "display": "stat",
     "location": {
       "column": "13",
-      "line": "676",
+      "line": "677",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "stat",
@@ -91388,13 +91388,13 @@
     "scope": null
   },
   {
-    "ID": "c:sx126x.c@18528@F@SX126xGetStatus@status",
+    "ID": "c:sx126x.c@18560@F@SX126xGetStatus@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "19",
-      "line": "677",
+      "line": "678",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "status",
@@ -91408,7 +91408,7 @@
     "display": "int8_t SX126xGetRssiInst(void)",
     "location": {
       "column": "8",
-      "line": "684",
+      "line": "685",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "SX126xGetRssiInst",
@@ -91416,13 +91416,13 @@
     "scope": null
   },
   {
-    "ID": "c:sx126x.c@18712@F@SX126xGetRssiInst@buf",
+    "ID": "c:sx126x.c@18744@F@SX126xGetRssiInst@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
       "column": "13",
-      "line": "686",
+      "line": "687",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "buf",
@@ -91430,13 +91430,13 @@
     "scope": null
   },
   {
-    "ID": "c:sx126x.c@18733@F@SX126xGetRssiInst@rssi",
+    "ID": "c:sx126x.c@18765@F@SX126xGetRssiInst@rssi",
     "What": "Variable",
     "defdec": "Def",
     "display": "rssi",
     "location": {
       "column": "12",
-      "line": "687",
+      "line": "688",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "rssi",
@@ -91450,7 +91450,7 @@
     "display": "void SX126xGetRxBufferStatus(uint8_t *, uint8_t *)",
     "location": {
       "column": "6",
-      "line": "694",
+      "line": "695",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "SX126xGetRxBufferStatus",
@@ -91458,13 +91458,13 @@
     "scope": null
   },
   {
-    "ID": "c:sx126x.c@18950@F@SX126xGetRxBufferStatus@status",
+    "ID": "c:sx126x.c@18982@F@SX126xGetRxBufferStatus@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "13",
-      "line": "696",
+      "line": "697",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "status",
@@ -91478,7 +91478,7 @@
     "display": "void SX126xGetPacketStatus(PacketStatus_t *)",
     "location": {
       "column": "6",
-      "line": "713",
+      "line": "714",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "SX126xGetPacketStatus",
@@ -91486,13 +91486,13 @@
     "scope": null
   },
   {
-    "ID": "c:sx126x.c@19529@F@SX126xGetPacketStatus@status",
+    "ID": "c:sx126x.c@19561@F@SX126xGetPacketStatus@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "13",
-      "line": "715",
+      "line": "716",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "status",
@@ -91506,7 +91506,7 @@
     "display": "RadioError_t SX126xGetDeviceErrors(void)",
     "location": {
       "column": "14",
-      "line": "746",
+      "line": "747",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "SX126xGetDeviceErrors",
@@ -91514,13 +91514,13 @@
     "scope": null
   },
   {
-    "ID": "c:sx126x.c@20793@F@SX126xGetDeviceErrors@error",
+    "ID": "c:sx126x.c@20825@F@SX126xGetDeviceErrors@error",
     "What": "Variable",
     "defdec": "Def",
     "display": "error",
     "location": {
       "column": "18",
-      "line": "748",
+      "line": "749",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "error",
@@ -91534,7 +91534,7 @@
     "display": "void SX126xClearDeviceErrors(void)",
     "location": {
       "column": "6",
-      "line": "754",
+      "line": "755",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "SX126xClearDeviceErrors",
@@ -91542,13 +91542,13 @@
     "scope": null
   },
   {
-    "ID": "c:sx126x.c@20952@F@SX126xClearDeviceErrors@buf",
+    "ID": "c:sx126x.c@20984@F@SX126xClearDeviceErrors@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
       "column": "13",
-      "line": "756",
+      "line": "757",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "buf",
@@ -91562,7 +91562,7 @@
     "display": "void SX126xClearIrqStatus(uint16_t)",
     "location": {
       "column": "6",
-      "line": "760",
+      "line": "761",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "SX126xClearIrqStatus",
@@ -91570,13 +91570,13 @@
     "scope": null
   },
   {
-    "ID": "c:sx126x.c@21093@F@SX126xClearIrqStatus@buf",
+    "ID": "c:sx126x.c@21125@F@SX126xClearIrqStatus@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
     "location": {
       "column": "13",
-      "line": "762",
+      "line": "763",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\radio\\sx126x\\sx126x.c"
     },
     "name": "buf",
@@ -109248,7 +109248,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_tim2.h@15918@macro@IS_TIM2_OCM",
+    "ID": "c:stm8l15x_TIM2.h@15918@macro@IS_TIM2_OCM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_OCM",
@@ -109262,7 +109262,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_TIM2.h@15918@macro@IS_TIM2_OCM",
+    "ID": "c:stm8l15x_tim2.h@15918@macro@IS_TIM2_OCM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_OCM",
@@ -109360,7 +109360,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_tim2.h@17013@macro@IS_TIM2_OC_POLARITY",
+    "ID": "c:stm8l15x_TIM2.h@17013@macro@IS_TIM2_OC_POLARITY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_OC_POLARITY",
@@ -109374,7 +109374,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_TIM2.h@17013@macro@IS_TIM2_OC_POLARITY",
+    "ID": "c:stm8l15x_tim2.h@17013@macro@IS_TIM2_OC_POLARITY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_OC_POLARITY",
@@ -109472,7 +109472,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_tim2.h@17745@macro@IS_TIM2_AUTOMATIC_OUTPUT_STATE",
+    "ID": "c:stm8l15x_TIM2.h@17745@macro@IS_TIM2_AUTOMATIC_OUTPUT_STATE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_AUTOMATIC_OUTPUT_STATE",
@@ -109486,7 +109486,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_TIM2.h@17745@macro@IS_TIM2_AUTOMATIC_OUTPUT_STATE",
+    "ID": "c:stm8l15x_tim2.h@17745@macro@IS_TIM2_AUTOMATIC_OUTPUT_STATE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_AUTOMATIC_OUTPUT_STATE",
@@ -109584,7 +109584,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_tim2.h@18552@macro@IS_TIM2_IC_POLARITY",
+    "ID": "c:stm8l15x_TIM2.h@18552@macro@IS_TIM2_IC_POLARITY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_IC_POLARITY",
@@ -109598,7 +109598,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_TIM2.h@18552@macro@IS_TIM2_IC_POLARITY",
+    "ID": "c:stm8l15x_tim2.h@18552@macro@IS_TIM2_IC_POLARITY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_IC_POLARITY",
@@ -109696,7 +109696,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_tim2.h@19359@macro@IS_TIM2_IT",
+    "ID": "c:stm8l15x_TIM2.h@19359@macro@IS_TIM2_IT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_IT",
@@ -109710,7 +109710,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_TIM2.h@19359@macro@IS_TIM2_IT",
+    "ID": "c:stm8l15x_tim2.h@19359@macro@IS_TIM2_IT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_IT",
@@ -109808,7 +109808,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_tim2.h@20393@macro@IS_TIM2_TIX_TRIGGER_SELECTION",
+    "ID": "c:stm8l15x_TIM2.h@20393@macro@IS_TIM2_TIX_TRIGGER_SELECTION",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_TIX_TRIGGER_SELECTION",
@@ -109822,7 +109822,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_TIM2.h@20393@macro@IS_TIM2_TIX_TRIGGER_SELECTION",
+    "ID": "c:stm8l15x_tim2.h@20393@macro@IS_TIM2_TIX_TRIGGER_SELECTION",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_TIX_TRIGGER_SELECTION",
@@ -109920,7 +109920,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_tim2.h@21248@macro@IS_TIM2_PRESCALER_RELOAD",
+    "ID": "c:stm8l15x_TIM2.h@21248@macro@IS_TIM2_PRESCALER_RELOAD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_PRESCALER_RELOAD",
@@ -109934,7 +109934,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_TIM2.h@21248@macro@IS_TIM2_PRESCALER_RELOAD",
+    "ID": "c:stm8l15x_tim2.h@21248@macro@IS_TIM2_PRESCALER_RELOAD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_PRESCALER_RELOAD",
@@ -110032,7 +110032,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_tim2.h@21990@macro@IS_TIM2_TRGO_SOURCE",
+    "ID": "c:stm8l15x_TIM2.h@21990@macro@IS_TIM2_TRGO_SOURCE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_TRGO_SOURCE",
@@ -110046,7 +110046,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_TIM2.h@21990@macro@IS_TIM2_TRGO_SOURCE",
+    "ID": "c:stm8l15x_tim2.h@21990@macro@IS_TIM2_TRGO_SOURCE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_TRGO_SOURCE",
@@ -110144,7 +110144,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_tim2.h@23052@macro@IS_TIM2_DMA_SOURCE",
+    "ID": "c:stm8l15x_TIM2.h@23052@macro@IS_TIM2_DMA_SOURCE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_DMA_SOURCE",
@@ -110158,7 +110158,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_TIM2.h@23052@macro@IS_TIM2_DMA_SOURCE",
+    "ID": "c:stm8l15x_tim2.h@23052@macro@IS_TIM2_DMA_SOURCE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IS_TIM2_DMA_SOURCE",
@@ -127488,6 +127488,48 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@NwkSKey",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "NwkSKey",
+    "location": {
+      "column": "16",
+      "line": "82",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
+    },
+    "name": "NwkSKey",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@AppSKey",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "AppSKey",
+    "location": {
+      "column": "16",
+      "line": "83",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
+    },
+    "name": "AppSKey",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@DevAddr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "DevAddr",
+    "location": {
+      "column": "17",
+      "line": "84",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
+    },
+    "name": "DevAddr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:main.c@AppPort",
     "What": "Variable",
     "defdec": "Def",
@@ -127700,13 +127742,41 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@3401@F@PrepareTxFrame@randomdata",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "randomdata",
+    "location": {
+      "column": "13",
+      "line": "145",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
+    },
+    "name": "randomdata",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@3444@F@PrepareTxFrame@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "17",
+      "line": "146",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:main.c@F@SendFrame",
     "What": "Function",
     "defdec": "Def",
     "display": "bool SendFrame(void)",
     "location": {
       "column": "13",
-      "line": "156",
+      "line": "155",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "SendFrame",
@@ -127714,13 +127784,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3644@F@SendFrame@mcpsReq",
+    "ID": "c:main.c@3670@F@SendFrame@mcpsReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "mcpsReq",
     "location": {
       "column": "15",
-      "line": "158",
+      "line": "157",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "mcpsReq",
@@ -127728,13 +127798,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3668@F@SendFrame@txInfo",
+    "ID": "c:main.c@3694@F@SendFrame@txInfo",
     "What": "Variable",
     "defdec": "Def",
     "display": "txInfo",
     "location": {
       "column": "21",
-      "line": "159",
+      "line": "158",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "txInfo",
@@ -127748,7 +127818,7 @@
     "display": "void OnTxNextPacketTimerEvent(void)",
     "location": {
       "column": "13",
-      "line": "200",
+      "line": "199",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "OnTxNextPacketTimerEvent",
@@ -127756,13 +127826,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@5053@F@OnTxNextPacketTimerEvent@mibReq",
+    "ID": "c:main.c@5079@F@OnTxNextPacketTimerEvent@mibReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "mibReq",
     "location": {
       "column": "25",
-      "line": "202",
+      "line": "201",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "mibReq",
@@ -127770,13 +127840,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@5086@F@OnTxNextPacketTimerEvent@status",
+    "ID": "c:main.c@5112@F@OnTxNextPacketTimerEvent@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "21",
-      "line": "203",
+      "line": "202",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "status",
@@ -127784,13 +127854,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@5537@F@OnTxNextPacketTimerEvent@mlmeReq",
+    "ID": "c:main.c@5563@F@OnTxNextPacketTimerEvent@mlmeReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "mlmeReq",
     "location": {
       "column": "23",
-      "line": "220",
+      "line": "219",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "mlmeReq",
@@ -127804,7 +127874,7 @@
     "display": "void McpsConfirm(McpsConfirm_t *)",
     "location": {
       "column": "13",
-      "line": "245",
+      "line": "244",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "McpsConfirm",
@@ -127818,7 +127888,7 @@
     "display": "void McpsIndication(McpsIndication_t *)",
     "location": {
       "column": "13",
-      "line": "282",
+      "line": "281",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "McpsIndication",
@@ -127832,7 +127902,7 @@
     "display": "void MlmeConfirm(MlmeConfirm_t *)",
     "location": {
       "column": "13",
-      "line": "341",
+      "line": "340",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "MlmeConfirm",
@@ -127840,13 +127910,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@9104@F@MlmeConfirm@mlmeReq",
+    "ID": "c:main.c@9130@F@MlmeConfirm@mlmeReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "mlmeReq",
     "location": {
       "column": "27",
-      "line": "355",
+      "line": "354",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "mlmeReq",
@@ -127860,7 +127930,7 @@
     "display": "void MlmeIndication(MlmeIndication_t *)",
     "location": {
       "column": "13",
-      "line": "396",
+      "line": "395",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "MlmeIndication",
@@ -127874,7 +127944,7 @@
     "display": "void lwan_dev_params_update(void)",
     "location": {
       "column": "13",
-      "line": "410",
+      "line": "409",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "lwan_dev_params_update",
@@ -127882,13 +127952,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@10707@F@lwan_dev_params_update@mibReq",
+    "ID": "c:main.c@10733@F@lwan_dev_params_update@mibReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "mibReq",
     "location": {
       "column": "25",
-      "line": "412",
+      "line": "411",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "mibReq",
@@ -127896,13 +127966,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@10740@F@lwan_dev_params_update@channelsMaskTemp",
+    "ID": "c:main.c@10766@F@lwan_dev_params_update@channelsMaskTemp",
     "What": "Variable",
     "defdec": "Def",
     "display": "channelsMaskTemp",
     "location": {
       "column": "14",
-      "line": "413",
+      "line": "412",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "channelsMaskTemp",
@@ -127916,7 +127986,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "432",
+      "line": "431",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "main",
@@ -127924,13 +127994,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@11336@F@main@LoRaMacPrimitives",
+    "ID": "c:main.c@11362@F@main@LoRaMacPrimitives",
     "What": "Variable",
     "defdec": "Def",
     "display": "LoRaMacPrimitives",
     "location": {
       "column": "25",
-      "line": "434",
+      "line": "433",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "LoRaMacPrimitives",
@@ -127938,13 +128008,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@11380@F@main@LoRaMacCallbacks",
+    "ID": "c:main.c@11406@F@main@LoRaMacCallbacks",
     "What": "Variable",
     "defdec": "Def",
     "display": "LoRaMacCallbacks",
     "location": {
       "column": "23",
-      "line": "435",
+      "line": "434",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "LoRaMacCallbacks",
@@ -127952,30 +128022,16 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@11421@F@main@mibReq",
+    "ID": "c:main.c@11447@F@main@mibReq",
     "What": "Variable",
     "defdec": "Def",
     "display": "mibReq",
     "location": {
       "column": "25",
-      "line": "436",
+      "line": "435",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
     },
     "name": "mibReq",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@13063@F@main@mlmeReq",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "mlmeReq",
-    "location": {
-      "column": "27",
-      "line": "481",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\main.c"
-    },
-    "name": "mlmeReq",
     "origin": "project_file",
     "scope": null
   },
@@ -135530,216 +135586,6 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_wwdg.h@1310@macro@__STM8L15x_WWDG_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8L15x_WWDG_H",
-    "location": {
-      "column": "9",
-      "line": "31",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "__STM8L15x_WWDG_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_wwdg.h@1902@macro@IS_WWDG_WINDOW_LIMIT_VALUE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_WWDG_WINDOW_LIMIT_VALUE",
-    "location": {
-      "column": "9",
-      "line": "55",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "IS_WWDG_WINDOW_LIMIT_VALUE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_wwdg.h@2056@macro@IS_WWDG_COUNTER_VALUE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_WWDG_COUNTER_VALUE",
-    "location": {
-      "column": "9",
-      "line": "64",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "IS_WWDG_COUNTER_VALUE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_Init(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "75",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_Init(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "75",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetWindowValue",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SetWindowValue(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "76",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SetWindowValue",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetWindowValue",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SetWindowValue(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "76",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SetWindowValue",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SetCounter(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "77",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SetCounter(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "77",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Enable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_Enable(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "80",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_Enable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Enable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_Enable(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "80",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_Enable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_GetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t WWDG_GetCounter(void)",
-    "location": {
-      "column": "9",
-      "line": "83",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_GetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_GetCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t WWDG_GetCounter(void)",
-    "location": {
-      "column": "9",
-      "line": "83",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_GetCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SWReset",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SWReset(void)",
-    "location": {
-      "column": "6",
-      "line": "84",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SWReset",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SWReset",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WWDG_SWReset(void)",
-    "location": {
-      "column": "6",
-      "line": "84",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
-    },
-    "name": "WWDG_SWReset",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:stm8l15x_it.h@1289@macro@__STM8L15x_IT_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -136708,142 +136554,212 @@
     "scope": null
   },
   {
-    "ID": "c:Commissioning.h@724@macro@__LORA_COMMISSIONING_H__",
+    "ID": "c:stm8l15x_wwdg.h@1310@macro@__STM8L15x_WWDG_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__LORA_COMMISSIONING_H__",
+    "display": "__STM8L15x_WWDG_H",
     "location": {
       "column": "9",
-      "line": "24",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+      "line": "31",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
-    "name": "__LORA_COMMISSIONING_H__",
+    "name": "__STM8L15x_WWDG_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Commissioning.h@927@macro@OVER_THE_AIR_ACTIVATION",
+    "ID": "c:stm8l15x_wwdg.h@1902@macro@IS_WWDG_WINDOW_LIMIT_VALUE",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "OVER_THE_AIR_ACTIVATION",
+    "display": "IS_WWDG_WINDOW_LIMIT_VALUE",
     "location": {
       "column": "9",
-      "line": "30",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+      "line": "55",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
-    "name": "OVER_THE_AIR_ACTIVATION",
+    "name": "IS_WWDG_WINDOW_LIMIT_VALUE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Commissioning.h@1076@macro@LORAWAN_PUBLIC_NETWORK",
+    "ID": "c:stm8l15x_wwdg.h@2056@macro@IS_WWDG_COUNTER_VALUE",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "LORAWAN_PUBLIC_NETWORK",
+    "display": "IS_WWDG_COUNTER_VALUE",
     "location": {
       "column": "9",
-      "line": "35",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+      "line": "64",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
-    "name": "LORAWAN_PUBLIC_NETWORK",
+    "name": "IS_WWDG_COUNTER_VALUE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Commissioning.h@1306@macro@LORAWAN_DEVICE_EUI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_DEVICE_EUI",
+    "ID": "c:@F@WWDG_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_Init(uint8_t, uint8_t)",
     "location": {
-      "column": "9",
-      "line": "43",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+      "column": "6",
+      "line": "75",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
-    "name": "LORAWAN_DEVICE_EUI",
+    "name": "WWDG_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Commissioning.h@1460@macro@LORAWAN_APPLICATION_EUI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_APPLICATION_EUI",
+    "ID": "c:@F@WWDG_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_Init(uint8_t, uint8_t)",
     "location": {
-      "column": "9",
-      "line": "48",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+      "column": "6",
+      "line": "75",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
-    "name": "LORAWAN_APPLICATION_EUI",
+    "name": "WWDG_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Commissioning.h@1629@macro@LORAWAN_APPLICATION_KEY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_APPLICATION_KEY",
+    "ID": "c:@F@WWDG_SetWindowValue",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SetWindowValue(uint8_t)",
     "location": {
-      "column": "9",
-      "line": "53",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+      "column": "6",
+      "line": "76",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
-    "name": "LORAWAN_APPLICATION_KEY",
+    "name": "WWDG_SetWindowValue",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Commissioning.h@1816@macro@LORAWAN_NETWORK_ID",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_NETWORK_ID",
+    "ID": "c:@F@WWDG_SetWindowValue",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SetWindowValue(uint8_t)",
     "location": {
-      "column": "9",
-      "line": "58",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+      "column": "6",
+      "line": "76",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
-    "name": "LORAWAN_NETWORK_ID",
+    "name": "WWDG_SetWindowValue",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Commissioning.h@2167@macro@LORAWAN_DEVICE_ADDRESS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_DEVICE_ADDRESS",
+    "ID": "c:@F@WWDG_SetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SetCounter(uint8_t)",
     "location": {
-      "column": "9",
-      "line": "67",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_DEVICE_ADDRESS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@2312@macro@LORAWAN_NWKSKEY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_NWKSKEY",
-    "location": {
-      "column": "9",
-      "line": "72",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
-    },
-    "name": "LORAWAN_NWKSKEY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Commissioning.h@2537@macro@LORAWAN_APPSKEY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORAWAN_APPSKEY",
-    "location": {
-      "column": "9",
+      "column": "6",
       "line": "77",
-      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
     },
-    "name": "LORAWAN_APPSKEY",
+    "name": "WWDG_SetCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SetCounter(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "77",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_SetCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Enable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_Enable(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "80",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_Enable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Enable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_Enable(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "80",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_Enable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_GetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t WWDG_GetCounter(void)",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_GetCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_GetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t WWDG_GetCounter(void)",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_GetCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SWReset",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SWReset(void)",
+    "location": {
+      "column": "6",
+      "line": "84",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_SWReset",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SWReset",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WWDG_SWReset(void)",
+    "location": {
+      "column": "6",
+      "line": "84",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_wwdg.h"
+    },
+    "name": "WWDG_SWReset",
     "origin": "user_include",
     "scope": null
   },
@@ -137116,7 +137032,7 @@
     "scope": null
   },
   {
-    "ID": "c:asr6505evb-board.h@259@macro@LED_TX_PORT",
+    "ID": "c:asr6505evb-board.h@264@macro@LED_TX_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_TX_PORT",
@@ -137130,7 +137046,7 @@
     "scope": null
   },
   {
-    "ID": "c:asr6505evb-board.h@287@macro@LED_TX_PIN",
+    "ID": "c:asr6505evb-board.h@292@macro@LED_TX_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_TX_PIN",
@@ -137144,13 +137060,13 @@
     "scope": null
   },
   {
-    "ID": "c:asr6505evb-board.h@345@macro@LED_RX_PORT",
+    "ID": "c:asr6505evb-board.h@357@macro@LED_RX_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_RX_PORT",
     "location": {
       "column": "9",
-      "line": "16",
+      "line": "17",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
     },
     "name": "LED_RX_PORT",
@@ -137158,16 +137074,156 @@
     "scope": null
   },
   {
-    "ID": "c:asr6505evb-board.h@373@macro@LED_RX_PIN",
+    "ID": "c:asr6505evb-board.h@385@macro@LED_RX_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_RX_PIN",
     "location": {
       "column": "9",
-      "line": "17",
+      "line": "18",
       "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\boards\\asr6505evb-board.h"
     },
     "name": "LED_RX_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@724@macro@__LORA_COMMISSIONING_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__LORA_COMMISSIONING_H__",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "__LORA_COMMISSIONING_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@927@macro@OVER_THE_AIR_ACTIVATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "OVER_THE_AIR_ACTIVATION",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "OVER_THE_AIR_ACTIVATION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@1076@macro@LORAWAN_PUBLIC_NETWORK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_PUBLIC_NETWORK",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_PUBLIC_NETWORK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@1306@macro@LORAWAN_DEVICE_EUI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_DEVICE_EUI",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_DEVICE_EUI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@1460@macro@LORAWAN_APPLICATION_EUI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_APPLICATION_EUI",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_APPLICATION_EUI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@1629@macro@LORAWAN_APPLICATION_KEY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_APPLICATION_KEY",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_APPLICATION_KEY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@1816@macro@LORAWAN_NETWORK_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_NETWORK_ID",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_NETWORK_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@2167@macro@LORAWAN_DEVICE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_DEVICE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "67",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_DEVICE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@2312@macro@LORAWAN_NWKSKEY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_NWKSKEY",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_NWKSKEY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Commissioning.h@2537@macro@LORAWAN_APPSKEY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORAWAN_APPSKEY",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "D:\\lora_asr6505_pingpong\\ASR6505-EVB Demo\\LoRaMac-node\\src\\apps\\LoRaMac\\classA\\ASR6505\\Commissioning.h"
+    },
+    "name": "LORAWAN_APPSKEY",
     "origin": "user_include",
     "scope": null
   },

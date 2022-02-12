@@ -35,5 +35,7 @@ void Delay( float s );
  */
 void DelayMs( uint32_t ms );
 
+void delay_us(uint16_t us);
+
 #endif // __DELAY_H__
 

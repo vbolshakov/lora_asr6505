@@ -1,4 +1,4 @@
-"D:\lora_asr6505_pingpong\ASR6505-EVB Demo\LoRaMac-node\src\boards\adc.c"
+"D:\lora_asr6505_pingpong\ASR6505-EVB Demo\LoRaMac-node\src\apps\ping-pong\ASR6505\adc.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
@@ -8,7 +8,7 @@ D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\Debug\Obj\adc
 -o
 adc.pbi
 -I
-D:\lora_asr6505_pingpong\ASR6505-EVB Demo\LoRaMac-node\src\boards
+D:\lora_asr6505_pingpong\ASR6505-EVB Demo\LoRaMac-node\src\apps\ping-pong\ASR6505
 -I
 D:\lora_asr6505_pingpong\ASR6505-EVB Demo\Projects\PingPong\EWSTM8\..\inc
 -I

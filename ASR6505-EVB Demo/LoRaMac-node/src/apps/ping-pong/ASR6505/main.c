@@ -32,6 +32,8 @@
 #include "sx126x.h"
 
 #include "adc.h"
+//#include "e2prom.h"
+#include "ds18b20.h"
 
 #if defined( REGION_AS923 )
 
@@ -169,7 +171,7 @@ void SendDataTimerEvent( void );
  * Main application entry point.
  */
 TimerEvent_t SendDataTimer;
-bool isMaster = true;
+bool isMaster = false;
 uint8_t buf[] = "ars6505 send0";
 uint16_t tx_count = 0;
 uint16_t rx_count = 0;
@@ -184,7 +186,12 @@ int main( void )
     
     adc_init();
     vol_measure();
-    printf("adc1_value=%d, vrefint=%f", adc1_value, VoltageValue);
+    printf("vrifint=1.224v, adc1_value=%d, pwr_vol=%f", adc1_value, VoltageValue);
+   
+    tempc=DS18B20_Get_Temp();
+//    
+//    for(uint8_t j=0; j<10; j++)
+//      e2prom_byte_rxtx(0x1000+j, j);
     
  /* TX led init: GPIO set in output */
  //   GPIO_Init(LED_TX_PORT, LED_TX_PIN, GPIO_Mode_Out_PP_High_Fast);
@@ -192,7 +199,8 @@ int main( void )
  
 /* TX led init: GPIO set in output */
     GPIO_Init(LED_RX_PORT, LED_RX_PIN, GPIO_Mode_Out_PP_High_Fast);
-    GPIO_LOW(LED_RX_PORT, LED_RX_PIN);
+     GPIO_LOW(LED_RX_PORT, LED_RX_PIN);
+     
 //    GPIO_Init(GPIOF, GPIO_Pin_4, GPIO_Mode_Out_PP_High_Fast);
 //    GPIO_LOW(GPIOF, GPIO_Pin_4);
 //    GPIO_HIGH(GPIOF, GPIO_Pin_4);
@@ -320,13 +328,15 @@ int main( void )
     	Radio.Rx(5000);
     }
     while(1){
-    	TimerLowPowerHandler( );
+    	TimerLowPowerHandler( ); 
 	Radio.IrqProcess( );
     }
 }
     
 void OnTxDone( void )
 {
+    if(!isMaster)
+        GPIO_LOW(LED_RX_PORT, LED_RX_PIN);//slave led off after data sending finished
     tx_count++;
     printf("OnTxDone, tx_count:%d\n", tx_count);
     Radio.Sleep();
@@ -348,6 +358,7 @@ void OnRxDone( uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr )
     }
     else{
     	printf("slave received:%s, size=%d, rssi=%d, snr=%d, rx_count=%d\n", Buffer, BufferSize, RssiValue, SnrValue, ++rx_count);
+        GPIO_HIGH(LED_RX_PORT, LED_RX_PIN);//slave led on while sending data
 	Radio.Send(Buffer, BufferSize);
     }
 }
@@ -385,6 +396,8 @@ void SendDataTimerEvent( void ){
 	buf[12]++;
 	if(buf[12] >= 58)
 	  buf[12] = '0';
+        tempc=DS18B20_Get_Temp();
+        buf[12] = tempc;
 	Radio.Send(buf, 13);
 	TimerStart(&SendDataTimer);
 	GPIO_LOW(LED_RX_PORT, LED_RX_PIN);

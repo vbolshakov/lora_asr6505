@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <settings>
     <DebugChecksum>
-        <Checksum>3341602015</Checksum>
+        <Checksum>869834074</Checksum>
     </DebugChecksum>
     <Stack>
         <FillEnabled>0</FillEnabled>
@@ -37,7 +37,8 @@
     <Breakpoints>
         <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\ping-pong\ASR6505}.1113.9" 0 0 0 0 "" 0 ""</Bp0>
         <Bp1>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\ping-pong\ASR6505}.1176.21" 0 0 0 0 "" 0 ""</Bp1>
-        <Count>2</Count>
+        <Bp2>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\LoRaMac-node\src\apps\ping-pong\ASR6505\main.c}.209.5" 0 0 0 0 "" 0 ""</Bp2>
+        <Count>3</Count>
     </Breakpoints>
     <Aliases>
         <A0>_ "C:\Users\jiangxiao\Desktop\ASR6505\Software_Release_V10\SDK\LoRaMac-node\src\apps\ping-pong\ASR6505\main.c" ""</A0>

@@ -12,6 +12,7 @@ stm8l15x_clk.pbi: \
   D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h \
   D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
   D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+  D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h \
   D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
   D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
   D:\lora_asr6505_pingpong\ASR6505-EVB\ Demo\Projects\PingPong\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \

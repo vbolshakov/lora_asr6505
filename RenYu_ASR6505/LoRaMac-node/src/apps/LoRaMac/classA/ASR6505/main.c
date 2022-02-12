@@ -141,10 +141,10 @@ static enum eDeviceState
  */
 static void PrepareTxFrame( uint8_t port )
 {
-    uint8_t randomX = randr(0, 10);
-    AppDataSize = 11;
+    uint8_t randomX = randr(0, 9);
+    AppDataSize = 10;
     for(uint8_t i=0; i<AppDataSize; ++i)
-      AppData[i] = '0' + i + randomX;
+      AppData[i] = '0' + (i + randomX) % 10;
 }
 
 /*!
@@ -206,6 +206,10 @@ static void OnTxNextPacketTimerEvent( void )
     mibReq.Type = MIB_NETWORK_JOINED;
     status = LoRaMacMibGetRequestConfirm( &mibReq );
 
+    
+    printf("tx_event status=%d\n", status);
+    
+    
     if( status == LORAMAC_STATUS_OK )
     {
         if( mibReq.Param.IsNetworkJoined == true )
@@ -233,6 +237,8 @@ static void OnTxNextPacketTimerEvent( void )
             }
         }
     }
+    
+    printf("tx_event_out\n");
 }
 
 /*!
@@ -285,7 +291,7 @@ static void McpsIndication( McpsIndication_t *mcpsIndication )
         return;
     }
 
-    printf( "receive data: rssi = %d, snr = %d, datarate = %d\r\n", mcpsIndication->Rssi, (int)mcpsIndication->Snr,
+    printf( "receive data:%s, rssi = %d, snr = %d, datarate = %d\r\n", mcpsIndication->Buffer, mcpsIndication->Rssi, (int)mcpsIndication->Snr,
                  (int)mcpsIndication->RxDatarate);
     switch( mcpsIndication->McpsIndication )
     {
@@ -553,6 +559,7 @@ int main( void )
             }
             case DEVICE_STATE_SLEEP:
             {
+	//        printf("in sleep\n");
                 // Wake up through events
                 TimerLowPowerHandler( );
                 // Process Radio IRQ

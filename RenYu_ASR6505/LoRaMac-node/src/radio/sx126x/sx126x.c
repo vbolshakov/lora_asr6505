@@ -83,7 +83,7 @@ void SX126xProcessIrqs( void );
 
 extern uint8_t gPaOptSetting;
 
-//#define USE_TCXO 1
+#define USE_TCXO 1
 void SX126xInit( DioIrqHandler dioIrq )
 {
     SX126xReset( );

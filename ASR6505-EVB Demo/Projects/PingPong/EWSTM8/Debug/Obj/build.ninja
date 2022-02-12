@@ -54,6 +54,8 @@ build stm8l15x_tim5.pbi : index stm8l15x_tim5.xcl
 build stm8l15x_usart.pbi : index stm8l15x_usart.xcl
 build stm8l15x_wwdg.pbi : index stm8l15x_wwdg.xcl
 build adc.pbi : index adc.xcl
+build ds18b20.pbi : index ds18b20.xcl
+build e2prom.pbi : index e2prom.xcl
 build main.pbi : index main.xcl
 build stm8_interrupt_vector.pbi : index stm8_interrupt_vector.xcl
 build stm8l15x_it.pbi : index stm8l15x_it.xcl
@@ -62,8 +64,8 @@ build project_part1.pbi : link sx126x.pbi aes.pbi cmac.pbi delay.pbi gpio.pbi ti
 build project_part2.pbi : link utilities.pbi stm8l15x_adc.pbi stm8l15x_aes.pbi stm8l15x_clk.pbi stm8l15x_dma.pbi stm8l15x_exti.pbi
 build project_part3.pbi : link stm8l15x_flash.pbi stm8l15x_gpio.pbi stm8l15x_i2c.pbi stm8l15x_iwdg.pbi stm8l15x_pwr.pbi stm8l15x_rtc.pbi
 build project_part4.pbi : link stm8l15x_spi.pbi stm8l15x_syscfg.pbi stm8l15x_tim1.pbi stm8l15x_tim2.pbi stm8l15x_tim3.pbi stm8l15x_tim4.pbi
-build project_part5.pbi : link stm8l15x_tim5.pbi stm8l15x_usart.pbi stm8l15x_wwdg.pbi adc.pbi main.pbi stm8_interrupt_vector.pbi
-build project_part6.pbi : link stm8l15x_it.pbi
+build project_part5.pbi : link stm8l15x_tim5.pbi stm8l15x_usart.pbi stm8l15x_wwdg.pbi adc.pbi ds18b20.pbi e2prom.pbi
+build project_part6.pbi : link main.pbi stm8_interrupt_vector.pbi stm8l15x_it.pbi
 build project.pbd : link project_part0.pbi project_part1.pbi project_part2.pbi project_part3.pbi project_part4.pbi project_part5.pbi project_part6.pbi
 build project.pbw : browsedata project.pbd
 

@@ -53,7 +53,7 @@ typedef enum
   COM1 = 0
 } COM_TypeDef;
 
-#if 0
+#if 1
 #define COMn                        1
 #define EVAL_COM1                   USART3
 #define EVAL_COM1_GPIO              GPIOG

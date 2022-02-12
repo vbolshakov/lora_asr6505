@@ -141,11 +141,10 @@ static enum eDeviceState
  */
 static void PrepareTxFrame( uint8_t port )
 {
-    AppDataSize = 4;
-    AppData[0] = 0x00;
-    AppData[1] = 0x01;
-    AppData[2] = 0x02;
-    AppData[3] = 0x03;
+    AppDataSize = 10;
+    uint8_t randomdata = randr(0, 9);
+    for(uint8_t i=0; i<10; ++i)
+      AppData[i] = '0' + (i + randomdata) % 10;
 }
 
 /*!
@@ -411,9 +410,9 @@ static void lwan_dev_params_update( void )
 {
     MibRequestConfirm_t mibReq;
     uint16_t channelsMaskTemp[6];
-    channelsMaskTemp[0] = 0x0000;
-    channelsMaskTemp[1] = 0xFE00;
-    channelsMaskTemp[2] = 0x0001;
+    channelsMaskTemp[0] = 0x00ff;
+    channelsMaskTemp[1] = 0x0000;
+    channelsMaskTemp[2] = 0x0000;
     channelsMaskTemp[3] = 0x0000;
     channelsMaskTemp[4] = 0x0000;
     channelsMaskTemp[5] = 0x0000;

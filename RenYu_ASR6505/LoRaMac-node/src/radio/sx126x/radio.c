@@ -1102,6 +1102,7 @@ void RadioOnDioIrq( void )
 
 void RadioIrqProcess( void )
 {
+    //printf("in irq process\n");
     if( IrqFired == true )
     {
         uint16_t irqRegs;       
@@ -1111,7 +1112,20 @@ void RadioIrqProcess( void )
 
         irqRegs = SX126xGetIrqStatus( );
         SX126xClearIrqStatus( IRQ_RADIO_ALL );
-
+	
+        if( ( irqRegs & IRQ_CRC_ERROR ) == IRQ_CRC_ERROR )
+        {
+            if( RxContinuous == false )
+            {
+                //!< Update operating mode state to a value lower than \ref MODE_STDBY_XOSC
+                SX126xSetOperatingMode( MODE_STDBY_RC );
+            }
+            if( ( RadioEvents != NULL ) && ( RadioEvents->RxError ) )
+            {
+                RadioEvents->RxError( );
+            }
+        }
+	
         if( ( irqRegs & IRQ_TX_DONE ) == IRQ_TX_DONE )
         {
             TimerStop( &TxTimeoutTimer );
@@ -1138,19 +1152,6 @@ void RadioIrqProcess( void )
             if( ( RadioEvents != NULL ) && ( RadioEvents->RxDone != NULL ) )
             {
                 RadioEvents->RxDone( RadioRxPayload, size, RadioPktStatus.Params.LoRa.RssiPkt, RadioPktStatus.Params.LoRa.SnrPkt );
-            }
-        }
-
-        if( ( irqRegs & IRQ_CRC_ERROR ) == IRQ_CRC_ERROR )
-        {
-            if( RxContinuous == false )
-            {
-                //!< Update operating mode state to a value lower than \ref MODE_STDBY_XOSC
-                SX126xSetOperatingMode( MODE_STDBY_RC );
-            }
-            if( ( RadioEvents != NULL ) && ( RadioEvents->RxError ) )
-            {
-                RadioEvents->RxError( );
             }
         }
 

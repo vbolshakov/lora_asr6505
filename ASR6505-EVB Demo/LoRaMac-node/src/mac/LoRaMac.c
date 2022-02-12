@@ -664,6 +664,7 @@ static void OpenContinuousRx2Window( void );
 
 static void OnRadioTxDone( void )
 {
+    printf("TX DONE");
     GetPhyParams_t getPhy;
     PhyParam_t phyParam;
     SetBandTxDoneParams_t txDone;
@@ -753,6 +754,8 @@ static void PrepareRxDoneAbort( void )
 
 static void OnRadioRxDone( uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr )
 {
+  
+    printf("RX DONE");
  //   int i=0;
     LoRaMacHeader_t macHdr;
     LoRaMacFrameCtrl_t fCtrl;
@@ -1187,6 +1190,7 @@ printf("LoRaMacDevNonce: %08x\r\n", LoRaMacDevNonce);
 
 static void OnRadioTxTimeout( void )
 {
+    printf("TX TIMEOUT");
     if( LoRaMacDeviceClass != CLASS_C )
     {
         Radio.Sleep( );
@@ -1203,6 +1207,7 @@ static void OnRadioTxTimeout( void )
 
 static void OnRadioRxError( void )
 {
+    printf("RX ERROR");
     if( LoRaMacDeviceClass != CLASS_C )
     {
         Radio.Sleep( );
@@ -1247,6 +1252,7 @@ static void OnRadioRxError( void )
 
 static void OnRadioRxTimeout( void )
 {
+    printf("RX TIMEOUT");
     if( LoRaMacDeviceClass != CLASS_C )
     {
         Radio.Sleep( );

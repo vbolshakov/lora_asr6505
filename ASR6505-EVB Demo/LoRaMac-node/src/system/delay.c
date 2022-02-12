@@ -32,3 +32,7 @@ void DelayMs( uint32_t ms )
 {
     DelayMsMcu( ms );
 }
+
+void delay_us(uint16_t us){
+    delay_us_Mcu(us);
+}

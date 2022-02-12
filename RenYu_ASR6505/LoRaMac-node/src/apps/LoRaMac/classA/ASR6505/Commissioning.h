@@ -64,8 +64,8 @@
  *         a pseudo random generator seeded with a value derived from
  *         BoardUniqueId value if LORAWAN_DEVICE_ADDRESS is set to 0
  */
-#define LORAWAN_DEVICE_ADDRESS                      ( uint32_t )0x007e6ae1
-
+//#define LORAWAN_DEVICE_ADDRESS                      ( uint32_t )0x007e6ae1
+#define LORAWAN_DEVICE_ADDRESS                      ( uint32_t )0xc1000140
 /*!
  * AES encryption/decryption cipher network session key
  */

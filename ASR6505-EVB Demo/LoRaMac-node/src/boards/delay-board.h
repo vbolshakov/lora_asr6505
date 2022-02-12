@@ -33,5 +33,6 @@
  * \param [IN] ms    delay in milliseconds
  */
 void DelayMsMcu( uint32_t ms );
+void delay_us_Mcu(uint16_t us);
 
 #endif // __DELAY_BOARD_H__
